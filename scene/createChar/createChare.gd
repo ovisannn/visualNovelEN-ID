@@ -8,14 +8,9 @@ extends Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var dialog = Dialogic.start("test")
-	var a = Dialogic.get_variable("isMale")
-	print(a)
-	Dialogic.set_variable("isMale", 1)
-	print(Dialogic.get_variable("isMale"))
-	add_child(dialog)
+	pass # Replace with function body.
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
-	#print(dialog.isMale)
+#	pass
