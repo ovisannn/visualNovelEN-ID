@@ -18,7 +18,7 @@
 			"character": "character-1635014215.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_smile3",
-			"text": "hi"
+			"text": "hiGodot Engine v3.3.4.stable.official.faf3f883d - https://godotengine.org\nOpenGL ES 3.0 Renderer: NVIDIA GeForce GTX 1050/PCIe/SSE2\nOpenGL ES Batching: ON\nGodot Engine v3.3.4.stable.official.faf3f883d - https://godotengine.org"
 		},
 		{
 			"action": "join",
