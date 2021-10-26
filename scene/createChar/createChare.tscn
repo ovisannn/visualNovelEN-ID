@@ -76,6 +76,7 @@ margin_left = 672.0
 margin_top = 384.0
 margin_right = 832.0
 margin_bottom = 448.0
+toggle_mode = true
 text = "FEMALE"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -90,6 +91,7 @@ margin_left = 416.0
 margin_top = 384.0
 margin_right = 576.0
 margin_bottom = 448.0
+toggle_mode = true
 text = "MALE"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -128,4 +130,6 @@ __meta__ = {
 }
 
 [connection signal="pressed" from="createButton" to="." method="_on_createButton_pressed"]
+[connection signal="toggled" from="femaleButton" to="." method="_on_femaleButton_toggled"]
+[connection signal="toggled" from="maleButton" to="." method="_on_maleButton_toggled"]
 [connection signal="text_changed" from="charaNameText" to="." method="_on_charaNameText_text_changed"]
