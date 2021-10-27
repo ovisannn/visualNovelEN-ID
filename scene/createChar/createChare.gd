@@ -28,6 +28,7 @@ func _ready():
 
 func _on_createButton_pressed():
 	saveData()
+	get_tree().change_scene("res://scene/1.tscn")
 
 
 func _on_charaNameText_text_changed(new_text):

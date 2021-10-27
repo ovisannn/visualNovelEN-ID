@@ -17,4 +17,4 @@ func _ready():
 
 
 func _on_eps1_pressed():
-	get_tree().change_scene("res://scene/eps1/1.tscn")
+	get_tree().change_scene("res://scene/createChar/createChare.tscn")
