@@ -50,7 +50,7 @@
 			"character": "character-1635014344.json",
 			"event_id": "dialogic_001",
 			"portrait": "female_sad",
-			"text": "im feelin sad"
+			"text": "im feelin sad [name]"
 		}
 	],
 	"metadata": {
