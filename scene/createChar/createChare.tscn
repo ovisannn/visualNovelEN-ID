@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://scene/createChar/createChare.gd" type="Script" id=1]
 [ext_resource path="res://asset/background/main menu/Modern-Dormroom3.png" type="Texture" id=2]
@@ -34,6 +34,16 @@ size = 20
 font_data = ExtResource( 3 )
 
 [sub_resource type="DynamicFont" id=5]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=6]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=7]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=8]
+size = 26
 font_data = ExtResource( 3 )
 
 [node name="createChar" type="Node2D"]
@@ -129,7 +139,57 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="confirm" type="Node2D" parent="."]
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="confirm"]
+margin_left = -24.0
+margin_top = -40.0
+margin_right = 1280.0
+margin_bottom = 720.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="yes" type="Button" parent="confirm"]
+margin_left = 472.0
+margin_top = 376.0
+margin_right = 616.0
+margin_bottom = 408.0
+custom_fonts/font = SubResource( 6 )
+disabled = true
+text = "YES"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="no" type="Button" parent="confirm"]
+margin_left = 664.0
+margin_top = 376.0
+margin_right = 808.0
+margin_bottom = 408.0
+custom_fonts/font = SubResource( 7 )
+disabled = true
+text = "NO"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="confirm"]
+margin_left = 544.0
+margin_top = 288.0
+margin_right = 734.0
+margin_bottom = 324.0
+custom_fonts/font = SubResource( 8 )
+text = "ARE YOU SURE?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [connection signal="pressed" from="createButton" to="." method="_on_createButton_pressed"]
 [connection signal="toggled" from="femaleButton" to="." method="_on_femaleButton_toggled"]
 [connection signal="toggled" from="maleButton" to="." method="_on_maleButton_toggled"]
 [connection signal="text_changed" from="charaNameText" to="." method="_on_charaNameText_text_changed"]
+[connection signal="pressed" from="confirm/yes" to="." method="_on_yes_pressed"]
+[connection signal="pressed" from="confirm/no" to="." method="_on_no_pressed"]
