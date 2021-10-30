@@ -1,17 +1,24 @@
 {
 	"glossary": [
-
+		{
+			"extra": "",
+			"id": "1635557309-787",
+			"name": "Finally Long Holiday. I can't wait to visit grandma's house….",
+			"text": "Akhirnya Liburan Panjang. Aku tidak sabar pergi ke rumah nenek….",
+			"title": "",
+			"type": 1
+		}
 	],
 	"variables": [
 		{
-			"id": "1635016061-785",
-			"name": "isMale",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1635446754-958",
 			"name": "name",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1635016061-785",
+			"name": "isMale",
 			"type": 0,
 			"value": ""
 		}

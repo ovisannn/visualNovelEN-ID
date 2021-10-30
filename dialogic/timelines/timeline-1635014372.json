@@ -1,6 +1,200 @@
 {
 	"events": [
-
+		{
+			"background": "res://asset/background/episode 1/Classroom B1.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1635558541.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Finally, We have passed the final exam. Happy Holidays!"
+		},
+		{
+			"character": "character-1635558616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeayyy!! Horayy!!!"
+		},
+		{
+			"condition": "",
+			"definition": "1635016061-785",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"action": "join",
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_laugh",
+			"text": "Finally Long Holiday. I can't wait to visit grandma's house…."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1635016061-785",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"action": "join",
+			"character": "character-1635014344.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "female_smug",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1635014344.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_laugh",
+			"text": "Finally Long Holiday. I can't wait to visit grandma's house…."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You come home with a happy face"
+		},
+		{
+			"background": "res://asset/background/episode 1/ruang tamu.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"condition": "",
+			"definition": "1635016061-785",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"action": "join",
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_laugh",
+			"text": "Dad, Mom, I'm Home!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1635016061-785",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"action": "join",
+			"character": "character-1635014344.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "female_normal",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1635014344.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_laugh",
+			"text": "Dad, Mom, I'm Home!"
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_delighted",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_delighted2",
+			"text": "Welcome, Why do you look so happy [name]?"
+		},
+		{
+			"character": "character-1635014344.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_delighted",
+			"text": "Today is the last day of school, because it's already the holidays."
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_smile2",
+			"text": "Wow, it's a holiday, where do you want to go?"
+		},
+		{
+			"character": "character-1635014344.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_delighted",
+			"text": "I want to visit grandma's house"
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_delighted2",
+			"text": "wow, great idea. What do you think?"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.3",
