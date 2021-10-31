@@ -114,10 +114,92 @@
 			}
 		},
 		{
+			"character": "character-1635014344.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_laugh",
+			"text": "Dad, Mom, I'm Home!"
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_delighted",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_delighted2",
+			"text": "Welcome, Why do you look so happy [name]?"
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "Today is the last day of school, because it's already the holidays."
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_smile2",
+			"text": "Wow, it's a holiday, where do you want to go?"
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "I want to visit grandma's house"
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_delighted2",
+			"text": "wow, great idea. What do you think honey?"
+		},
+		{
+			"action": "join",
+			"character": "character-1635652309.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "dad_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1635652309.json",
+			"event_id": "dialogic_001",
+			"portrait": "dad_smile1",
+			"text": "it's okay, but first dad will ask permission from dad's boss to take holiday next week."
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile2",
+			"text": "Yeay, I'm going to meet grandma. Then take her for a walk to the zoo."
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_normal",
+			"text": "Well you go take a shower first, your body smells bad after school."
+		},
+		{
 			"character": "character-1635014215.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_laugh",
-			"text": "Dad, Mom, I'm Home!"
+			"text": "Yes, mom"
 		},
 		{
 			"event_id": "dialogic_013"
@@ -190,10 +272,69 @@
 			"character": "character-1635560234.json",
 			"event_id": "dialogic_001",
 			"portrait": "mom_delighted2",
-			"text": "wow, great idea. What do you think?"
+			"text": "wow, great idea. What do you think honey?"
+		},
+		{
+			"action": "join",
+			"character": "character-1635652309.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "dad_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1635652309.json",
+			"event_id": "dialogic_001",
+			"portrait": "dad_smile1",
+			"text": "it's okay, but first dad will ask permission from dad's boss to take holiday next week."
+		},
+		{
+			"character": "character-1635014344.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_delighted",
+			"text": "Yeay, I'm going to meet grandma. Then take her for a walk to the zoo."
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_normal",
+			"text": "Well you go take a shower first, your body smells bad after school."
+		},
+		{
+			"character": "character-1635014344.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_laugh",
+			"text": "Yes, mom"
 		},
 		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You immediately go to your room to clean up and take a shower"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": ""
 		}
 	],
 	"metadata": {
