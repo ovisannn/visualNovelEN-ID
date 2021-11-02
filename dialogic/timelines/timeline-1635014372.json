@@ -321,20 +321,18 @@
 			"event_id": "dialogic_003"
 		},
 		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
 			"character": "character-1635557509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "You immediately go to your room to clean up and take a shower"
 		},
 		{
-			"background": "res://asset/background/episode 1/black.png",
-			"event_id": "dialogic_021"
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": ""
+			"change_scene": "res://scene/eps1/2.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

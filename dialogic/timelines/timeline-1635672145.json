@@ -1,0 +1,244 @@
+{
+	"events": [
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "you take a shower..."
+		},
+		{
+			"background": "res://asset/background/episode 1/Modern-Dormroom1.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Very fresh after shower."
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After taking a shower you open the wardrobe..."
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Where are my favorite clothes?\nit was at the top of the wardrobe."
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "you try to take your clothes..."
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I didn't get to pick it up, this wardrobe is too high. I will ask mom for help"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "you go to mom..."
+		},
+		{
+			"background": "res://asset/background/episode 1/ruang tamu.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_normal",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "mom_shocked",
+			"question": "what's happened?"
+		},
+		{
+			"choice": "I want to take the clothes in the wardrobe",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_shocked",
+			"text": "what's wrong with the clothes?"
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "it's in the top wardrobe, I didn't get to get it, the wardrobe is too high"
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_delighted",
+			"text": "ok, I’ll get it"
+		},
+		{
+			"choice": "Nothing",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_angry",
+			"text": "Then why are you still wearing towels?"
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "ahh, I want to get clothes in the wardrobe"
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_shocked",
+			"text": "what's wrong with the clothes?"
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "it's in the top wardrobe, I didn't get to get it, the wardrobe is too high"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "ok, I’ll get it"
+		},
+		{
+			"choice": "is the dinner ready?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_angry",
+			"text": "it will be ready soon, but before that, put your clothes on first"
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "ahh, I want to get clothes in the wardrobe"
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_shocked",
+			"text": "what's wrong with the clothes?"
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "it's in the top wardrobe, I didn't get to get it, the wardrobe is too high"
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_normal",
+			"text": "ok, I’ll get it"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"background": "res://asset/background/episode 1/Modern-Dormroom1.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "which clothes do you want to wear?"
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That clothes mom, the black one"
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_normal",
+			"text": "here is the clothes"
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "thank you so much mom"
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_delighted2",
+			"text": "You’re Welcome"
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_normal",
+			"text": "After getting dressed, go to the kitchen, we will have dinner"
+		},
+		{
+			"character": "character-1635014215.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ok mom."
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You quickly put on your clothes and go to the kitchen for dinner"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1635672145.json",
+		"name": "day1-part2"
+	}
+}
