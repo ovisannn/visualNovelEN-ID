@@ -9,6 +9,12 @@ func _ready():
 	gameLoad.loadGameProperty(person)
 	
 	#dialog initiate
-	var new_dialog = Dialogic.start('day1-part2')
-	add_child(new_dialog)
+	if person['gender'] == 'female':
+		var new_dialog = Dialogic.start('day1-part2F')
+		add_child(new_dialog)
+			
+	if person['gender'] == 'male':
+		var new_dialog = Dialogic.start('day1-part2')
+		add_child(new_dialog)
+		
 

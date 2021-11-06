@@ -3,7 +3,7 @@
 	"description": "",
 	"display_name": "",
 	"display_name_bool": false,
-	"id": "character-1635652309.json",
+	"id": "character-1636137135.json",
 	"mirror_portraits": false,
 	"name": "dad",
 	"nickname": "",
@@ -36,8 +36,8 @@
 			"path": "res://asset/character/dad/dad_sad.png"
 		},
 		{
-			"name": "dad_smile1",
-			"path": "res://asset/character/dad/dad_smile1.png"
+			"name": "dad_smile",
+			"path": "res://asset/character/dad/dad_smile.png"
 		},
 		{
 			"name": "dad_smile2",
@@ -52,9 +52,9 @@
 			"path": "res://asset/character/dad/dad_smirk.png"
 		},
 		{
-			"name": "dad_suprissed",
-			"path": "res://asset/character/dad/dad_suprissed.png"
+			"name": "dad_surprised",
+			"path": "res://asset/character/dad/dad_surprised.png"
 		}
 	],
-	"scale": 60
+	"scale": 62
 }

@@ -1,0 +1,220 @@
+{
+	"events": [
+		{
+			"background": "res://asset/background/episode 1/kitchen___visual_novel_bg_by_gin_1994_ddw44lc-fullview.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_normal",
+			"text": "What are you cooking tonight mom?"
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_delighted",
+			"text": "Mom cooks your favorite chicken soup, sit down."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "Yeayy. I will eat chicken soup right now."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You eat your mother's chicken soup right away."
+		},
+		{
+			"action": "join",
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_angry",
+			"text": "Ouch!!!"
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_shocked",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_shocked",
+			"text": "What’s wrong [name]?"
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_sad",
+			"text": "It’s too hot!"
+		},
+		{
+			"action": "join",
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "dad_smile3",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_001",
+			"portrait": "dad_smile3",
+			"text": "Eat it slowly, blow it first, wait until cool."
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_delighted2",
+			"text": "Don’t be in a hurry."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_laugh",
+			"text": "Ok mom, dad."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After you finish eating, you go back to your room and get ready for sleeping."
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*** Time Shows 9 pm***"
+		},
+		{
+			"background": "res://asset/background/episode 1/Modern-Dormroom2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_normal",
+			"text": "It's 9 pm, it's time to sleep."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_normal",
+			"text": "It's too cold tonight, i have to use my blanket, so i don't get cold."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_sleepy",
+			"text": "You turn off the light, and go to sleep."
+		},
+		{
+			"background": "res://asset/background/episode 1/Modern-Dormroom3.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Good night."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1636165806.json",
+		"name": "day1-part3M"
+	}
+}

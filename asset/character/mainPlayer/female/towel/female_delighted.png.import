@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dad_smile1.png-fb0893f83d17b4c38dc79577bce263fd.stex"
+path="res://.import/female_delighted.png-3ee06a2bcf90bb2c5169093336e32e11.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/character/dad/dad_smile1.png"
-dest_files=[ "res://.import/dad_smile1.png-fb0893f83d17b4c38dc79577bce263fd.stex" ]
+source_file="res://asset/character/mainPlayer/female/towel/female_delighted.png"
+dest_files=[ "res://.import/female_delighted.png-3ee06a2bcf90bb2c5169093336e32e11.stex" ]
 
 [params]
 

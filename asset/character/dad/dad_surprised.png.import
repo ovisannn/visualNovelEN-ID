@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dad_suprissed.png-80272e6c3f13edd865d03f46b15bd724.stex"
+path="res://.import/dad_surprised.png-96804636b5590b7850e1ea45de34356a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/character/dad/dad_suprissed.png"
-dest_files=[ "res://.import/dad_suprissed.png-80272e6c3f13edd865d03f46b15bd724.stex" ]
+source_file="res://asset/character/dad/dad_surprised.png"
+dest_files=[ "res://.import/dad_surprised.png-96804636b5590b7850e1ea45de34356a.stex" ]
 
 [params]
 

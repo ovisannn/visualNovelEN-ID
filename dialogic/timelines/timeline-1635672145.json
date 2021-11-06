@@ -15,55 +15,11 @@
 			"event_id": "dialogic_021"
 		},
 		{
-			"character": "character-1635014215.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Very fresh after shower."
-		},
-		{
-			"character": "character-1635557509.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "After taking a shower you open the wardrobe..."
-		},
-		{
-			"character": "character-1635014215.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Where are my favorite clothes?\nit was at the top of the wardrobe."
-		},
-		{
-			"character": "character-1635557509.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "you try to take your clothes..."
-		},
-		{
-			"character": "character-1635014215.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "I didn't get to pick it up, this wardrobe is too high. I will ask mom for help"
-		},
-		{
-			"background": "res://asset/background/episode 1/black.png",
-			"event_id": "dialogic_021"
-		},
-		{
-			"character": "character-1635557509.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "you go to mom..."
-		},
-		{
-			"background": "res://asset/background/episode 1/ruang tamu.png",
-			"event_id": "dialogic_021"
-		},
-		{
 			"action": "join",
-			"character": "character-1635560234.json",
+			"character": "character-1636141976.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "mom_normal",
+			"portrait": "male_normal",
 			"position": {
 				"0": false,
 				"1": true,
@@ -73,16 +29,105 @@
 			}
 		},
 		{
+			"character": "character-1636141976.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile2",
+			"text": "I feel so fresh after shower."
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After taking a shower, you open the wardrobe."
+		},
+		{
+			"character": "character-1636141976.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_surpprised",
+			"text": "Where is my favorite clothe?\nOh, it is on the top of wardrobe.."
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You try to take your clothe."
+		},
+		{
+			"character": "character-1636141976.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_angry",
+			"text": " I can’t reach it because is too high. I need a help."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You come to mom."
+		},
+		{
+			"background": "res://asset/background/episode 1/ruang tamu.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1636141976.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636141976.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_surpprised",
+			"text": "Mom!"
+		},
+		{
+			"action": "join",
 			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_shocked",
+			"text": "What's happened?"
+		},
+		{
+			"character": "character-1636141976.json",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
-			"portrait": "mom_shocked",
-			"question": "what's happened?"
+			"portrait": "male_normal",
+			"question": "ummm..."
 		},
 		{
-			"choice": "I want to take the clothes in the wardrobe",
+			"choice": "I want to take the clothe in the wardrobe.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -92,22 +137,22 @@
 			"character": "character-1635560234.json",
 			"event_id": "dialogic_001",
 			"portrait": "mom_shocked",
-			"text": "what's wrong with the clothes?"
+			"text": "What's wrong with the clothe?"
 		},
 		{
-			"character": "character-1635014215.json",
+			"character": "character-1636141976.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "it's in the top wardrobe, I didn't get to get it, the wardrobe is too high"
+			"portrait": "male_sad",
+			"text": "It's on the top of wardrobe, i can’t get it, the wardrobe is too high."
 		},
 		{
 			"character": "character-1635560234.json",
 			"event_id": "dialogic_001",
 			"portrait": "mom_delighted",
-			"text": "ok, I’ll get it"
+			"text": "Ok, I will take it."
 		},
 		{
-			"choice": "Nothing",
+			"choice": "Nothing.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -117,31 +162,31 @@
 			"character": "character-1635560234.json",
 			"event_id": "dialogic_001",
 			"portrait": "mom_angry",
-			"text": "Then why are you still wearing towels?"
+			"text": "Why are you still wearing towel?"
 		},
 		{
-			"character": "character-1635014215.json",
+			"character": "character-1636141976.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "ahh, I want to get clothes in the wardrobe"
+			"portrait": "male_surpprised",
+			"text": "Ahh, I want to get clothe in the wardrobe."
 		},
 		{
 			"character": "character-1635560234.json",
 			"event_id": "dialogic_001",
 			"portrait": "mom_shocked",
-			"text": "what's wrong with the clothes?"
+			"text": "What's wrong with the clothe?"
 		},
 		{
-			"character": "character-1635014215.json",
+			"character": "character-1636141976.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "it's in the top wardrobe, I didn't get to get it, the wardrobe is too high"
+			"portrait": "male_sad",
+			"text": "It's on the top of wardrobe, i can’t get it, the wardrobe is too high."
 		},
 		{
-			"character": "",
+			"character": "character-1635560234.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "ok, I’ll get it"
+			"portrait": "mom_delighted",
+			"text": "Ok, I will take it."
 		},
 		{
 			"choice": "is the dinner ready?",
@@ -154,86 +199,143 @@
 			"character": "character-1635560234.json",
 			"event_id": "dialogic_001",
 			"portrait": "mom_angry",
-			"text": "it will be ready soon, but before that, put your clothes on first"
+			"text": "It will be ready soon, but before that, wear your clothe!"
 		},
 		{
-			"character": "character-1635014215.json",
+			"character": "character-1636141976.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "ahh, I want to get clothes in the wardrobe"
+			"portrait": "male_surpprised",
+			"text": "Ahh, i want to get clothe in the wardrobe."
 		},
 		{
 			"character": "character-1635560234.json",
 			"event_id": "dialogic_001",
 			"portrait": "mom_shocked",
-			"text": "what's wrong with the clothes?"
+			"text": "What's wrong with the clothe?"
 		},
 		{
-			"character": "character-1635014215.json",
+			"character": "character-1636141976.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "it's in the top wardrobe, I didn't get to get it, the wardrobe is too high"
+			"portrait": "male_sad",
+			"text": "It's on the top of wardrobe, I can’t get it, the wardrobe is too high.\t"
 		},
 		{
 			"character": "character-1635560234.json",
 			"event_id": "dialogic_001",
 			"portrait": "mom_normal",
-			"text": "ok, I’ll get it"
+			"text": "Ok, I will take it."
 		},
 		{
 			"event_id": "dialogic_013"
 		},
 		{
-			"background": "res://asset/background/episode 1/Modern-Dormroom1.png",
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"background": "res://asset/background/episode 1/Modern-Dormroom1.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
 		},
 		{
 			"character": "character-1635560234.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "which clothes do you want to wear?"
+			"portrait": "mom_delighted",
+			"text": "Which clothe do you want to wear?"
 		},
 		{
-			"character": "character-1635014215.json",
+			"action": "join",
+			"character": "character-1636141976.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636141976.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "That clothes mom, the black one"
+			"portrait": "male_smile3",
+			"text": "That clothe mom, the black one."
 		},
 		{
 			"character": "character-1635560234.json",
 			"event_id": "dialogic_001",
 			"portrait": "mom_normal",
-			"text": "here is the clothes"
+			"text": "Here it is."
 		},
 		{
-			"character": "character-1635014215.json",
+			"character": "character-1636141976.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "thank you so much mom"
+			"portrait": "male_smile2",
+			"text": "Thank you so much mom."
 		},
 		{
 			"character": "character-1635560234.json",
 			"event_id": "dialogic_001",
 			"portrait": "mom_delighted2",
-			"text": "You’re Welcome"
+			"text": "You’re welcome."
 		},
 		{
 			"character": "character-1635560234.json",
 			"event_id": "dialogic_001",
 			"portrait": "mom_normal",
-			"text": "After getting dressed, go to the kitchen, we will have dinner"
+			"text": "After getting dressed, go to the kitchen, we will have dinner."
 		},
 		{
-			"character": "character-1635014215.json",
+			"character": "character-1636141976.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "male_smile3",
 			"text": "Ok mom."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
 		},
 		{
 			"character": "character-1635557509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You quickly put on your clothes and go to the kitchen for dinner"
+			"text": "You quickly put on your clothe and go to the kitchen for dinner."
+		},
+		{
+			"change_scene": "res://scene/eps1/3.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {
