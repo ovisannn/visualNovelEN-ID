@@ -1,14 +1,16 @@
 extends Node2D
 
 
-const fileLocation = "res://gameData/playerStat.json"
+const fileLocation = "res://gameData/playerStat.txt"
 
 func loadGame():
 	var file = File.new()
 	file.open(fileLocation, file.READ)
 	var text = file.get_as_text()
-	var data = parse_json(text)
-	return data
+	#var data = parse_json(text)
+	var data = JSON.parse(text)
+	file.close()
+	return data.result
 
 func loadGameProperty(data):
 	Dialogic.set_variable("name", data['name'])
