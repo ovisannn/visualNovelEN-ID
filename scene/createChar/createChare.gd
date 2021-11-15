@@ -4,6 +4,7 @@ extends Node2D
 const fileLocation = "res://gameData/playerStat.txt"
 onready var confirmator = $confirm
 var ready = false
+export(Script) var gameSaveClass
 
 export var charStat = {
 	"name" : "",
@@ -11,6 +12,20 @@ export var charStat = {
 	"episode": 0,
 }
 
+
+func resSaveData():
+	var newSave = gameSaveClass.new()
+	newSave.playerName = charStat['name']
+	newSave.gender = charStat['gender']
+	newSave.latestEpisode = charStat['episode']
+	
+	var dir = Directory.new()
+	if not dir.dir_exists('res://save/'):
+		dir.make_dir_recursive('res://save/')
+	ResourceSaver.save('res://save/playerData.tres', newSave)
+	
+	ready = true
+	
 
 func saveData():
 	#print(charStat)
@@ -38,7 +53,8 @@ func _process(_delta):
 
 
 func _on_createButton_pressed():
-	saveData()
+	#saveData()
+	resSaveData()
 
 		
 

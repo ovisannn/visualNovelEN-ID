@@ -3,6 +3,8 @@ extends Node2D
 
 const fileLocation = "res://gameData/playerStat.txt"
 
+export(Script) var gameSaveClass
+
 func loadGame():
 	var file = File.new()
 	file.open(fileLocation, file.READ)
