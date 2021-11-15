@@ -1,0 +1,773 @@
+{
+	"events": [
+		{
+			"background": "res://asset/background/episode 1/kitchen___visual_novel_bg_by_gin_1994_ddw44lc-fullview.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "Here it is mom, all the ingredients and equipments."
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_smile",
+			"text": "Thank you very much [name], i will start cooking."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A few minutes later."
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_delighted2",
+			"text": "Tadaa, it's finish, let's have a breakfast together."
+		},
+		{
+			"action": "join",
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_laugh",
+			"text": "Yeay!!"
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "Dad, let's have a breakfast."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "dad_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_001",
+			"portrait": "dad_smile2",
+			"text": "Let’s go."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "Dad today don't forget to ask for holiday permission. "
+		},
+		{
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_001",
+			"portrait": "dad_normal",
+			"text": "Yes dear, dad will ask for holiday permission."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile2",
+			"text": "Yeay, I'm waiting for the good news, dad."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_smile2",
+			"text": "Okay, let's eat first. Your dad will be late."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After finishing breakfast, dad goes to work."
+		},
+		{
+			"action": "join",
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "dad_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_001",
+			"portrait": "dad_smile3",
+			"text": "I go to work."
+		},
+		{
+			"action": "join",
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "Yes, be careful."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_smile",
+			"text": "Be careful dad."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After that you take a short break until noon."
+		},
+		{
+			"background": "res://asset/background/episode 1/ruang tamu.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "Mom, I want to go playing at Steven's house, he said he had a new toy."
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_smile2",
+			"text": "Ok, be careful, you have to go home before 7pm."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 2/jalan raya.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "While on the way to Steven's house, suddenly someone greets you from behind."
+		},
+		{
+			"character": "character-1636976038.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey [name]"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You are shocked and look back."
+		},
+		{
+			"action": "join",
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_surprised",
+			"text": "!!!"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It was Michael, your school friend."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "Hey Michael, where are you going?"
+		},
+		{
+			"action": "join",
+			"character": "character-1636975967.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "smile",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1636975967.json",
+			"event_id": "dialogic_001",
+			"portrait": "smile3",
+			"text": "I am going to Steven's house."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "How come?  we are in the same direction?"
+		},
+		{
+			"character": "character-1636975967.json",
+			"event_id": "dialogic_001",
+			"portrait": "smile",
+			"text": "Yes, Steven has invited me to his house to show him his new toy."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile2",
+			"text": "I have also invited by Steven to his house to show him his new toy."
+		},
+		{
+			"character": "character-1636975967.json",
+			"event_id": "dialogic_001",
+			"portrait": "smile",
+			"text": "I can't wait to get there!"
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "Me too."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "By the way, what are you bringing Michael?"
+		},
+		{
+			"character": "character-1636975967.json",
+			"event_id": "dialogic_001",
+			"portrait": "smirk",
+			"text": "This?"
+		},
+		{
+			"character": "character-1636975967.json",
+			"event_id": "dialogic_001",
+			"portrait": "smile2",
+			"text": "Ohh this is a Tablet, people use it to browse the internet, read e-books, and watch movie."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_surprised",
+			"text": "Wow, that's great."
+		},
+		{
+			"character": "character-1636975967.json",
+			"event_id": "dialogic_001",
+			"portrait": "smile2",
+			"text": "How about you, what are you bringing?"
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "This is a Smartphone, people use it to talk to other people and to send texts, pictures, and videos."
+		},
+		{
+			"character": "character-1636975967.json",
+			"event_id": "dialogic_001",
+			"portrait": "smile3",
+			"text": "Wow, that's great."
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Finally, you arrive at Steven's house."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"background": "res://asset/background/episode 2/rumah steven.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_normal",
+			"text": "Steven! Steven!"
+		},
+		{
+			"character": "character-1636975904.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wait a second."
+		},
+		{
+			"character": "character-1636975904.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wow you have come guys, come in!"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 2/ruang tamu steven.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What toy would you like to show, Steven?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Here we go"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This is PlayStation5, people use it to play video games."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wow it is to play games? That's great!"
+		},
+		{
+			"action": "join",
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_normal",
+			"text": "Then, what is this, Steven?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This is a Virtual Reality Headset, people use it to play video games, and watch movies."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_surprised",
+			"text": "Wow, that's great, playing games is even more real."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Let's Play!"
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "Let’s Go!"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You play until the evening, and say goodbye to go home."
+		},
+		{
+			"background": "res://asset/background/episode 2/rumah steven.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After that you have dinner with your family, then go sleeping…"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "Ok dad!"
+		},
+		{
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_001",
+			"portrait": "dad_smile",
+			"text": "We have to get ready tomorrow morning and then go for holiday"
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "Yeayy, so we can go for holiday."
+		},
+		{
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_001",
+			"portrait": "dad_smile3",
+			"text": "I have already told the boss, and he allow me to take a holiday."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_normal",
+			"text": "Dad, how about your permission for holiday tomorrow?"
+		},
+		{
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_001",
+			"portrait": "dad_surprised",
+			"text": "Wow, that is fun."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "Then there's also Virtual Reality Headset, which can make the game even more real."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile2",
+			"text": "It's really fun, Steven has a new toy, it is called PlayStation5. we can play a lot of games on it."
+		},
+		{
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_001",
+			"portrait": "dad_smile",
+			"text": "Welcome. How do you feel today?"
+		},
+		{
+			"action": "join",
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "dad_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "I’m home!"
+		},
+		{
+			"background": "res://asset/background/episode 1/ruang tamu.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After walking for while, you finally arrive at home."
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Be careful."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "I'm going home."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "Sure!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, you can play here again anytime."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, i say goodbye too."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I have to go home, Steven."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, it's so fun."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "I can't believe we're playing until this evening."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1636509666.json",
+		"name": "day2-part2M"
+	}
+}
