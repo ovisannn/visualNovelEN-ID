@@ -1,7 +1,7 @@
 extends Node2D
 
 
-const fileLocation = "res://gameData/playerStat.json"
+const fileLocation = "res://gameData/playerStat.txt"
 onready var confirmator = $confirm
 var ready = false
 

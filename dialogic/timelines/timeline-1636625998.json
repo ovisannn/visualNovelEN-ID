@@ -1,0 +1,233 @@
+{
+	"events": [
+		{
+			"background": "res://asset/background/episode 4/parkiran.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile2",
+			"text": "Ok mom, now I understand."
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_smile",
+			"text": "Good, now let's go home."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You go back to grandma's house."
+		},
+		{
+			"background": "res://asset/background/episode 3/ruang tamu nenek.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile2",
+			"text": "We finally arrived."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "When will you go home?"
+		},
+		{
+			"action": "join",
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "dad_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_001",
+			"portrait": "dad_smile",
+			"text": "After this we will go home mom."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ohh don't stay overnight?"
+		},
+		{
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_001",
+			"portrait": "dad_smile",
+			"text": "No mom, because I have to go back to work tomorrow."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_sad",
+			"text": "Huhh.. why we go home so early, dad..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It's okay dear. We will meet again on the next semester holiday."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "Yeayyy, okay grandma."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_smile",
+			"text": "Mom, this is a gift that I have bought earlier, some of fruits and vegetables are also complete in the kitchen. you just cooks them, mom."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thank you dear."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "dad_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_001",
+			"portrait": "dad_smile2",
+			"text": "Ok mom then we say goodbye to go home."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, be careful."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "Goodbye grandma!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Goodbye, be careful."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You go home."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1636625998.json",
+		"name": "day4-part3M"
+	}
+}
