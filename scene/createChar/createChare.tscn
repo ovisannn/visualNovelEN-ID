@@ -1,8 +1,9 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://scene/createChar/createChare.gd" type="Script" id=1]
 [ext_resource path="res://asset/background/main menu/Modern-Dormroom3.png" type="Texture" id=2]
 [ext_resource path="res://asset/fonts/OpenSans-Medium.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://scene/oftenUsedScn/gameSave.gd" type="Script" id=4]
 
 [sub_resource type="Curve" id=1]
 _data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 1, 0.184091 ), 0.0, 0.0, 0, 0 ]
@@ -48,6 +49,7 @@ font_data = ExtResource( 3 )
 
 [node name="createChar" type="Node2D"]
 script = ExtResource( 1 )
+gameSaveClass = ExtResource( 4 )
 
 [node name="Modern-Dormroom3" type="Sprite" parent="."]
 position = Vector2( 640, 376 )
