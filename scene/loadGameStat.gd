@@ -16,7 +16,7 @@ func loadGame():
 
 
 func resLoadGame():
-	var savedData = load("res://save/playerData.tres")
+	var savedData = load("user://saveVisualNovel/playerData.tres")
 	return savedData
 
 func loadGameProperty(data):

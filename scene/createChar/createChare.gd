@@ -20,9 +20,9 @@ func resSaveData():
 	newSave.latestEpisode = charStat['episode']
 	
 	var dir = Directory.new()
-	if not dir.dir_exists('res://save/'):
-		dir.make_dir_recursive('res://save/')
-	ResourceSaver.save('res://save/playerData.tres', newSave)
+	if not dir.dir_exists('user://saveVisualNovel/'):
+		dir.make_dir_recursive('user://saveVisualNovel/')
+	ResourceSaver.save('user://saveVisualNovel/playerData.tres', newSave)
 	
 	ready = true
 	
