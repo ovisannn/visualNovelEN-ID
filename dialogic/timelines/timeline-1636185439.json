@@ -9,7 +9,7 @@
 			"character": "character-1636170599.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "female_normal",
+			"portrait": "female_delighted",
 			"position": {
 				"0": false,
 				"1": false,
@@ -46,7 +46,7 @@
 			"event_id": "dialogic_021"
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636170599.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Oh how fresh it is!"
@@ -63,10 +63,10 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1636170599.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "male_normal",
+			"portrait": "female_smile2",
 			"position": {
 				"0": true,
 				"1": false,
@@ -76,7 +76,7 @@
 			}
 		},
 		{
-			"character": "character-1636170599.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
 			"portrait": "female_smile2",
 			"text": "Good morning mom."
@@ -108,7 +108,7 @@
 			"text": "You're so excited this morning, what’s happened?"
 		},
 		{
-			"character": "character-1636170599.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
 			"portrait": "female_smile2",
 			"text": "Because today is holiday, i will help mom take care of the house work."
@@ -120,10 +120,10 @@
 			"text": "You are so kind."
 		},
 		{
-			"character": "character-1636170599.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "female_smile",
-			"text": "What can i do for you mom?"
+			"portrait": "female_laugh",
+			"text": "What can I do for you mom?"
 		},
 		{
 			"character": "character-1635560234.json",
@@ -132,10 +132,14 @@
 			"text": "I want to cook breakfast, please help me preparing the ingredients and equipments."
 		},
 		{
-			"character": "character-1636170599.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "female_smile2",
+			"portrait": "female_delighted",
 			"text": "Ok mom."
+		},
+		{
+			"change_scene": "res://scene/mini games/found.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

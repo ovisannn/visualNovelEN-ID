@@ -19,7 +19,11 @@
 				"character-1636718646.json",
 				"character-1636975904.json",
 				"character-1636975967.json",
-				"character-1636976038.json"
+				"character-1636976038.json",
+				"character-1637142250.json",
+				"character-1637142623.json",
+				"character-1637142851.json",
+				"character-1637142906.json"
 			],
 			"folders": {
 
@@ -40,7 +44,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Themes": {

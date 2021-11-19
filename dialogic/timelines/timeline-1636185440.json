@@ -136,6 +136,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "male_smile3",
 			"text": "Ok mom."
+		},
+		{
+			"change_scene": "res://scene/mini games/found.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

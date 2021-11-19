@@ -7,7 +7,6 @@ func _ready():
 
 	#loadGameProperty(person)
 	var person = gameLoad.resLoadGame()
-	print(person.playerName)
 	gameLoad.loadGameProperty(person)
 	
 	#dialog initiate

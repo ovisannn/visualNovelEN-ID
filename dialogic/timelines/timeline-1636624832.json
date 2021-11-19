@@ -6,26 +6,26 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
 			"portrait": "male_normal",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
 			}
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_sad",
 			"text": "Ohhh I'm so tired after walking around the zoo."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_smile1",
 			"text": "But I'm so happy to know more about the animals here. Thank you grandma."
@@ -51,33 +51,33 @@
 			"text": "You're welcome."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_smile2",
 			"text": "Let's go home."
 		},
 		{
 			"action": "join",
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "mom_normal",
+			"portrait": "smile",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": true,
-				"4": false
+				"3": false,
+				"4": true
 			}
 		},
 		{
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "mom_delighted",
+			"portrait": "delighted",
 			"text": "Before going home, let's shopping at a gift shop."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_smile3",
 			"text": "Ok."
@@ -92,65 +92,71 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
 			"background": "res://asset/background/episode 4/supermarket.jpg",
 			"event_id": "dialogic_021"
 		},
 		{
 			"action": "join",
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "mom_normal",
+			"portrait": "smile",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": true,
-				"4": false
+				"3": false,
+				"4": true
 			}
 		},
 		{
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "mom_smile",
+			"portrait": "smile",
 			"text": "Ok we have arrived."
 		},
 		{
 			"action": "join",
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
 			"portrait": "male_normal",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
 			}
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_surprised",
 			"text": "Wow, it is a huge shop, and there are many kinds of foods and snacks."
 		},
 		{
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "mom_smile2",
+			"portrait": "smiel2",
 			"text": "I want to buy some snacks, what do you want?"
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_smile1",
 			"text": "I want chocolate bakpia."
 		},
 		{
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "mom_smile",
+			"portrait": "smile",
 			"text": "Okay."
 		},
 		{
@@ -170,85 +176,89 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
 			"portrait": "male_normal",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
 			}
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_smile1",
 			"text": "Mom I want my bakpia."
 		},
 		{
 			"action": "join",
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "mom_normal",
+			"portrait": "smile",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": true,
-				"4": false
+				"3": false,
+				"4": true
 			}
 		},
 		{
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "mom_smile",
+			"portrait": "smile",
 			"text": "This is your bakpia."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_smile2",
+			"portrait": "smiel2",
 			"text": "Yeayyy…"
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_normal",
 			"text": "Mom, where do I throw this plastic? There are 2 trash cans."
 		},
 		{
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "mom_normal",
+			"portrait": "smile",
 			"text": "This one is for organic waste, and this one is for non-organic waste."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_normal",
 			"text": "What is it mom?"
 		},
 		{
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "mom_smile2",
+			"portrait": "smiel2",
 			"text": "Organic waste is waste such as food scraps, fruit scraps, and vegetable scraps.\nNon-organic waste is plastic waste like your food plastic."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_normal",
 			"text": "So I have to throw this garbage into the non-organic trash, right?"
 		},
 		{
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "mom_smile",
+			"portrait": "smile",
 			"text": "Yes you are right."
+		},
+		{
+			"change_scene": "res://scene/eps4/3.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

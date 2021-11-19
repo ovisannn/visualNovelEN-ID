@@ -6,52 +6,52 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "mom_normal",
+			"portrait": "smile",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": true,
-				"4": false
+				"3": false,
+				"4": true
 			}
 		},
 		{
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "mom_smile",
+			"portrait": "smile",
 			"text": "Smart kid, thank you for helping me."
 		},
 		{
 			"action": "join",
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
 			"portrait": "male_normal",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
 			}
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_smile2",
 			"text": "You are welcome."
 		},
 		{
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "mom_smile2",
+			"portrait": "smiel2",
 			"text": "We have done shopping, let's go back to grandma’s house."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_smile3",
 			"text": "Ok mom."
@@ -62,25 +62,35 @@
 			"event_id": "dialogic_003"
 		},
 		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
 			"background": "res://asset/background/episode 3/ruang tamu nenek.jpg",
 			"event_id": "dialogic_021"
 		},
 		{
 			"action": "join",
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
 			"portrait": "male_normal",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
 			}
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_smile1",
 			"text": "I'm home."
@@ -106,7 +116,7 @@
 			"text": "Ahh you're home. What did you buy?"
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_normal",
 			"text": "I have bought some fruits and vegetables, for you, grandma."
@@ -118,7 +128,7 @@
 			"text": "Oh thank you."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_sad",
 			"text": "I'm really tired today."
@@ -130,7 +140,7 @@
 			"text": "You can go to bed. It's also night."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_smile3",
 			"text": "Ok Grandma, I will sleep. Good night."
@@ -155,6 +165,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "You go to your room and sleep."
+		},
+		{
+			"change_scene": "res://scene/eps4/1.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {
