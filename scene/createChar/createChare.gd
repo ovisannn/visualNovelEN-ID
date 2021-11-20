@@ -72,7 +72,6 @@ func _on_maleButton_toggled(button_pressed):
 	
 
 func _on_femaleButton_toggled(button_pressed):
-	print(123)
 	if button_pressed == true:
 		$maleButton.pressed = false
 		charStat["gender"] = "female"

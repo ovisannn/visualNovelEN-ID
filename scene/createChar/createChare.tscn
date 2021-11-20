@@ -1,9 +1,11 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://scene/createChar/createChare.gd" type="Script" id=1]
 [ext_resource path="res://asset/background/main menu/Modern-Dormroom3.png" type="Texture" id=2]
-[ext_resource path="res://asset/fonts/OpenSans-Medium.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://prefabs/new_theme.tres" type="Theme" id=3]
 [ext_resource path="res://scene/oftenUsedScn/gameSave.gd" type="Script" id=4]
+[ext_resource path="res://asset/fonts/Poppins-Medium.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://asset/UI/board.png" type="Texture" id=6]
 
 [sub_resource type="Curve" id=1]
 _data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 1, 0.184091 ), 0.0, 0.0, 0, 0 ]
@@ -30,22 +32,47 @@ scale = 2.0
 scale_random = 0.49
 scale_curve = SubResource( 2 )
 
-[sub_resource type="DynamicFont" id=4]
+[sub_resource type="DynamicFont" id=12]
 size = 20
-font_data = ExtResource( 3 )
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 5 )
 
-[sub_resource type="DynamicFont" id=5]
-font_data = ExtResource( 3 )
+[sub_resource type="DynamicFont" id=13]
+size = 20
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 5 )
 
-[sub_resource type="DynamicFont" id=6]
-font_data = ExtResource( 3 )
+[sub_resource type="DynamicFont" id=14]
+size = 20
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 5 )
 
-[sub_resource type="DynamicFont" id=7]
-font_data = ExtResource( 3 )
+[sub_resource type="DynamicFont" id=15]
+size = 20
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=11]
+size = 20
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=16]
+size = 20
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=9]
+size = 24
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=10]
+size = 24
+font_data = ExtResource( 5 )
 
 [sub_resource type="DynamicFont" id=8]
-size = 26
-font_data = ExtResource( 3 )
+size = 24
+font_data = ExtResource( 5 )
 
 [node name="createChar" type="Node2D"]
 script = ExtResource( 1 )
@@ -74,6 +101,8 @@ margin_left = 544.0
 margin_top = 512.0
 margin_right = 704.0
 margin_bottom = 576.0
+theme = ExtResource( 3 )
+custom_fonts/font = SubResource( 12 )
 text = "CREATE"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -88,6 +117,8 @@ margin_left = 672.0
 margin_top = 384.0
 margin_right = 832.0
 margin_bottom = 448.0
+theme = ExtResource( 3 )
+custom_fonts/font = SubResource( 13 )
 toggle_mode = true
 text = "FEMALE"
 __meta__ = {
@@ -103,8 +134,11 @@ margin_left = 416.0
 margin_top = 384.0
 margin_right = 576.0
 margin_bottom = 448.0
+theme = ExtResource( 3 )
+custom_fonts/font = SubResource( 14 )
 toggle_mode = true
 text = "MALE"
+expand_icon = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -114,7 +148,7 @@ margin_left = 416.0
 margin_top = 168.0
 margin_right = 680.0
 margin_bottom = 196.0
-custom_fonts/font = SubResource( 4 )
+custom_fonts/font = SubResource( 15 )
 text = "Enter your character's name"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -125,7 +159,7 @@ margin_left = 416.0
 margin_top = 320.0
 margin_right = 680.0
 margin_bottom = 348.0
-custom_fonts/font = SubResource( 4 )
+custom_fonts/font = SubResource( 11 )
 text = "Enter your character's gender"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -136,13 +170,15 @@ margin_left = 416.0
 margin_top = 208.0
 margin_right = 832.0
 margin_bottom = 248.0
-custom_fonts/font = SubResource( 5 )
+theme = ExtResource( 3 )
+custom_fonts/font = SubResource( 16 )
+align = 1
+placeholder_text = "enter your name here"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="confirm" type="Node2D" parent="."]
-visible = false
 
 [node name="ColorRect" type="ColorRect" parent="confirm"]
 margin_left = -24.0
@@ -154,12 +190,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="Board" type="Sprite" parent="confirm"]
+position = Vector2( 641, 367 )
+scale = Vector2( 1.6625, 1.18156 )
+texture = ExtResource( 6 )
+
 [node name="yes" type="Button" parent="confirm"]
 margin_left = 472.0
 margin_top = 376.0
 margin_right = 616.0
 margin_bottom = 408.0
-custom_fonts/font = SubResource( 6 )
+theme = ExtResource( 3 )
+custom_fonts/font = SubResource( 9 )
 disabled = true
 text = "YES"
 __meta__ = {
@@ -171,7 +213,8 @@ margin_left = 664.0
 margin_top = 376.0
 margin_right = 808.0
 margin_bottom = 408.0
-custom_fonts/font = SubResource( 7 )
+theme = ExtResource( 3 )
+custom_fonts/font = SubResource( 10 )
 disabled = true
 text = "NO"
 __meta__ = {
@@ -185,6 +228,7 @@ margin_right = 734.0
 margin_bottom = 324.0
 custom_fonts/font = SubResource( 8 )
 text = "ARE YOU SURE?"
+align = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }

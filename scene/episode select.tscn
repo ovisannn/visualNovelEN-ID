@@ -4,7 +4,7 @@
 [ext_resource path="res://asset/background/main menu/leaves.png" type="Texture" id=2]
 [ext_resource path="res://scene/episode select.gd" type="Script" id=3]
 [ext_resource path="res://asset/background/main menu/eps1.png" type="Texture" id=4]
-[ext_resource path="res://asset/fonts/OpenSans-Medium.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://asset/fonts/Poppins-Medium.ttf" type="DynamicFontData" id=5]
 
 [sub_resource type="Curve" id=1]
 min_value = -360.0
@@ -35,7 +35,7 @@ angle_curve = SubResource( 2 )
 scale_curve = SubResource( 4 )
 
 [sub_resource type="DynamicFont" id=6]
-size = 36
+size = 24
 font_data = ExtResource( 5 )
 
 [node name="episodeSelect" type="Node2D"]

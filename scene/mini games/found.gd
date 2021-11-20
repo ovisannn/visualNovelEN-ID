@@ -15,7 +15,7 @@ func pressed():
 
 func _ready():
 	pass
-func _process(delta):
+func _process(_delta):
 	if itemFound == 6 :
 		get_tree().change_scene("res://scene/eps2/2.tscn")
 

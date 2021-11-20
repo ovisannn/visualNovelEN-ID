@@ -2,9 +2,257 @@
 	"glossary": [
 		{
 			"extra": "",
-			"id": "1637346749-787",
-			"name": "Finally, we have passed the final exam. Happy holidays!",
-			"text": "Akhirnya, ujian akhir sudah kita lewati. Selamat berlibur!",
+			"id": "1637399200-918",
+			"name": "Today is the last day at school.",
+			"text": "Hari ini hari terakhir masuk sekolah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399629-701",
+			"name": "Mom!",
+			"text": "Ibu!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399655-233",
+			"name": "What's happened?",
+			"text": "Ada apa nak?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400225-935",
+			"name": "Ok, I will take it.",
+			"text": "Baiklah, akan ibu ambilkan.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400246-833",
+			"name": "Nothing.",
+			"text": "Tidak ada apa-apa ibu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400268-323",
+			"name": "Why are you still wearing towel?",
+			"text": "Lalu kenapa kamu masih memakai handuk?\n",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400282-113",
+			"name": "Ahh, I want to get clothe in the wardrobe.",
+			"text": "Ahh, aku mau mengambil baju di lemari.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400298-258",
+			"name": "Is the dinner ready, mom?",
+			"text": "Apakah makan malamnya sudah siap?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400312-849",
+			"name": "It will be ready soon, but before that, wear your clothe.",
+			"text": "Sebentar lagi siap, tapi sebelum itu, pakai bajumu terlebih dahulu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400342-728",
+			"name": "Which clothe do you want to wear?",
+			"text": "Baju mana yang mau kamu pakai?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400357-918",
+			"name": "That clothe mom, the black one.",
+			"text": "Baju yang itu bu, yang warna hitam.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400377-403",
+			"name": "Here it is.",
+			"text": "Ini bajunya.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400397-894",
+			"name": "Thank you so much mom.",
+			"text": "Terimakasih banyak ibu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400414-171",
+			"name": "You’re welcome.",
+			"text": "Sama-sama.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400435-991",
+			"name": "After getting dressed, go to the kitchen, we will have dinner.",
+			"text": "Setelah selesai pakai baju, segera ke dapur, kita akan makan malam.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400458-732",
+			"name": "Ok mom.",
+			"text": "Baik ibu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400475-573",
+			"name": "You quickly put on your clothe and go to the kitchen for dinner.",
+			"text": "Kamu segera memakai baju dan pergi ke dapur untuk makan malam.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400492-768",
+			"name": "What are you cooking tonight mom?",
+			"text": "Masak apa ibu malam ini?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400509-530",
+			"name": "Mom cooks your favorite chicken soup, sit down.",
+			"text": "Ibu masak sup ayam kesukaanmu, ayo duduk.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399378-339",
+			"name": "It's okay, but I will ask permission to take holiday.",
+			"text": "Boleh-boleh saja, tapi ayah akan meminta ijin untuk mengambil cuti.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400881-141",
+			"name": "It’s too hot!",
+			"text": "Ini terlalu panas! ",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400908-270",
+			"name": "Eat it slowly, blow it first, wait until cool.",
+			"text": "Pelan-pelan dong makan nya, di tiup dulu, tunggu agak dingin.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400923-151",
+			"name": "Don’t be in a hurry.",
+			"text": "Jangan terburu-buru.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400940-465",
+			"name": "Ok mom, dad.",
+			"text": "Baik bu, yah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400958-566",
+			"name": "After you finish eating, you go back to your room and get ready for sleeping.",
+			"text": "Setelah selesai makan, kamu kembali ke kamar untuk bersiap-siap tidur.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400991-778",
+			"name": "It's 9 pm, it's time to sleep.",
+			"text": "Sudah jam 9 malam, saatnya aku tidur.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637401010-692",
+			"name": "It's too cold tonight, i have to use my blanket, so i don't get cold.",
+			"text": "Malam ini lumayan dingin, aku harus memakai selimut, biar tidak kedinginan.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637401036-364",
+			"name": "You turn off the light, and go to sleep.",
+			"text": "Kamu mematikan lampu, dan pergi tidur.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637401053-558",
+			"name": "Good night.",
+			"text": "Selamat malam.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637401556-958",
+			"name": "Morning world!",
+			"text": "Pagi dunia!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637401714-967",
+			"name": "You're so excited this morning, what’s happened?",
+			"text": "Semangat sekali kamu pagi ini, ada apa?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399107-366",
+			"name": "Dad, Mom, I'm Home!",
+			"text": "Ayah, Ibu, Aku pulang!",
 			"title": "",
 			"type": 1
 		},
@@ -13,6 +261,1926 @@
 			"id": "1637381220-957",
 			"name": "Holiday has come. I can't wait to visit grandma's house",
 			"text": "Liburan telah tiba. Aku tidak sabar pergi ke rumah nenek..",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637346749-787",
+			"name": "Finally, we have passed the final exam. Happy holidays!",
+			"text": "Akhirnya, ujian akhir sudah kita lewati. Selamat berlibur!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399136-146",
+			"name": "Welcome, Why do you look",
+			"text": "Selamat datang, Kenapa kamu terlihat senang sekali ?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399025-787",
+			"name": "You go home with a happy face.",
+			"text": "Kamu pulang dengan wajah senang.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399359-713",
+			"name": "Wow, a great idea. Dad, What do you think?",
+			"text": "Wah, ide yang bagus. Bagaimana menurut ayah?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399340-970",
+			"name": "I want to visit grandma's house",
+			"text": "Aku ingin mengunjungi rumah nenek.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399222-483",
+			"name": "Wow, it's a holiday, where do you want to go?",
+			"text": "Wah, sudah liburan ya, kamu ingin kemana?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637401615-992",
+			"name": "Before that I have to take a shower first.",
+			"text": "sebelum itu aku harus mandi dulu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637401583-421",
+			"name": "Because today is a holiday, i will help mom with house work.",
+			"text": "Karena hari ini libur, aku akan membantu ibu mengerjakan tugas rumah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637401632-554",
+			"name": "Oh how fresh it is!",
+			"text": "Ahh Segarnya!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637401662-285",
+			"name": "After taking shower, you get dressed quickly and go to the kitchen",
+			"text": "Setelah selesai mandi, kamu bergegas memakai baju dan pergi ke dapur.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637401990-364",
+			"name": "Because today is holiday, i will help mom take care of the house work.",
+			"text": "Karena hari ini aku libur, aku akan membantu ibu mengurus pekerjaan rumah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408147-787",
+			"name": "You are so kind",
+			"text": "Anak baik.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408210-146",
+			"name": "I want to cook breakfast, please help me preparing the ingredients and equipments",
+			"text": "Ibu mau memasak sarapan, tolong bantu ibu siapkan bahan-bahan dan peralatannya ya.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408237-918",
+			"name": "Ok mom.",
+			"text": "Baik bu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408261-483",
+			"name": "Here it is mom, all the ingredients and equipments",
+			"text": "Ini ibu, semua bahan dan peralatan memasaknya.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408327-713",
+			"name": "A few minutes later",
+			"text": "Beberapa menit kemudian.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408346-339",
+			"name": "Tadaa, it's finish, let's have a breakfast together",
+			"text": "Tadaa, sudah matang, ayo kita sarapan bersama.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408361-785",
+			"name": "Dad, let's have a breakfast",
+			"text": "Ayah, ayo kita sarapan.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408381-842",
+			"name": "Let’s go.",
+			"text": "Ayo.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408396-905",
+			"name": "Dad today don't forget to ask for holiday permission",
+			"text": "Ayah hari ini jangan lupa meminta ijin cuti untuk liburan besok.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408411-192",
+			"name": "Yes dear, dad will ask for holiday permission",
+			"text": "Iya nak, ayah akan meminta ijin cuti untuk liburan besok.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408435-574",
+			"name": "Yeay, I'm waiting for the good news, dad",
+			"text": "Asik, aku tunggu kabar baiknya ayah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408454-250",
+			"name": "Okay, let's eat first. Your dad will be late",
+			"text": "Sudah, ayo makan dulu. Nanti ayahmu keburu terlambat.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408465-416",
+			"name": "After finishing breakfast, dad goes to work",
+			"text": "Setelah selesai sarapan, ayah pergi ke kantor untuk bekerja.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408486-953",
+			"name": "I go to work",
+			"text": "Ayah berangkat dulu ya.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408505-600",
+			"name": "Yes, be careful",
+			"text": "Iya hati-hati dijalan ayah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408526-265",
+			"name": "Be careful dad",
+			"text": "Hati-hati.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408548-501",
+			"name": "After that you take a short break until noon",
+			"text": "Setelah itu kamu istirahat sebentar sampai siang hari",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408565-701",
+			"name": "Mom, I want to go playing at Steven's house, he said he had a new toy",
+			"text": "Ibu, aku mau pergi main ke rumahnya Steven dulu ya, katanya dia punya mainan baru.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408578-233",
+			"name": "Ok, be careful, you have to go home before 7pm",
+			"text": "Baik nak, hati-hati, kamu harus pulang sebelum pukul 7 malam.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408598-133",
+			"name": "Okay mom. I go out now",
+			"text": "Baik bu. Aku berangkat dulu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408623-451",
+			"name": "While on the way to Steven's house, suddenly someone greets you from behind",
+			"text": "Saat ditengah perjalanan menuju ke rumah Steven, tiba-tiba ada yang menyapamu dari belakang",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408635-934",
+			"name": "You are shocked and look back",
+			"text": "Kamu kaget dan menoleh kebelakang",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408710-935",
+			"name": "It was Michael, your school friend",
+			"text": "Ternyata ada Michael, teman sekolahmu",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408747-323",
+			"name": "Hey Michael, where are you going",
+			"text": "Ehh Michael, mau kemana kamu?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408771-113",
+			"name": "I am going to Steven's house",
+			"text": "Aku mau kerumah Steven.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408787-258",
+			"name": "How come?  we are in the same direction?",
+			"text": "Loh kok sama? Kita ke arah yang sama?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408804-849",
+			"name": "Yes, Steven has invited me to his house to show him his new toy",
+			"text": "Iya, Steven mengajakku ke rumahnya untuk menunjukkan mainan baru nya.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408823-728",
+			"name": "I have also invited by Steven to his house to show him his new toy",
+			"text": "Aku juga diajak Steven ke rumahnya untuk di tunjukkan mainan baru nya",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408843-918",
+			"name": "I can't wait to get there!",
+			"text": "Aku jadi gak sabar buat nyampek kesana!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408870-894",
+			"name": "Me too",
+			"text": "Iya, aku juga.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408906-991",
+			"name": "This?",
+			"text": "Ini?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408921-732",
+			"name": "Ohh this is a Tablet, people use it to browse the internet, read e-books, and watch movie.",
+			"text": "Ohh ini adalah Tablet, orang menggunakannya untuk browsing internet, membaca e-book, dan menonton film.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408938-573",
+			"name": "Wow, that's great",
+			"text": "Wahh, bagus sekali.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408954-768",
+			"name": "How about you, what are you bringing?",
+			"text": "Kalau kamu, itu apa yang kamu bawa?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408974-530",
+			"name": "This is a Smartphone, people use it to talk to other people and to send texts, pictures, and videos",
+			"text": "Ini adalah Smartphone, orang menggunakannya untuk telfon dengan orang lain dan untuk mengirim pesan, gambar, dan video.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410059-861",
+			"name": "Finally, you arrive at Steven's house",
+			"text": "Akhirnya, kalian sampai di rumah Steven.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410076-141",
+			"name": "Wait a second",
+			"text": "Iya, Sebentar.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410098-270",
+			"name": "Wow you have come guys, come in!",
+			"text": "Wahh kalian sudah datang, ayo masuk!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410121-465",
+			"name": "What toy would you like to show, Steven?",
+			"text": "Mainan apa yang mau kamu tunjukkan pada kami, Steven?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410150-566",
+			"name": "Here we go",
+			"text": "Ini dia.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410166-778",
+			"name": "This is PlayStation5, people use it to play video games",
+			"text": "Ini adalah PlayStation5, orang menggunakannya untuk bermain video game.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410184-692",
+			"name": "Wow it is to play games? That's great!",
+			"text": "Wahh untuk bermain game? Mantab sekali!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410200-364",
+			"name": "Then, what is this, Steven?",
+			"text": "Lalu, kalau ini apa Steven?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410220-558",
+			"name": "This is a Virtual Reality Headset, people use it to play video games, and watch movies.",
+			"text": "Ini adalah Virtual Reality Headset, orang menggunakannya untuk bermain video game, dan menonton film.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410253-421",
+			"name": "Let's Play!",
+			"text": "Ayo Kita Main!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410268-992",
+			"name": "Let’s Go!",
+			"text": "Ayo!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410288-554",
+			"name": "You play until the evening, and say goodbye to go home",
+			"text": "Kalian bermain sampai petang, dan pamit untuk pulang.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410312-285",
+			"name": "I can't believe we're playing until this evening",
+			"text": "Nggak kerasa kita bermain sampai sore segini.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410329-954",
+			"name": "Yes, it's so fun",
+			"text": "Iya, sangking asiknya.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410346-767",
+			"name": "I have to go home, Steven",
+			"text": "Aku pamit pulang dulu ya, Steven.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410363-967",
+			"name": "Yes, i say goodbye too",
+			"text": "Iya, aku juga pamit pulang.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410380-364",
+			"name": "Yes, you can play here again anytime",
+			"text": "Iya, sering-sering main kesini lagi.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410401-731",
+			"name": "Sure!",
+			"text": "Pasti!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410425-557",
+			"name": "I'm going home",
+			"text": "Aku pulang dulu ya.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410444-267",
+			"name": "Be careful",
+			"text": "Hati-hati dijalan.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410469-440",
+			"name": "After walking for while, you finally arrive at home",
+			"text": "Setelah berjalan cukup lama, akhirnya kamu tiba dirumah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410487-247",
+			"name": "I’m home!",
+			"text": "Aku Pulang!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410504-695",
+			"name": "Welcome. How do you feel today?",
+			"text": "Selamat datang. Bagaimana mainnya hari ini?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410525-497",
+			"name": "It's really fun, Steven has a new toy, it is called PlayStation5. we can play a lot of games on it",
+			"text": "Seru banget yah, Steven punya mainan baru yang disebut PlayStation5. Itu bisa memainkan banyak sekali permainan.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410544-861",
+			"name": "Then there's also Virtual Reality Headset, which can make the game even more real",
+			"text": "Lalu juga ada Virtual Reality Headset, yang bisa membuat permainan jadi lebih nyata lagi.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410562-848",
+			"name": "Wow, that is fun",
+			"text": "Wahh sepertinya seru sekali.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410579-895",
+			"name": "Dad, how about your permission for holiday tomorrow?",
+			"text": "Oh iya ayah, bagaimana dengan ijin ayah untuk cuti besok?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410596-854",
+			"name": "I have already told the boss, and he allow me to take a holiday",
+			"text": "Ayah sudah bilang ke atasan, dan di ijinkah untuk cuti.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410615-725",
+			"name": "Yeayy, so we can go for holiday",
+			"text": "Asik, kita jadi pergi liburan.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410631-589",
+			"name": "We have to get ready tomorrow morning and then go for holiday",
+			"text": "Besok pagi kita siap-siap lalu berangkat berlibur",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410646-423",
+			"name": "Ok dad!",
+			"text": "Baik ayah!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410666-947",
+			"name": "After that you have dinner with your family, then go sleeping",
+			"text": "Setelah itu kamu makan malam bersama keluargamu, lalu pergi tidur...",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637401680-954",
+			"name": "Good morning mom.",
+			"text": "Selamat pagi ibu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637401697-767",
+			"name": "Good morning",
+			"text": "Selamat pagi",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408283-970",
+			"name": "i will start cooking",
+			"text": "ibu akan mulai memasak.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410040-833",
+			"name": "Wow, that's great",
+			"text": "Wahh, bagus sekali.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637410239-958",
+			"name": "Wow, that's great, playing games is even more real.",
+			"text": "Wahh, mantap sekali, main game jadi lebih nyata lagi.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408191-366",
+			"name": "What can I do for you mom?",
+			"text": "Apa yang bisa aku bantu ibu?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637408888-171",
+			"name": "By the way, what are you bringing Michael?",
+			"text": "Ngomong-ngomong apa yang kamu bawa itu Michael?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637411623-487",
+			"name": "Thank you very much",
+			"text": "Terima kasih banyak",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399405-785",
+			"name": "Yeay, I'm going to meet grandma. And go to the zoo with her.",
+			"text": "Asik, aku akan bertemu nenek. Dan pergi ke kebun binatang bersamanya.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399424-842",
+			"name": "Ok, you go take a shower first, your body smells bad after school.",
+			"text": "Yaudah kamu pergi mandi dulu, badanmu bau sepulang sekolah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400544-861",
+			"name": "What’s wrong",
+			"text": "Kenapa",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412116-423",
+			"name": "Ahh it's morning, i have to take a shower quickly and get ready",
+			"text": "Ahh sudah pagi, aku harus bergegas mandi lalu siap-siap.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412240-263",
+			"name": "You're going to take a shower",
+			"text": "Kamu segera mandi",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412260-927",
+			"name": "What do I bring to grandma's house",
+			"text": "Apa saja yaa yang aku bawa ke rumah nenek…",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412277-512",
+			"name": "This clothes, that clothes",
+			"text": "Baju ini, itu…",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412298-219",
+			"name": "After preparing your bringing, you go out your room",
+			"text": "Setelah selesai mempersiapkan barang bawaan, kamu pergi keluar kamar",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412314-366",
+			"name": "Dad, i am ready. I have prepared it myself!",
+			"text": "Ayah, aku sudah selesai bersiap-siap. Aku mempersiapkannya sendiri!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412331-951",
+			"name": "Wow that's great!",
+			"text": "Wahh bagus sekali, kamu hebat!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412346-840",
+			"name": "Thank you dad.",
+			"text": "Terimakasih ayah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412365-127",
+			"name": "Before leaving, let's we have a breakfast first",
+			"text": "Sebelum berangkat, ayo kita sarapan dulu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412391-973",
+			"name": "Okay mom.",
+			"text": "Baik ibu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412402-921",
+			"name": "After finishing breakfast, you and your family go to grandma's house",
+			"text": "Setelah selesai sarapan, kamu dan keluargamu berangkat menuju kerumah nenek.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412418-689",
+			"name": "Dad, how long does it take to get to grandma's house?",
+			"text": "Ayah, berapa lama perjalanan menuju ke rumah nenek?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412432-517",
+			"name": "The trip to grandma's house is about 6 hours. We will arrive in the afternoon. Hopefully it doesn't get stuck in traffic",
+			"text": "Perjalanan ke rumah nenek sekitar 6 jam. Kita akan sampai pada sore hari. Semoga saja tidak macet.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412448-339",
+			"name": "In the middle of the road you see a unique car",
+			"text": "Di tengah jalan kamu melihat mobil yang unik.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412464-158",
+			"name": "Dad, what car is that? very nice shape",
+			"text": "Ayah, mobil apa itu ? bentuknya bagus sekali",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412503-585",
+			"name": "It's an electric car. The car needs electricity to run, so it doesn't need petrol anymore",
+			"text": "Itu adalah mobil listrik. Mobil itu memerlukan listrik untuk berjalan, jadi tidak perlu bensin lagi.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412526-642",
+			"name": "Wow, that's really cool. I want to have an electric car someday",
+			"text": "Wahh keren sekali. Aku ingin punya mobil listrik suatu saat nanti.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412543-748",
+			"name": "After a long journey, finally you arrive at grandma's house",
+			"text": "Setelah perjalanan panjang, akhirnya kamu sampai di rumah nenek.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412560-579",
+			"name": "Well we have arrived",
+			"text": "Baik kita sudah sampai.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412575-557",
+			"name": "Wow we have arrived",
+			"text": "Wahh sudah sampai.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412592-828",
+			"name": "You get out of the car and knock on grandma's door",
+			"text": "Kamu turun dari mobil dan mengetok pintu rumah nenek.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412621-124",
+			"name": "Grandma grandma",
+			"text": "Nenek nenek!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412638-670",
+			"name": "Oh my dear grandchild. Long time no see",
+			"text": "Wahh cucuku. Sudah lama tidak bertemu",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412655-983",
+			"name": "Yes grandma, I miss you, grandma",
+			"text": "Iya nenek, aku kangen sama nenek",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412670-368",
+			"name": "How are you",
+			"text": "Bagaimana kabarmu",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412688-754",
+			"name": "I'm fine. How about you, grandma",
+			"text": "Kabarku baik nek. Kalau nenek gimana?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412771-435",
+			"name": "Grandma is fine too. Thanks my Godness",
+			"text": "Nenek juga baik baik saja. Syukurlah kalau begitu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412782-759",
+			"name": "I am not so good grandma",
+			"text": "Kurang terlalu baik nek.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412801-196",
+			"name": "What happened",
+			"text": "Kurang baik kenapa?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412818-879",
+			"name": "My score exams wasn't good",
+			"text": "Nilai ujian ku kemarin kurang begitu bagus.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412834-815",
+			"name": "It's okay dear. You have to study harder than before",
+			"text": "Tidak apa-apa nak. Kamu harus belajar lebih giat lagi dari sebelumnya.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412859-623",
+			"name": "Ok grandma, i will study hard",
+			"text": "Baik nek, aku akan lebih giat lagi belajar",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637412993-872",
+			"name": "Come in!",
+			"text": "Ayo masuk!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413006-207",
+			"name": "How was your trip",
+			"text": "Bagaimana perjalanannya tadi?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413465-396",
+			"name": "The road is not too busy, so we can quickly get here mom",
+			"text": "Jalannya tidak terlalu macet, jadi bisa cepat sampai disini bu",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413488-134",
+			"name": "Thanks my Godness",
+			"text": "Syukurlah kalau begitu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413510-499",
+			"name": "Long trip makes me very tired",
+			"text": "Perjalanan jauh bikin aku capek sekali",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413527-795",
+			"name": "Before that, let's go to the market to buy some fruits and vegetables. Before night",
+			"text": "Sebelum itu, ayo temenin ibu ke pasar untuk beli buah dan sayur. Sebelum malam",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413546-691",
+			"name": "How about you, dad?",
+			"text": "Ayah bagaimana?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413570-655",
+			"name": "Let your dad takes a rest after driving",
+			"text": "Biarkan ayahmu istirahat setelah mengemudi.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413609-450",
+			"name": "You and your mom go to the market to buy some fruits and vegetables",
+			"text": "Kamu dan ibu pergi kepasar untuk membeli buah dan sayur",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413636-381",
+			"name": "Mom, what do you want to buy",
+			"text": "Ibu mau beli apa?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413649-192",
+			"name": "I want to buy some fruits and vegetables for grandma. Help me count it",
+			"text": "Ibu mau beli beberapa buah dan sayur untuk stok dirumah nenek. Bantu ibu menghitung ya",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413668-381",
+			"name": "Smart kid, thank you for helping me",
+			"text": "Anak pintar, terimakasih sudah membantu ibu menghitung",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413693-616",
+			"name": "You are welcome",
+			"text": "Sama-sama ibu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413709-159",
+			"name": "We have done shopping, let's go back to grandma’s house",
+			"text": "Sudah selesai belanja semua, ayo kita kembali",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413750-478",
+			"name": "I'm home",
+			"text": "Aku pulang",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413765-984",
+			"name": "Ahh you're home. What did you buy",
+			"text": "Ahh kamu sudah pulang. Beli apa saja tadi?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413810-536",
+			"name": "Oh thank you",
+			"text": "Wahh terimakasih",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413846-527",
+			"name": "You can go to bed. It's also night",
+			"text": "Yaudah kamu istirahat juga. Ini juga sudah malam",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413888-725",
+			"name": "Good night",
+			"text": "Selamat malam.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413910-513",
+			"name": "You go to your room and sleep",
+			"text": "Kamu pergi ke kamar dan tidur.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637414407-684",
+			"name": "Ahh it's morning, i have to take a shower quickly",
+			"text": "Ahh sudah pagi, aku harus bergegas mandi.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415196-346",
+			"name": "You take a shower quickly",
+			"text": "Kamu segera mandi",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415437-542",
+			"name": "After taking a shower, you go out of the bedroom",
+			"text": "Setelah selesai mandi, kamu pergi keluar kamar mandi.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415468-427",
+			"name": "Good morning everyone",
+			"text": "Good morning everyone",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415486-286",
+			"name": "Good morning",
+			"text": "Selamat pagi ",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415508-223",
+			"name": "Dad, where are we going today",
+			"text": "Ayah, kita mau pergi kemana hari ini?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415656-651",
+			"name": "Dad it's up to you, where do you want to go",
+			"text": "Ayah terserah kamu saja, kamu mau pergi kemana?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415673-334",
+			"name": "Hmmm, where are we going",
+			"text": "Hmmm, pergi kemana ya?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415691-624",
+			"name": "How about going to the zoo near here",
+			"text": "Bagaimana kalau pergi ke kebun binatang dekat sini?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415710-885",
+			"name": "Zoo? Wow that is a great idea grandma! Come on dad. let's go to the zoo",
+			"text": "Kebun binatang? Wah ide yang bagus nenek! Ayo ayah. kita pergi ke kebun binatang.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415815-195",
+			"name": "Before leaving, let's we have breakfast. Mom has cooked the vegetables we have bought yesterday at the market",
+			"text": "Sebelum berangkat, ayo kita sarapan dulu. Ibu sudah masak sayur yang kita beli kemarin di pasar",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415835-339",
+			"name": "Ok mom",
+			"text": "Baik ibu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415854-536",
+			"name": "After having a breakfast, you and your family go to the zoo",
+			"text": "Setelah selesai sarapan, kamu dan keluarga berangkat menuju kebun binatang.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415875-299",
+			"name": "Grandma, is the zoo far away",
+			"text": "Nenek apakah kebun binatangnya jauh?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415895-279",
+			"name": "No, the zoo is near. It only takes a few minutes to arrive there",
+			"text": "Tidak, kebun binatangnya dekat sini. Hanya butuh beberapa menit untuk sampai disana.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415913-775",
+			"name": "I can't wait to see a lots of animals",
+			"text": "Aku sudah tidak sabar melihat banyak binatang!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637415993-645",
+			"name": "On the way, you see an object flying in the middle of the road",
+			"text": "Ditengah perjalanan, kamu melihat benda yang terbang di tengah jalan.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416010-957",
+			"name": "Dad, look! what's that flying object",
+			"text": "Ayah, lihat! itu benda apa yang terbang?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416039-949",
+			"name": "It’s a Drone. People use it to monitor traffic and weather",
+			"text": "Itu adalah Drone. Orang menggunakannya untuk memantau lalu lintas dan cuaca.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416055-720",
+			"name": "Wow, that's great",
+			"text": "Wahh bagus sekali yaa…",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416073-951",
+			"name": "Soon, you've arrived at the zoo",
+			"text": "Tidak terasa, kamu sudah sampai di kebun binatang.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416093-751",
+			"name": "We have arrived, let's go out from the car",
+			"text": "Sudah sampai, ayo turun.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416120-134",
+			"name": "Yeay, we have arrived",
+			"text": "Asikk sudah sampai.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416152-968",
+			"name": "Wow there are so many animals here",
+			"text": "Wahh banyak sekali hewan disini.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416171-267",
+			"name": "What is that animal Grandma? It is so tall",
+			"text": "Nenek itu hewan apa? Dia tinggi sekali.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416190-174",
+			"name": "It's a giraffe, the giraffe has a very long neck",
+			"text": "Itu adalah jerapah, jerapah mempunyai leher yang sangat panjang.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416210-168",
+			"name": "Wow, that's so high",
+			"text": "Wahh tinggi sekali.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416237-316",
+			"name": "What is that animal Grandma? it has spots on it’s body",
+			"text": "Kalau itu hewan apa nenek? Dia mempunyai bintik-bintik di tubuhnya.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416260-345",
+			"name": "It's a cheetah, the cheetah is one of the fastest animals in the world. Cheetah can run at a speed of 103km/h",
+			"text": "Itu adalah cheetah, cheetah adalah salah satu hewan tercepat di dunia. Cheetah mampu berlari dengan kecepatan 103km/jam",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416286-500",
+			"name": "Wow, that's so fast, grandma",
+			"text": "Wahh sangat cepat sekali nek",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416342-508",
+			"name": "It is a pity, we have to protect rhino from the extinction",
+			"text": "Kasihan sekali badak itu, kita harus menjaganya agar dia tidak punah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416360-781",
+			"name": "That's right",
+			"text": "Iya betul sekali",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417082-146",
+			"name": "What is that animal grandma? The color is unique",
+			"text": "Kalau itu hewan apa nek? warnanya unik.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417099-293",
+			"name": "It's a zebra. Zebras have black and white stripes",
+			"text": "Itu adalah zebra. Zebra mempunyai warna belang hitam dan putih.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417128-616",
+			"name": "They are very funny, like a zebra cross",
+			"text": "Lucu sekali, seperti jalur penyebrangan pejalan kaki",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417155-400",
+			"name": "That's why the pedestrian crossing is called a Zebra Cross. Because the color is like a zebra",
+			"text": "Itulah kenapa jalur penyebrangan pejalan kaki disebut Zebra Cross. Karena warnanya seperti zebra.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417175-233",
+			"name": "Wow, I have just known it, Grandma",
+			"text": "Wahh aku baru tahu nek.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417227-124",
+			"name": "You are continue to go around the zoo with your family until the afternoon",
+			"text": "Kamu melanjutkan berkeliling kebun binatang bersama keluargamu hingga sore hari.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417253-174",
+			"name": "Ohhh I'm so tired after walking around the zoo",
+			"text": "Ahhh aku capek sekali setelah berkeliling kebun binatang. ",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417272-141",
+			"name": "But I'm so happy to know more about the animals here. Thank you grandma",
+			"text": "Tapi aku senang sekali karena tahu lebih banyak tentang hewan-hewan disini. Terimakasih nenek.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417313-638",
+			"name": "You're welcome",
+			"text": "Sama-sama.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417342-826",
+			"name": "Let's go home",
+			"text": "Ayo kita pulang.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417361-619",
+			"name": "Before going home, let's shopping at a gift shop",
+			"text": "Sebelum pulang kita mampir dulu ke toko oleh-oleh.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417381-193",
+			"name": "Ok",
+			"text": "Baiklah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417424-825",
+			"name": "Wow, it is a huge shop, and there are many kinds of foods and snacks",
+			"text": "Wah besar sekali tokonya, dan banyak macam-macam oleh-oleh juga.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417443-119",
+			"name": "I want to buy some snacks, what do you want",
+			"text": "Ibu mau membeli beberapa oleh-oleh, kamu mau apa?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417466-194",
+			"name": "I want chocolate bakpia",
+			"text": "Aku mau bakpia coklat.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417485-506",
+			"name": "Okay",
+			"text": "Baiklah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417514-982",
+			"name": "After shopping, you leave the store",
+			"text": "Setelah selesai berbelanja, kamu keluar toko.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417537-304",
+			"name": "Mom I want my bakpia",
+			"text": "Ibu aku mau bakpia ku.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417558-443",
+			"name": "This is your bakpia",
+			"text": "Ini bakpia mu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417577-794",
+			"name": "Mom, where do I throw this plastic? There are 2 trash cans",
+			"text": "Ibu ini plastiknya aku buang dimana? Ini ada 2 tempat sampah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417607-758",
+			"name": "This one is for organic waste, and this one is for non-organic waste",
+			"text": "Yang ini untuk sampah organic, dan yang ini untuk sampah non organic.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417633-583",
+			"name": "What is it mom",
+			"text": "Apa itu ibu?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417663-551",
+			"name": "Organic waste is waste such as food scraps, fruit scraps, and vegetable scraps",
+			"text": "Sampah organic adalah sampah seperti sisa makanan, sisa buah, dan sisa sayur",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417683-568",
+			"name": "Non-organic waste is plastic waste like your food plastic",
+			"text": "Sampah non organic adalah sampah sampah plastic seperi plastic makananmu ini.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417703-838",
+			"name": "So I have to throw this garbage into the non-organic trash, right",
+			"text": "Jadi aku harus buang sampah ini ke tempat sampah non organic ya bu?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417726-338",
+			"name": "Yes you are right",
+			"text": "Iya betul sekali.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417769-496",
+			"name": "Good, now let's go home",
+			"text": "Bagus, sekarang ayo kita pulang.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417798-192",
+			"name": "You go back to grandma's house",
+			"text": "Kamu pun pulang menuju rumah nenek.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417817-503",
+			"name": "We finally arrived",
+			"text": "Akhirnya kita sampai juga",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417839-389",
+			"name": "When will you go home",
+			"text": "Kalian akan pulang kapan?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417860-900",
+			"name": "After this we will go home mom",
+			"text": "Habis ini kita langsung lanjut pulang ibu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417893-377",
+			"name": "Ohh don't stay overnight",
+			"text": "Ohh tidak menginap dulu?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417910-315",
+			"name": "No mom, because I have to go back to work tomorrow",
+			"text": "Tidak ibu, karena saya besok sudah harus Kembali bekerja.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417931-530",
+			"name": "Huhh.. why we go home so early, dad",
+			"text": "Yahh.. kok sudah pulang sih yah…",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417952-909",
+			"name": "It's okay dear. We will meet again on the next semester holiday",
+			"text": "Tidak apa-apa nak. Kita akan bertemu lagi saat liburan semester nanti",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417974-864",
+			"name": "Yeayyy, okay grandma",
+			"text": "Yeayyy, baiklah nenek.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637418006-772",
+			"name": "Mom, this is a gift that I have bought earlier, some of fruits and vegetables are also complete in the kitchen. you just cooks them, mom.",
+			"text": "Ibu ini oleh-oleh yang tadi aku beli, stok buah dan sayur juga sudah lengkap ada di dapur. Ibu tinggal masak saja.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637418024-370",
+			"name": "Thank you dear",
+			"text": "Terimakasih ya nak",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637418063-226",
+			"name": "Yes, be careful",
+			"text": "Iya hati hati dijalan.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637418087-660",
+			"name": "Goodbye grandma",
+			"text": "Dada nenek!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637418109-325",
+			"name": "Goodbye, be careful",
+			"text": "Dada, hati hati.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637418133-418",
+			"name": "You go home",
+			"text": "Kalian pun pulang ke rumah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416301-439",
+			"name": "What is that animal Grandma? it has a horns on the tip of it’s head",
+			"text": "Kalau itu hewan apa nek. Dia mempunyai tanduk di ujung kepalanya.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637416320-643",
+			"name": "It's a rhino. The one-horned rhino is an animal that is highly protected because it is threatened with extinction",
+			"text": "Itu adalah badak.  Badak bercula satu adalah hewan yang sangat di lindungi karena terancam punah.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417401-630",
+			"name": "Ok we have arrived",
+			"text": "Nah kita sudah sampai.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637417748-938",
+			"name": "Ok mom, now I understand",
+			"text": "Baik ibu, sekarang aku sudah paham",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637418043-110",
+			"name": "Ok mom then we say goodbye to go home",
+			"text": "Baik ibu kalau begitu kami pamit pulang dulu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399443-905",
+			"name": "Yes, mom",
+			"text": "Baik bu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399488-574",
+			"name": "I feel so fresh after shower.",
+			"text": "Segar sekali setelah mandi.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399465-192",
+			"name": "You go to your room and take a shower.",
+			"text": "Kamu pergi ke kamar mu dan mandi.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400206-934",
+			"name": "It's on the top of wardrobe, i can’t get it, the wardrobe is too high.",
+			"text": "Itu ada di lemari yang paling atas, aku tidak sampai untuk mengambilnya, lemarinya terlalu tinggi.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400193-451",
+			"name": "What's wrong with the clothe?",
+			"text": "Ada apa dengan bajunya?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400036-133",
+			"name": "I want to take the clothe in the wardrobe.",
+			"text": "Aku mau mengambil baju di lemari.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399603-501",
+			"name": "You come to mom.",
+			"text": "Kamu pergi menghampiri ibu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399585-265",
+			"name": "I can’t reach it because is too high. I need a help.",
+			"text": "Aku tidak sampai untuk mengambilnya karena terlalu tinggi. Aku butuh bantuan.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399566-600",
+			"name": "You try to take your clothe.",
+			"text": "Kamu berusaha mengambil bajumu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399529-416",
+			"name": "Where is my favorite clothe?",
+			"text": "Dimana ya baju favoritku?",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399546-953",
+			"name": "It is on the top of wardrobe..",
+			"text": "Ternyata ada di paling atas lemari.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637399508-250",
+			"name": "After taking a shower, you open the wardrobe.",
+			"text": "Setelah mandi, kamu membuka lemari pakaian.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637400528-833",
+			"name": "Yeayy. I will eat chicken soup right now.",
+			"text": "Wahh asik. Aku akan langsung makan sup ayamnya.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637424044-585",
+			"name": "you take a shower",
+			"text": "kamu mandi",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637424158-632",
+			"name": "You eat your mother's chicken soup right away.",
+			"text": "kamu makan sup ayam buatan ibumu segera.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637424108-470",
+			"name": "Oh, it is on the top of wardrobe",
+			"text": "oh, ternyata ada di paling atas lemari.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413871-740",
+			"name": "Ok Grandma, I will sleep.",
+			"text": "Baik nek, aku tidur dulu ya.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413588-862",
+			"name": "Ok mom.",
+			"text": "Baik bu.",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413827-363",
+			"name": "I'm really tired today",
+			"text": "Aku capek sekali hari ini",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637413787-396",
+			"name": "I have bought some fruits and vegetables, for you, grandma",
+			"text": "Beli beberapa buah dan sayur nek, untuk stok nenek.",
 			"title": "",
 			"type": 1
 		}
