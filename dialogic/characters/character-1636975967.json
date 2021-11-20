@@ -1,0 +1,60 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1636975967.json",
+	"mirror_portraits": false,
+	"name": "Michael",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "angry",
+			"path": "res://asset/character/michael/angry.png"
+		},
+		{
+			"name": "angry2",
+			"path": "res://asset/character/michael/angry2.png"
+		},
+		{
+			"name": "laugh",
+			"path": "res://asset/character/michael/laugh.png"
+		},
+		{
+			"name": "normal",
+			"path": "res://asset/character/michael/normal.png"
+		},
+		{
+			"name": "sad",
+			"path": "res://asset/character/michael/sad.png"
+		},
+		{
+			"name": "smile",
+			"path": "res://asset/character/michael/smile.png"
+		},
+		{
+			"name": "smile2",
+			"path": "res://asset/character/michael/smile2.png"
+		},
+		{
+			"name": "smile3",
+			"path": "res://asset/character/michael/smile3.png"
+		},
+		{
+			"name": "smirk",
+			"path": "res://asset/character/michael/smirk.png"
+		},
+		{
+			"name": "surprised",
+			"path": "res://asset/character/michael/surprised.png"
+		}
+	],
+	"scale": 45
+}

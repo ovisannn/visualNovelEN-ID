@@ -1,0 +1,60 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1636975904.json",
+	"mirror_portraits": false,
+	"name": "Steven",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "angry1",
+			"path": "res://asset/character/steven/angry1.png"
+		},
+		{
+			"name": "angry2",
+			"path": "res://asset/character/steven/angry2.png"
+		},
+		{
+			"name": "laugh",
+			"path": "res://asset/character/steven/laugh.png"
+		},
+		{
+			"name": "normal",
+			"path": "res://asset/character/steven/normal.png"
+		},
+		{
+			"name": "sad",
+			"path": "res://asset/character/steven/sad.png"
+		},
+		{
+			"name": "smile",
+			"path": "res://asset/character/steven/smile.png"
+		},
+		{
+			"name": "smile2",
+			"path": "res://asset/character/steven/smile2.png"
+		},
+		{
+			"name": "smile3",
+			"path": "res://asset/character/steven/smile3.png"
+		},
+		{
+			"name": "smirk",
+			"path": "res://asset/character/steven/smirk.png"
+		},
+		{
+			"name": "surprised",
+			"path": "res://asset/character/steven/surprised.png"
+		}
+	],
+	"scale": 45
+}

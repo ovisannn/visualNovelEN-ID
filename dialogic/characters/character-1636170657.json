@@ -1,0 +1,56 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "you",
+	"display_name_bool": true,
+	"id": "character-1636170657.json",
+	"mirror_portraits": false,
+	"name": "male_shirt",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "male_angry",
+			"path": "res://asset/character/mainPlayer/male/casual shirt/male_angry.png"
+		},
+		{
+			"name": "male_laugh",
+			"path": "res://asset/character/mainPlayer/male/casual shirt/male_laugh.png"
+		},
+		{
+			"name": "male_normal",
+			"path": "res://asset/character/mainPlayer/male/casual shirt/male_normal.png"
+		},
+		{
+			"name": "male_sad",
+			"path": "res://asset/character/mainPlayer/male/casual shirt/male_sad.png"
+		},
+		{
+			"name": "male_smile1",
+			"path": "res://asset/character/mainPlayer/male/casual shirt/male_smile1.png"
+		},
+		{
+			"name": "male_smile2",
+			"path": "res://asset/character/mainPlayer/male/casual shirt/male_smile2.png"
+		},
+		{
+			"name": "male_smile3",
+			"path": "res://asset/character/mainPlayer/male/casual shirt/male_smile3.png"
+		},
+		{
+			"name": "male_smirk",
+			"path": "res://asset/character/mainPlayer/male/casual shirt/male_smirk.png"
+		},
+		{
+			"name": "male_surprised",
+			"path": "res://asset/character/mainPlayer/male/casual shirt/male_surprised.png"
+		}
+	],
+	"scale": 45
+}

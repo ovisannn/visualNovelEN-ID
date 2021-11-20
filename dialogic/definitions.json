@@ -1,0 +1,34 @@
+{
+	"glossary": [
+		{
+			"extra": "",
+			"id": "1637346749-787",
+			"name": "Finally, we have passed the final exam. Happy holidays!",
+			"text": "Akhirnya, ujian akhir sudah kita lewati. Selamat berlibur!",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1637381220-957",
+			"name": "Holiday has come. I can't wait to visit grandma's house",
+			"text": "Liburan telah tiba. Aku tidak sabar pergi ke rumah nenek..",
+			"title": "",
+			"type": 1
+		}
+	],
+	"variables": [
+		{
+			"id": "1635446754-958",
+			"name": "name",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1635016061-785",
+			"name": "isMale",
+			"type": 0,
+			"value": ""
+		}
+	]
+}

@@ -1,0 +1,179 @@
+{
+	"events": [
+		{
+			"background": "res://asset/background/episode 3/pasar nenek.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1637142851.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "smile",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1637142851.json",
+			"event_id": "dialogic_001",
+			"portrait": "smile",
+			"text": "Smart kid, thank you for helping me."
+		},
+		{
+			"action": "join",
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile2",
+			"text": "You are welcome."
+		},
+		{
+			"character": "character-1637142851.json",
+			"event_id": "dialogic_001",
+			"portrait": "smiel2",
+			"text": "We have done shopping, let's go back to grandma’s house."
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "Ok mom."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"background": "res://asset/background/episode 3/ruang tamu nenek.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "I'm home."
+		},
+		{
+			"action": "join",
+			"character": "",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ahh you're home. What did you buy?"
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_normal",
+			"text": "I have bought some fruits and vegetables, for you, grandma."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh thank you."
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_sad",
+			"text": "I'm really tired today."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You can go to bed. It's also night."
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "Ok Grandma, I will sleep. Good night."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Good night."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You go to your room and sleep."
+		},
+		{
+			"change_scene": "res://scene/eps4/1.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1636552015.json",
+		"name": "day3-part2M"
+	}
+}

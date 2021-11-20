@@ -1,0 +1,72 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "mom",
+	"display_name_bool": true,
+	"id": "character-1637142851.json",
+	"mirror_portraits": false,
+	"name": "mom_ootd",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "angry",
+			"path": "res://asset/character/mom_ootd/angry.png"
+		},
+		{
+			"name": "angry2",
+			"path": "res://asset/character/mom_ootd/angry2.png"
+		},
+		{
+			"name": "annoyed",
+			"path": "res://asset/character/mom_ootd/annoyed.png"
+		},
+		{
+			"name": "delighted",
+			"path": "res://asset/character/mom_ootd/delighted.png"
+		},
+		{
+			"name": "delighted2",
+			"path": "res://asset/character/mom_ootd/delighted2.png"
+		},
+		{
+			"name": "export",
+			"path": "res://asset/character/mom_ootd/export.png"
+		},
+		{
+			"name": "o",
+			"path": "res://asset/character/mom_ootd/o.png"
+		},
+		{
+			"name": "sad",
+			"path": "res://asset/character/mom_ootd/sad.png"
+		},
+		{
+			"name": "shocked",
+			"path": "res://asset/character/mom_ootd/shocked.png"
+		},
+		{
+			"name": "smiel2",
+			"path": "res://asset/character/mom_ootd/smiel2.png"
+		},
+		{
+			"name": "smile",
+			"path": "res://asset/character/mom_ootd/smile.png"
+		},
+		{
+			"name": "smug",
+			"path": "res://asset/character/mom_ootd/smug.png"
+		},
+		{
+			"name": "smug2",
+			"path": "res://asset/character/mom_ootd/smug2.png"
+		}
+	],
+	"scale": 50
+}
