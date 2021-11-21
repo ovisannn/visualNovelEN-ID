@@ -1,0 +1,150 @@
+{
+	"events": [
+		{
+			"background": "res://asset/background/episode 1/Modern-Dormroom1.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1636170599.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "female_delighted",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636170599.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_smile2",
+			"text": "Morning world!"
+		},
+		{
+			"character": "character-1636170599.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_smug",
+			"text": "Because today is a holiday, i will help mom with house work."
+		},
+		{
+			"character": "character-1636170599.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_smile",
+			"text": "Before that I have to take a shower first."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1636170599.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh how fresh it is!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After taking shower, you get dressed quickly and go to the kitchen"
+		},
+		{
+			"background": "res://asset/background/episode 1/kitchen___visual_novel_bg_by_gin_1994_ddw44lc-fullview.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1636718646.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "female_smile2",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636718646.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_smile2",
+			"text": "Good morning mom."
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_smile",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_smile",
+			"text": "Good morning [name]"
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_delighted",
+			"text": "You're so excited this morning, what’s happened?"
+		},
+		{
+			"character": "character-1636718646.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_smile2",
+			"text": "Because today is holiday, i will help mom take care of the house work."
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_shocked",
+			"text": "You are so kind."
+		},
+		{
+			"character": "character-1636718646.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_laugh",
+			"text": "What can I do for you mom?"
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_smile2",
+			"text": "I want to cook breakfast, please help me preparing the ingredients and equipments."
+		},
+		{
+			"character": "character-1636718646.json",
+			"event_id": "dialogic_001",
+			"portrait": "female_delighted",
+			"text": "Ok mom."
+		},
+		{
+			"change_scene": "res://scene/mini games/found.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1636185439.json",
+		"name": "day2-part1F"
+	}
+}

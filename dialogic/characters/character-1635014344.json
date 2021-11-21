@@ -1,0 +1,56 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "You.",
+	"display_name_bool": true,
+	"id": "character-1635014344.json",
+	"mirror_portraits": false,
+	"name": "female",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "female_angry",
+			"path": "res://asset/character/mainPlayer/female/uniform/female_angry.png"
+		},
+		{
+			"name": "female_annoyed",
+			"path": "res://asset/character/mainPlayer/female/uniform/female_annoyed.png"
+		},
+		{
+			"name": "female_delighted",
+			"path": "res://asset/character/mainPlayer/female/uniform/female_delighted.png"
+		},
+		{
+			"name": "female_laugh",
+			"path": "res://asset/character/mainPlayer/female/uniform/female_laugh.png"
+		},
+		{
+			"name": "female_normal",
+			"path": "res://asset/character/mainPlayer/female/uniform/female_normal.png"
+		},
+		{
+			"name": "female_sad",
+			"path": "res://asset/character/mainPlayer/female/uniform/female_sad.png"
+		},
+		{
+			"name": "female_shocked",
+			"path": "res://asset/character/mainPlayer/female/uniform/female_shocked.png"
+		},
+		{
+			"name": "female_smile",
+			"path": "res://asset/character/mainPlayer/female/uniform/female_smile.png"
+		},
+		{
+			"name": "female_smug",
+			"path": "res://asset/character/mainPlayer/female/uniform/female_smug.png"
+		}
+	],
+	"scale": 47
+}

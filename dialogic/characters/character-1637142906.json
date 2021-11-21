@@ -1,0 +1,60 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "Dad.",
+	"display_name_bool": true,
+	"id": "character-1637142906.json",
+	"mirror_portraits": false,
+	"name": "dad_ootd",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "angry1",
+			"path": "res://asset/character/dad_ootd/angry1.png"
+		},
+		{
+			"name": "angry2",
+			"path": "res://asset/character/dad_ootd/angry2.png"
+		},
+		{
+			"name": "laugh",
+			"path": "res://asset/character/dad_ootd/laugh.png"
+		},
+		{
+			"name": "normal",
+			"path": "res://asset/character/dad_ootd/normal.png"
+		},
+		{
+			"name": "sad",
+			"path": "res://asset/character/dad_ootd/sad.png"
+		},
+		{
+			"name": "smile",
+			"path": "res://asset/character/dad_ootd/smile.png"
+		},
+		{
+			"name": "smile2",
+			"path": "res://asset/character/dad_ootd/smile2.png"
+		},
+		{
+			"name": "smile3",
+			"path": "res://asset/character/dad_ootd/smile3.png"
+		},
+		{
+			"name": "smirk",
+			"path": "res://asset/character/dad_ootd/smirk.png"
+		},
+		{
+			"name": "surprised",
+			"path": "res://asset/character/dad_ootd/surprised.png"
+		}
+	],
+	"scale": 52
+}

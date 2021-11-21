@@ -1,0 +1,60 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1636137135.json",
+	"mirror_portraits": false,
+	"name": "Dad.",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "dad_angry",
+			"path": "res://asset/character/dad/dad_angry.png"
+		},
+		{
+			"name": "dad_angry2",
+			"path": "res://asset/character/dad/dad_angry2.png"
+		},
+		{
+			"name": "dad_laugh",
+			"path": "res://asset/character/dad/dad_laugh.png"
+		},
+		{
+			"name": "dad_normal",
+			"path": "res://asset/character/dad/dad_normal.png"
+		},
+		{
+			"name": "dad_sad",
+			"path": "res://asset/character/dad/dad_sad.png"
+		},
+		{
+			"name": "dad_smile",
+			"path": "res://asset/character/dad/dad_smile.png"
+		},
+		{
+			"name": "dad_smile2",
+			"path": "res://asset/character/dad/dad_smile2.png"
+		},
+		{
+			"name": "dad_smile3",
+			"path": "res://asset/character/dad/dad_smile3.png"
+		},
+		{
+			"name": "dad_smirk",
+			"path": "res://asset/character/dad/dad_smirk.png"
+		},
+		{
+			"name": "dad_surprised",
+			"path": "res://asset/character/dad/dad_surprised.png"
+		}
+	],
+	"scale": 52
+}
