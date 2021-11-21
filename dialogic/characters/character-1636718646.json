@@ -1,7 +1,7 @@
 {
 	"color": "#ffffffff",
 	"description": "",
-	"display_name": "you",
+	"display_name": "You.",
 	"display_name_bool": true,
 	"id": "character-1636718646.json",
 	"mirror_portraits": false,
@@ -56,5 +56,5 @@
 			"path": "res://asset/character/mainPlayer/female/casual hoodie/female_smug.png"
 		}
 	],
-	"scale": 100
+	"scale": 47
 }

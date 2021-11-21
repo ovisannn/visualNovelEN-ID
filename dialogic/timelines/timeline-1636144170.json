@@ -21,8 +21,8 @@
 			"mirror": false,
 			"portrait": "female_normal",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
@@ -84,8 +84,8 @@
 			"mirror": false,
 			"portrait": "female_normal",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
@@ -107,8 +107,8 @@
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": true,
-				"4": false
+				"3": false,
+				"4": true
 			}
 		},
 		{
@@ -125,6 +125,10 @@
 			],
 			"portrait": "female_normal",
 			"question": "ummm..."
+		},
+		{
+			"emit_signal": "choice",
+			"event_id": "dialogic_040"
 		},
 		{
 			"choice": "I want to take the clothe in the wardrobe.",
@@ -258,8 +262,8 @@
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": true,
-				"4": false
+				"3": false,
+				"4": true
 			}
 		},
 		{
@@ -275,8 +279,8 @@
 			"mirror": false,
 			"portrait": "female_normal",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false

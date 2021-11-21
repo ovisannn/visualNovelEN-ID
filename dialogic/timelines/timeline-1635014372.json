@@ -30,8 +30,8 @@
 			"portrait": "male_normal",
 			"position": {
 				"0": false,
-				"1": true,
-				"2": false,
+				"1": false,
+				"2": true,
 				"3": false,
 				"4": false
 			}
@@ -59,8 +59,8 @@
 			"portrait": "female_smug",
 			"position": {
 				"0": false,
-				"1": true,
-				"2": false,
+				"1": false,
+				"2": true,
 				"3": false,
 				"4": false
 			}
@@ -114,9 +114,9 @@
 			}
 		},
 		{
-			"character": "character-1635014344.json",
+			"character": "character-1635014215.json",
 			"event_id": "dialogic_001",
-			"portrait": "female_laugh",
+			"portrait": "male_laugh",
 			"text": "Dad, Mom, I'm Home!"
 		},
 		{
@@ -128,9 +128,9 @@
 			"position": {
 				"0": false,
 				"1": false,
-				"2": true,
+				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			}
 		},
 		{
@@ -164,6 +164,11 @@
 			"text": "Wow, a great idea. Dad, What do you think?"
 		},
 		{
+			"action": "leaveall",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_003"
+		},
+		{
 			"action": "join",
 			"character": "character-1636137135.json",
 			"event_id": "dialogic_002",
@@ -188,6 +193,25 @@
 			"event_id": "dialogic_001",
 			"portrait": "male_smile2",
 			"text": "Yeay, I'm going to meet grandma. And go to the zoo with her."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
 		},
 		{
 			"character": "character-1635560234.json",
@@ -239,9 +263,9 @@
 			"position": {
 				"0": false,
 				"1": false,
-				"2": true,
+				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			}
 		},
 		{
@@ -275,6 +299,11 @@
 			"text": "Wow, a great idea. Dad, What do you think?"
 		},
 		{
+			"action": "leaveall",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_003"
+		},
+		{
 			"action": "join",
 			"character": "character-1636137135.json",
 			"event_id": "dialogic_002",
@@ -299,6 +328,25 @@
 			"event_id": "dialogic_001",
 			"portrait": "female_delighted",
 			"text": "Yeay, I'm going to meet grandma. And go to the zoo with her."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
 		},
 		{
 			"character": "character-1635560234.json",

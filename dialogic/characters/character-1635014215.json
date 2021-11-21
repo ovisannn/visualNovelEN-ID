@@ -1,7 +1,7 @@
 {
 	"color": "#ffffffff",
 	"description": "",
-	"display_name": "you",
+	"display_name": "You.",
 	"display_name_bool": true,
 	"id": "character-1635014215.json",
 	"mirror_portraits": false,
@@ -56,5 +56,5 @@
 			"path": "res://asset/character/mainPlayer/male/uniform/male_surprised.png"
 		}
 	],
-	"scale": 55
+	"scale": 45
 }

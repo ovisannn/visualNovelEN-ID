@@ -5,7 +5,7 @@ onready var gameLoad = $loadGameStat
 func _ready():
 	
 	#loadGameProperty(person)
-	var person = gameLoad.loadGame()
+	var person = gameLoad.resLoadGame()
 	gameLoad.loadGameProperty(person)
 	
 	#dialog initiate

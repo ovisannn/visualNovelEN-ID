@@ -8,7 +8,7 @@
 			"character": "character-1635557509.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": ""
+			"text": "..."
 		},
 		{
 			"background": "res://asset/background/episode 1/Modern-Dormroom1.png",
@@ -16,7 +16,7 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1636718646.json",
+			"character": "character-1636170599.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
 			"portrait": "female_normal",
@@ -29,7 +29,7 @@
 			}
 		},
 		{
-			"character": "character-1636718646.json",
+			"character": "character-1636170599.json",
 			"event_id": "dialogic_001",
 			"portrait": "female_smile",
 			"text": "Ahh it's morning, i have to take a shower quickly and get ready."
@@ -96,79 +96,79 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "male_normal",
+			"portrait": "female_normal",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
 			}
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_smile1",
+			"portrait": "female_smile",
 			"text": "Dad, i am ready. I have prepared it myself!"
 		},
 		{
 			"action": "join",
-			"character": "character-1636137135.json",
+			"character": "character-1637142906.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "dad_normal",
+			"portrait": "normal",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": true,
-				"4": false
+				"3": false,
+				"4": true
 			}
 		},
 		{
-			"character": "character-1636137135.json",
+			"character": "character-1637142906.json",
 			"event_id": "dialogic_001",
-			"portrait": "dad_surprised",
+			"portrait": "surprised",
 			"text": "Wow that's great!"
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_smile2",
+			"portrait": "female_smile2",
 			"text": "Thank you dad."
 		},
 		{
 			"action": "leaveall",
-			"character": "character-1636137135.json",
+			"character": "character-1637142906.json",
 			"event_id": "dialogic_003"
 		},
 		{
 			"action": "join",
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "mom_normal",
+			"portrait": "smile",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": true,
-				"4": false
+				"3": false,
+				"4": true
 			}
 		},
 		{
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "mom_smile2",
+			"portrait": "smiel2",
 			"text": "Before leaving, let's we have a breakfast first."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_smile3",
+			"portrait": "female_delighted",
 			"text": "Okay mom."
 		},
 		{
@@ -192,42 +192,42 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "male_normal",
+			"portrait": "female_normal",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
 			}
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_smile1",
+			"portrait": "female_normal",
 			"text": "Dad, how long does it take to get to grandma's house?"
 		},
 		{
 			"action": "join",
-			"character": "character-1636137135.json",
+			"character": "character-1637142906.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "dad_normal",
+			"portrait": "normal",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": true,
-				"4": false
+				"3": false,
+				"4": true
 			}
 		},
 		{
-			"character": "character-1636137135.json",
+			"character": "character-1637142906.json",
 			"event_id": "dialogic_001",
-			"portrait": "dad_smile",
+			"portrait": "smile",
 			"text": "The trip to grandma's house is about 6 hours. We will arrive in the afternoon. Hopefully it doesn't get stuck in traffic."
 		},
 		{
@@ -243,48 +243,48 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "male_normal",
+			"portrait": "female_normal",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
 			}
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_surprised",
+			"portrait": "female_shocked",
 			"text": "Dad, what car is that? very nice shape."
 		},
 		{
 			"action": "join",
-			"character": "character-1636137135.json",
+			"character": "character-1637142906.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "dad_normal",
+			"portrait": "normal",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": true,
-				"4": false
+				"3": false,
+				"4": true
 			}
 		},
 		{
-			"character": "character-1636137135.json",
+			"character": "character-1637142906.json",
 			"event_id": "dialogic_001",
-			"portrait": "dad_smile",
+			"portrait": "smile",
 			"text": "It's an electric car. The car needs electricity to run, so it doesn't need petrol anymore."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_smile3",
+			"portrait": "female_delighted",
 			"text": "Wow, that's really cool. I want to have an electric car someday."
 		},
 		{
@@ -308,42 +308,42 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1636137135.json",
+			"character": "character-1637142906.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "dad_normal",
+			"portrait": "normal",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": true,
-				"4": false
+				"3": false,
+				"4": true
 			}
 		},
 		{
-			"character": "character-1636137135.json",
+			"character": "character-1637142906.json",
 			"event_id": "dialogic_001",
-			"portrait": "dad_smile",
+			"portrait": "smile3",
 			"text": "Well we have arrived."
 		},
 		{
 			"action": "join",
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "male_normal",
+			"portrait": "female_normal",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
 			}
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_surprised",
+			"portrait": "female_delighted",
 			"text": "Wow we have arrived."
 		},
 		{
@@ -359,32 +359,12 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "male_normal",
+			"portrait": "female_normal",
 			"position": {
-				"0": false,
-				"1": true,
-				"2": false,
-				"3": false,
-				"4": false
-			}
-		},
-		{
-			"character": "character-1636170657.json",
-			"event_id": "dialogic_001",
-			"portrait": "male_smile1",
-			"text": "Grandma grandma!"
-		},
-		{
-			"action": "join",
-			"character": "",
-			"event_id": "dialogic_002",
-			"mirror": false,
-			"portrait": "",
-			"position": {
-				"0": false,
+				"0": true,
 				"1": false,
 				"2": false,
 				"3": false,
@@ -392,31 +372,55 @@
 			}
 		},
 		{
-			"character": "",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "female_smile",
+			"text": "Grandma grandma!"
+		},
+		{
+			"action": "join",
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_001",
+			"portrait": "smile2",
 			"text": "Oh my dear grandchild. Long time no see."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_smile1",
+			"portrait": "female_smile",
 			"text": "Yes grandma, I miss you, grandma."
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "smile",
 			"text": "How are you?"
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
-			"portrait": "",
+			"portrait": "female_normal",
 			"question": "..."
+		},
+		{
+			"emit_signal": "choice",
+			"event_id": "dialogic_040"
 		},
 		{
 			"choice": "I'm fine. How about you, grandma?",
@@ -426,9 +430,9 @@
 			"value": ""
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "delighted",
 			"text": "Grandma is fine too. Thanks my Godness."
 		},
 		{
@@ -439,36 +443,36 @@
 			"value": ""
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "shocked",
 			"text": "What happened?"
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_sad",
+			"portrait": "female_sad",
 			"text": "My score exams wasn't good."
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "delighted",
 			"text": "It's okay dear. You have to study harder than before."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_smile2",
+			"portrait": "female_smile2",
 			"text": "Ok grandma, i will study hard."
 		},
 		{
 			"event_id": "dialogic_013"
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "delighted2",
 			"text": "Come in!"
 		},
 		{
@@ -477,17 +481,27 @@
 			"event_id": "dialogic_003"
 		},
 		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
 			"background": "res://asset/background/episode 3/ruang tamu nenek.jpg",
 			"event_id": "dialogic_021"
 		},
 		{
 			"action": "join",
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "",
+			"portrait": "normal",
 			"position": {
-				"0": false,
+				"0": true,
 				"1": false,
 				"2": false,
 				"3": false,
@@ -495,35 +509,35 @@
 			}
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "normal",
 			"text": "How was your trip?"
 		},
 		{
 			"action": "join",
-			"character": "character-1636137135.json",
+			"character": "character-1637142906.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "dad_normal",
+			"portrait": "normal",
 			"position": {
 				"0": false,
-				"1": true,
+				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			}
 		},
 		{
-			"character": "character-1636137135.json",
+			"character": "character-1637142906.json",
 			"event_id": "dialogic_001",
-			"portrait": "dad_smile",
+			"portrait": "smile",
 			"text": "The road is not too busy, so we can quickly get here mom."
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "delighted2",
 			"text": "Thanks my Godness."
 		},
 		{
@@ -533,60 +547,60 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "male_normal",
+			"portrait": "female_normal",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
 			}
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_sad",
+			"portrait": "female_sad",
 			"text": "Long trip makes me very tired."
 		},
 		{
 			"action": "join",
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "mom_normal",
+			"portrait": "smile",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": true,
-				"4": false
+				"3": false,
+				"4": true
 			}
 		},
 		{
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "mom_smile2",
+			"portrait": "smiel2",
 			"text": "Before that, let's go to the market to buy some fruits and vegetables. Before night."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_normal",
+			"portrait": "female_normal",
 			"text": "How about you, dad?"
 		},
 		{
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "mom_smile2",
+			"portrait": "smiel2",
 			"text": "Let your dad takes a rest after driving."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_smile3",
+			"portrait": "female_delighted",
 			"text": "Ok mom."
 		},
 		{
@@ -606,49 +620,53 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "male_normal",
+			"portrait": "female_normal",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
 			}
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_normal",
+			"portrait": "female_normal",
 			"text": "Mom, what do you want to buy?"
 		},
 		{
 			"action": "join",
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "mom_normal",
+			"portrait": "smile",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": true,
-				"4": false
+				"3": false,
+				"4": true
 			}
 		},
 		{
-			"character": "character-1635560234.json",
+			"character": "character-1637142851.json",
 			"event_id": "dialogic_001",
-			"portrait": "mom_delighted",
+			"portrait": "delighted",
 			"text": "I want to buy some fruits and vegetables for grandma. Help me count it."
 		},
 		{
-			"character": "character-1636170657.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "male_smile3",
+			"portrait": "female_delighted",
 			"text": "Ok mom."
+		},
+		{
+			"change_scene": "res://scene/mini games/grosseries.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

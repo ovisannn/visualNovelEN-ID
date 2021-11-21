@@ -1,7 +1,7 @@
 {
 	"color": "#ffffffff",
 	"description": "",
-	"display_name": "mom",
+	"display_name": "Mom.",
 	"display_name_bool": true,
 	"id": "character-1635560234.json",
 	"mirror_portraits": false,
@@ -56,5 +56,5 @@
 			"path": "res://asset/character/mom/mom_smug2.png"
 		}
 	],
-	"scale": 60
+	"scale": 50
 }
