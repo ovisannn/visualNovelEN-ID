@@ -1,0 +1,220 @@
+[gd_scene load_steps=22 format=2]
+
+[ext_resource path="res://asset/background/episode 4/parkiran.png" type="Texture" id=1]
+[ext_resource path="res://scene/mini games/garbageGames.gd" type="Script" id=2]
+[ext_resource path="res://asset/minigames3/sampah hijau.png" type="Texture" id=3]
+[ext_resource path="res://asset/minigames3/sampah merah.png" type="Texture" id=4]
+[ext_resource path="res://asset/UI/board.png" type="Texture" id=5]
+[ext_resource path="res://asset/fonts/Poppins-Medium.ttf" type="DynamicFontData" id=6]
+[ext_resource path="res://asset/UI/dialogue.png" type="Texture" id=7]
+[ext_resource path="res://asset/UI/choice3.png" type="Texture" id=8]
+[ext_resource path="res://asset/UI/choice2.png" type="Texture" id=9]
+[ext_resource path="res://scene/mini games/garbageObject.tscn" type="PackedScene" id=10]
+[ext_resource path="res://asset/minigames3/botol.png" type="Texture" id=11]
+[ext_resource path="res://asset/minigames3/gedang.png" type="Texture" id=12]
+[ext_resource path="res://asset/minigames3/kaleng.png" type="Texture" id=13]
+[ext_resource path="res://asset/minigames3/kaleng 3.png" type="Texture" id=14]
+[ext_resource path="res://asset/minigames3/kardus.png" type="Texture" id=15]
+[ext_resource path="res://asset/minigames3/apel.png" type="Texture" id=16]
+[ext_resource path="res://asset/minigames3/daun.png" type="Texture" id=17]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 59.625, 87.25 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 31
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 24
+font_data = ExtResource( 6 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 49, 89 )
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Parkiran" type="Sprite" parent="."]
+position = Vector2( 645, 362 )
+scale = Vector2( 0.945313, 0.945313 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="sampah merah" type="Node2D" parent="."]
+position = Vector2( 16, 56 )
+
+[node name="Board" type="Sprite" parent="sampah merah"]
+position = Vector2( 824, 280 )
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TempatSampah" type="Sprite" parent="sampah merah/Board"]
+position = Vector2( -2, -1.00006 )
+scale = Vector2( 0.34633, 0.34633 )
+texture = ExtResource( 4 )
+
+[node name="anorganicPlace" type="Area2D" parent="sampah merah"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="sampah merah/anorganicPlace"]
+position = Vector2( 823.25, 272.75 )
+shape = SubResource( 1 )
+
+[node name="label" type="Sprite" parent="sampah merah"]
+position = Vector2( 826, 137 )
+scale = Vector2( 0.652381, 0.652381 )
+texture = ExtResource( 8 )
+
+[node name="Label" type="Label" parent="sampah merah/label"]
+margin_left = -76.6423
+margin_top = -26.0584
+margin_right = 85.3577
+margin_bottom = 17.9416
+custom_fonts/font = SubResource( 3 )
+text = "Anorganic"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="sampah hijau" type="Node2D" parent="."]
+position = Vector2( -384, 56 )
+
+[node name="Board" type="Sprite" parent="sampah hijau"]
+position = Vector2( 824, 280 )
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TempatSampah" type="Sprite" parent="sampah hijau/Board"]
+position = Vector2( -2, -1.00006 )
+scale = Vector2( 0.34633, 0.34633 )
+texture = ExtResource( 3 )
+
+[node name="organicPlace" type="Area2D" parent="sampah hijau"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="sampah hijau/organicPlace"]
+position = Vector2( 820.375, 277.5 )
+shape = SubResource( 1 )
+
+[node name="label" type="Sprite" parent="sampah hijau"]
+position = Vector2( 826, 137 )
+scale = Vector2( 0.652381, 0.652381 )
+texture = ExtResource( 8 )
+
+[node name="Label" type="Label" parent="sampah hijau/label"]
+margin_left = -76.6423
+margin_top = -26.0584
+margin_right = 85.3577
+margin_bottom = 17.9416
+custom_fonts/font = SubResource( 3 )
+text = "Organic"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="mainGameTimer" type="Timer" parent="."]
+wait_time = 60.0
+
+[node name="spawnGarbageTimer" type="Timer" parent="."]
+
+[node name="instruction" type="Node2D" parent="."]
+position = Vector2( -27, 7 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Dialogue" type="Sprite" parent="instruction"]
+position = Vector2( 656, 57 )
+scale = Vector2( 0.670588, 0.535294 )
+texture = ExtResource( 7 )
+
+[node name="Label" type="Label" parent="instruction"]
+margin_left = 443.0
+margin_top = 38.0
+margin_right = 870.0
+margin_bottom = 73.0
+custom_fonts/font = SubResource( 2 )
+text = "Throw garbage in its place!"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="garbage line" type="Sprite" parent="."]
+position = Vector2( 640, 632 )
+scale = Vector2( 6.00934, 1.18571 )
+texture = ExtResource( 9 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="wall" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wall"]
+position = Vector2( 1320, 616 )
+shape = SubResource( 5 )
+
+[node name="garbages" type="Node2D" parent="."]
+
+[node name="garbageObject" parent="garbages" instance=ExtResource( 10 )]
+position = Vector2( 864, 624 )
+garbageType = 1
+spriteType = ExtResource( 11 )
+
+[node name="garbageObject2" parent="garbages" instance=ExtResource( 10 )]
+position = Vector2( 980, 624 )
+garbageType = 1
+spriteType = ExtResource( 14 )
+
+[node name="garbageObject3" parent="garbages" instance=ExtResource( 10 )]
+position = Vector2( 1096, 624 )
+garbageType = 2
+spriteType = ExtResource( 16 )
+
+[node name="garbageObject4" parent="garbages" instance=ExtResource( 10 )]
+position = Vector2( 1208, 624 )
+garbageType = 2
+spriteType = ExtResource( 17 )
+
+[node name="garbageObject5" parent="garbages" instance=ExtResource( 10 )]
+position = Vector2( 408, 624 )
+garbageType = 2
+spriteType = ExtResource( 16 )
+
+[node name="garbageObject6" parent="garbages" instance=ExtResource( 10 )]
+position = Vector2( 524, 624 )
+garbageType = 1
+spriteType = ExtResource( 14 )
+
+[node name="garbageObject7" parent="garbages" instance=ExtResource( 10 )]
+position = Vector2( 640, 624 )
+garbageType = 1
+spriteType = ExtResource( 13 )
+
+[node name="garbageObject8" parent="garbages" instance=ExtResource( 10 )]
+position = Vector2( 752, 624 )
+garbageType = 2
+spriteType = ExtResource( 12 )
+
+[node name="garbageObject10" parent="garbages" instance=ExtResource( 10 )]
+position = Vector2( 68, 624 )
+garbageType = 1
+spriteType = ExtResource( 14 )
+
+[node name="garbageObject11" parent="garbages" instance=ExtResource( 10 )]
+position = Vector2( 184, 624 )
+garbageType = 1
+spriteType = ExtResource( 15 )
+
+[node name="garbageObject12" parent="garbages" instance=ExtResource( 10 )]
+position = Vector2( 296, 624 )
+garbageType = 2
+spriteType = ExtResource( 12 )
+
+[connection signal="timeout" from="mainGameTimer" to="." method="_on_mainGameTimer_timeout"]

@@ -1,0 +1,60 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://scene/eps2/2.gd" type="Script" id=1]
+[ext_resource path="res://scene/oftenUsedScn/loadGameStat.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scene/oftenUsedScn/next button.tscn" type="PackedScene" id=3]
+[ext_resource path="res://asset/stevan/ps5.png" type="Texture" id=4]
+[ext_resource path="res://asset/stevan/vr.png" type="Texture" id=5]
+[ext_resource path="res://asset/stevan/tablet.png" type="Texture" id=6]
+[ext_resource path="res://asset/UI/board.png" type="Texture" id=7]
+[ext_resource path="res://asset/stevan/smartphone.png" type="Texture" id=8]
+
+[node name="eps2part2" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="next button" parent="." instance=ExtResource( 3 )]
+
+[node name="loadGameStat" parent="." instance=ExtResource( 2 )]
+
+[node name="imgPop" type="CanvasLayer" parent="."]
+layer = 11
+
+[node name="tabletPhone" type="Sprite" parent="imgPop"]
+visible = false
+position = Vector2( 656, 296 )
+texture = ExtResource( 7 )
+
+[node name="sprite" type="Sprite" parent="imgPop/tabletPhone"]
+position = Vector2( 4, 7.00012 )
+scale = Vector2( 0.17549, 0.17549 )
+texture = ExtResource( 6 )
+
+[node name="smartPhone" type="Sprite" parent="imgPop"]
+visible = false
+position = Vector2( 656, 296 )
+texture = ExtResource( 7 )
+
+[node name="sprite" type="Sprite" parent="imgPop/smartPhone"]
+rotation = 0.309511
+scale = Vector2( 0.249563, 0.249563 )
+texture = ExtResource( 8 )
+
+[node name="ps5" type="Sprite" parent="imgPop"]
+visible = false
+position = Vector2( 656, 296 )
+texture = ExtResource( 7 )
+
+[node name="sprite" type="Sprite" parent="imgPop/ps5"]
+position = Vector2( -1, -9 )
+scale = Vector2( 0.195978, 0.195978 )
+texture = ExtResource( 4 )
+
+[node name="vrHeadset" type="Sprite" parent="imgPop"]
+visible = false
+position = Vector2( 656, 296 )
+texture = ExtResource( 7 )
+
+[node name="sprite" type="Sprite" parent="imgPop/vrHeadset"]
+position = Vector2( -18.3804, 4.91697 )
+scale = Vector2( 0.218249, 0.218249 )
+texture = ExtResource( 5 )

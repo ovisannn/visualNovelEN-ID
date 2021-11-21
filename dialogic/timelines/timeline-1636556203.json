@@ -1,0 +1,564 @@
+{
+	"events": [
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "Ahh it's morning, i have to take a shower quickly."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You take a shower quickly."
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After taking a shower, you go out of the bedroom."
+		},
+		{
+			"background": "res://asset/background/episode 3/ruang tamu nenek.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "Good morning everyone."
+		},
+		{
+			"action": "join",
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_001",
+			"portrait": "delighted2",
+			"text": "Good morning"
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_normal",
+			"text": "Dad, where are we going today?"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "dad_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_001",
+			"portrait": "dad_smile",
+			"text": "Dad it's up to you, where do you want to go?"
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "Hmmm, where are we going?"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_001",
+			"portrait": "smile",
+			"text": "How about going to the zoo near here?"
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "Zoo? Wow that is a great idea grandma! Come on dad. let's go to the zoo."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "mom_normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1635560234.json",
+			"event_id": "dialogic_001",
+			"portrait": "mom_smile",
+			"text": "Before leaving, let's we have breakfast. Mom has cooked the vegetables we have bought yesterday at the market."
+		},
+		{
+			"character": "character-1636170657.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "Ok mom."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After having a breakfast, you and your family go to the zoo."
+		},
+		{
+			"background": "res://asset/background/episode 3/mobil.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_normal",
+			"text": "Grandma, is the zoo far away?"
+		},
+		{
+			"action": "join",
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_001",
+			"portrait": "normal",
+			"text": "No, the zoo is near. It only takes a few minutes to arrive there."
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile2",
+			"text": "I can't wait to see a lots of animals!"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "On the way, you see an object flying in the middle of the road."
+		},
+		{
+			"action": "join",
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_surprised",
+			"text": "Dad, look! what's that flying object?"
+		},
+		{
+			"action": "join",
+			"character": "character-1637142906.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"emit_signal": "drone",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1637142906.json",
+			"event_id": "dialogic_001",
+			"portrait": "smile",
+			"text": "It’s a Drone. People use it to monitor traffic and weather."
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_surprised",
+			"text": "Wow, that's great…"
+		},
+		{
+			"emit_signal": "close",
+			"event_id": "dialogic_040"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Soon, you've arrived at the zoo."
+		},
+		{
+			"action": "join",
+			"character": "character-1637142906.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1637142906.json",
+			"event_id": "dialogic_001",
+			"portrait": "smile",
+			"text": "We have arrived, let's go out from the car."
+		},
+		{
+			"action": "join",
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile3",
+			"text": "Yeay, we have arrived."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"background": "res://asset/background/episode 4/kebun zoo.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"action": "join",
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_surprised",
+			"text": "Wow there are so many animals here."
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "What is that animal Grandma? It is so tall."
+		},
+		{
+			"action": "join",
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"emit_signal": "giraffe",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_001",
+			"portrait": "smile",
+			"text": "It's a giraffe, the giraffe has a very long neck."
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_surprised",
+			"text": "Wow, that's so high."
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "What is that animal Grandma? it has spots on it’s body."
+		},
+		{
+			"emit_signal": "close",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "cheetah",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_001",
+			"portrait": "delighted2",
+			"text": "It's a cheetah, the cheetah is one of the fastest animals in the world. Cheetah can run at a speed of 103km/h"
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_surprised",
+			"text": "Wow, that's so fast, grandma."
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "What is that animal Grandma? it has a horns on the tip of it’s head."
+		},
+		{
+			"emit_signal": "close",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "rhino",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_001",
+			"portrait": "smile",
+			"text": "It's a rhino. The one-horned rhino is an animal that is highly protected because it is threatened with extinction."
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_sad",
+			"text": "It is a pity, we have to protect rhino from the extinction."
+		},
+		{
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_001",
+			"portrait": "delighted2",
+			"text": "That's right."
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile1",
+			"text": "What is that animal grandma? The color is unique."
+		},
+		{
+			"emit_signal": "close",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "zebra",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_001",
+			"portrait": "delighted",
+			"text": "It's a zebra. Zebras have black and white stripes."
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_smile2",
+			"text": "They are very funny, like a zebra cross."
+		},
+		{
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_001",
+			"portrait": "delighted2",
+			"text": "That's why the pedestrian crossing is called a Zebra Cross. Because the color is like a zebra."
+		},
+		{
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_001",
+			"portrait": "male_surprised",
+			"text": "Wow, I have just known it, Grandma."
+		},
+		{
+			"emit_signal": "close",
+			"event_id": "dialogic_040"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"background": "res://asset/background/episode 1/black.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1635557509.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You are continue to go around the zoo with your family until the afternoon."
+		},
+		{
+			"change_scene": "res://scene/eps4/2.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1636556203.json",
+		"name": "day4-part1M"
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "You.",
+	"display_name_bool": true,
+	"id": "character-1635014215.json",
+	"mirror_portraits": false,
+	"name": "male",
+	"nickname": "[name]",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "male_angry1",
+			"path": "res://asset/character/mainPlayer/male/uniform/male_angry1.png"
+		},
+		{
+			"name": "male_angry2",
+			"path": "res://asset/character/mainPlayer/male/uniform/male_angry2.png"
+		},
+		{
+			"name": "male_laugh",
+			"path": "res://asset/character/mainPlayer/male/uniform/male_laugh.png"
+		},
+		{
+			"name": "male_normal",
+			"path": "res://asset/character/mainPlayer/male/uniform/male_normal.png"
+		},
+		{
+			"name": "male_sad",
+			"path": "res://asset/character/mainPlayer/male/uniform/male_sad.png"
+		},
+		{
+			"name": "male_smile1",
+			"path": "res://asset/character/mainPlayer/male/uniform/male_smile1.png"
+		},
+		{
+			"name": "male_smile2",
+			"path": "res://asset/character/mainPlayer/male/uniform/male_smile2.png"
+		},
+		{
+			"name": "male_smile3",
+			"path": "res://asset/character/mainPlayer/male/uniform/male_smile3.png"
+		},
+		{
+			"name": "male_smirk",
+			"path": "res://asset/character/mainPlayer/male/uniform/male_smirk.png"
+		},
+		{
+			"name": "male_surprised",
+			"path": "res://asset/character/mainPlayer/male/uniform/male_surprised.png"
+		}
+	],
+	"scale": 45
+}

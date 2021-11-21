@@ -1,0 +1,68 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1637441825.json",
+	"mirror_portraits": false,
+	"name": "Grandma.",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "angry1",
+			"path": "res://asset/character/grandma/angry1.png"
+		},
+		{
+			"name": "angry2",
+			"path": "res://asset/character/grandma/angry2.png"
+		},
+		{
+			"name": "annoyed",
+			"path": "res://asset/character/grandma/annoyed.png"
+		},
+		{
+			"name": "delighted",
+			"path": "res://asset/character/grandma/delighted.png"
+		},
+		{
+			"name": "delighted2",
+			"path": "res://asset/character/grandma/delighted2.png"
+		},
+		{
+			"name": "normal",
+			"path": "res://asset/character/grandma/normal.png"
+		},
+		{
+			"name": "sad",
+			"path": "res://asset/character/grandma/sad.png"
+		},
+		{
+			"name": "shocked",
+			"path": "res://asset/character/grandma/shocked.png"
+		},
+		{
+			"name": "smile",
+			"path": "res://asset/character/grandma/smile.png"
+		},
+		{
+			"name": "smile2",
+			"path": "res://asset/character/grandma/smile2.png"
+		},
+		{
+			"name": "smug",
+			"path": "res://asset/character/grandma/smug.png"
+		},
+		{
+			"name": "smug2",
+			"path": "res://asset/character/grandma/smug2.png"
+		}
+	],
+	"scale": 48
+}
