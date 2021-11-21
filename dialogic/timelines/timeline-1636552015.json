@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://asset/background/episode 3/pasar nenek.jpg",
+			"background": "res://asset/background/episode 3/pasar nenek.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -97,22 +97,22 @@
 		},
 		{
 			"action": "join",
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "",
+			"portrait": "normal",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			}
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "normal",
 			"text": "Ahh you're home. What did you buy?"
 		},
 		{
@@ -122,9 +122,9 @@
 			"text": "I have bought some fruits and vegetables, for you, grandma."
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "delighted",
 			"text": "Oh thank you."
 		},
 		{
@@ -134,9 +134,9 @@
 			"text": "I'm really tired today."
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "smile2",
 			"text": "You can go to bed. It's also night."
 		},
 		{
@@ -146,9 +146,9 @@
 			"text": "Ok Grandma, I will sleep. Good night."
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "smile2",
 			"text": "Good night."
 		},
 		{

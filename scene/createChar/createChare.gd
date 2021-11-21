@@ -9,7 +9,7 @@ export(Script) var gameSaveClass
 export var charStat = {
 	"name" : "",
 	"gender":"",
-	"episode": 0,
+	"episode": 1,
 }
 
 
@@ -80,7 +80,7 @@ func _on_femaleButton_toggled(button_pressed):
 
 
 func _on_yes_pressed():
-	get_tree().change_scene("res://scene/eps1/1.tscn")
+	get_tree().change_scene("res://scene/episode select.tscn")
 
 
 func _on_no_pressed():

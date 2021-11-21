@@ -23,7 +23,8 @@
 				"character-1637142250.json",
 				"character-1637142623.json",
 				"character-1637142851.json",
-				"character-1637142906.json"
+				"character-1637142906.json",
+				"character-1637441825.json"
 			],
 			"folders": {
 
@@ -263,7 +264,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"episode4": {

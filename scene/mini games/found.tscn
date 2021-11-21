@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=34 format=2]
 
 [ext_resource path="res://asset/background/episode 1/kitchen___visual_novel_bg_by_gin_1994_ddw44lc-fullview.jpg" type="Texture" id=1]
 [ext_resource path="res://asset/minigames1/piring.png" type="Texture" id=2]
@@ -11,6 +11,12 @@
 [ext_resource path="res://asset/UI/hint.png" type="Texture" id=9]
 [ext_resource path="res://asset/UI/board long.png" type="Texture" id=10]
 [ext_resource path="res://asset/fonts/Poppins-Medium.ttf" type="DynamicFontData" id=11]
+[ext_resource path="res://asset/UI/dialogue.png" type="Texture" id=12]
+[ext_resource path="res://asset/minigames1/pisau.png" type="Texture" id=13]
+
+[sub_resource type="DynamicFont" id=16]
+size = 24
+font_data = ExtResource( 11 )
 
 [sub_resource type="Animation" id=9]
 length = 0.001
@@ -534,6 +540,93 @@ tracks/3/keys = {
 "times": PoolRealArray( -0.1, 1 )
 }
 
+[sub_resource type="Animation" id=19]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("Pisau:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( 55, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("Pisau:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 26, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/2/type = "bezier"
+tracks/2/path = NodePath("Pisau:scale:x")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"points": PoolRealArray( 0.0424424, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/3/type = "bezier"
+tracks/3/path = NodePath("Pisau:scale:y")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"points": PoolRealArray( 0.0467127, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+
+[sub_resource type="Animation" id=20]
+resource_name = "true"
+length = 1.5
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("Pisau:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( 55, -0.25, 0, 0.25, 0, -304, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("Pisau:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 26, -0.25, 0, 0.25, 0, 112, -0.25, 0, 0.25, 0, 480, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1, 1.5 )
+}
+tracks/2/type = "bezier"
+tracks/2/path = NodePath("Pisau:scale:x")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"points": PoolRealArray( 0.0424424, -0.25, 0, 0.25, 0, 0.204877, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/3/type = "bezier"
+tracks/3/path = NodePath("Pisau:scale:y")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"points": PoolRealArray( 0.0467127, -0.25, 0, 0.25, 0, 0.219435, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+
 [sub_resource type="DynamicFont" id=6]
 size = 20
 font_data = ExtResource( 11 )
@@ -541,22 +634,12 @@ font_data = ExtResource( 11 )
 [sub_resource type="Animation" id=7]
 length = 0.001
 tracks/0/type = "bezier"
-tracks/0/path = NodePath("BoardLong:position:x")
+tracks/0/path = NodePath("BoardLong:position:y")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"points": PoolRealArray( 712, -0.25, 0, 0.25, 0 ),
-"times": PoolRealArray( 0 )
-}
-tracks/1/type = "bezier"
-tracks/1/path = NodePath("BoardLong:position:y")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
 "points": PoolRealArray( 368, -0.25, 0, 0.25, 0 ),
 "times": PoolRealArray( 0 )
 }
@@ -575,15 +658,66 @@ tracks/0/keys = {
 "times": PoolRealArray( 0, 0.5, 1.3, 2 )
 }
 
+[sub_resource type="Animation" id=17]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("board2:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=18]
+resource_name = "intro"
+length = 0.5
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("board2:position:y")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( -152, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0.1, 0.5 )
+}
+
 [node name="founding" type="Node2D"]
 script = ExtResource( 8 )
 
-[node name="KitchenVisualNovelBgByGin1994Ddw44Lc-fullview" type="Sprite" parent="."]
+[node name="wallpaper" type="Sprite" parent="."]
 position = Vector2( 640, 356.5 )
 scale = Vector2( 1.42222, 1.42095 )
 texture = ExtResource( 1 )
 __meta__ = {
 "_edit_lock_": true
+}
+
+[node name="board2" type="Node2D" parent="."]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Dialogue" type="Sprite" parent="board2"]
+position = Vector2( 672, 64 )
+scale = Vector2( 0.670588, 0.535294 )
+texture = ExtResource( 12 )
+
+[node name="Label" type="Label" parent="board2"]
+margin_left = 456.0
+margin_top = 48.0
+margin_right = 883.0
+margin_bottom = 83.0
+custom_fonts/font = SubResource( 16 )
+text = "Help mom finding what she needs!"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
 }
 
 [node name="buttonCaos" type="Button" parent="."]
@@ -714,6 +848,28 @@ texture = ExtResource( 3 )
 anims/RESET = SubResource( 3 )
 anims/true = SubResource( 4 )
 
+[node name="buttonKnife" type="Button" parent="."]
+margin_left = 976.0
+margin_top = 288.0
+margin_right = 1080.0
+margin_bottom = 320.0
+focus_mode = 0
+enabled_focus_mode = 0
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pisau" type="Sprite" parent="buttonKnife"]
+position = Vector2( 55, 26 )
+rotation = 1.57357
+scale = Vector2( 0.0424424, 0.0467127 )
+texture = ExtResource( 13 )
+
+[node name="pisauAni" type="AnimationPlayer" parent="buttonKnife"]
+anims/RESET = SubResource( 19 )
+anims/true = SubResource( 20 )
+
 [node name="hintButton" type="TextureButton" parent="."]
 margin_left = 1176.0
 margin_top = 24.0
@@ -728,7 +884,7 @@ __meta__ = {
 
 [node name="BoardLong" type="Sprite" parent="hint"]
 visible = false
-position = Vector2( 712, 368 )
+position = Vector2( 680, 368 )
 scale = Vector2( 1.22131, 1.22131 )
 texture = ExtResource( 10 )
 
@@ -825,6 +981,10 @@ anims/RESET = SubResource( 7 )
 anims/exit = SubResource( 8 )
 anims/show = SubResource( 8 )
 
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/RESET = SubResource( 17 )
+anims/intro = SubResource( 18 )
+
 [connection signal="pressed" from="buttonCaos" to="." method="_on_buttonCaos_pressed"]
 [connection signal="animation_finished" from="buttonCaos/caosAni" to="." method="_on_caosAni_animation_finished"]
 [connection signal="pressed" from="buttonPiring" to="." method="_on_buttonPiring_pressed"]
@@ -837,4 +997,6 @@ anims/show = SubResource( 8 )
 [connection signal="animation_finished" from="buttonGarpu/garpuAni" to="." method="_on_garpuAni_animation_finished"]
 [connection signal="pressed" from="buttonKecap" to="." method="_on_buttonKecap_pressed"]
 [connection signal="animation_finished" from="buttonKecap/kecapAni" to="." method="_on_kecapAni_animation_finished"]
+[connection signal="pressed" from="buttonKnife" to="." method="_on_buttonKnife_pressed"]
+[connection signal="animation_finished" from="buttonKnife/pisauAni" to="." method="_on_pisauAni_animation_finished"]
 [connection signal="pressed" from="hintButton" to="." method="_on_TextureButton_pressed"]

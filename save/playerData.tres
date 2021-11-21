@@ -4,6 +4,6 @@
 
 [resource]
 script = ExtResource( 1 )
-playerName = "nahaaa"
-gender = "female"
+playerName = "default"
+gender = "default"
 latestEpisode = 0

@@ -67,22 +67,22 @@
 		},
 		{
 			"action": "join",
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "",
+			"portrait": "normal",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			}
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "delighted2",
 			"text": "Good morning"
 		},
 		{
@@ -90,6 +90,11 @@
 			"event_id": "dialogic_001",
 			"portrait": "female_normal",
 			"text": "Dad, where are we going today?"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_003"
 		},
 		{
 			"action": "join",
@@ -118,9 +123,28 @@
 			"text": "Hmmm, where are we going?"
 		},
 		{
-			"character": "",
+			"action": "leaveall",
+			"character": "character-1636137135.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "normal",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "smile",
 			"text": "How about going to the zoo near here?"
 		},
 		{
@@ -131,7 +155,7 @@
 		},
 		{
 			"action": "leaveall",
-			"character": "character-1636137135.json",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_003"
 		},
 		{
@@ -197,22 +221,22 @@
 		},
 		{
 			"action": "join",
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "",
+			"portrait": "normal",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			}
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "normal",
 			"text": "No, the zoo is near. It only takes a few minutes to arrive there."
 		},
 		{
@@ -267,16 +291,24 @@
 			}
 		},
 		{
+			"emit_signal": "drone",
+			"event_id": "dialogic_040"
+		},
+		{
 			"character": "character-1637142906.json",
 			"event_id": "dialogic_001",
 			"portrait": "smile",
 			"text": "It’s a Drone. People use it to monitor traffic and weather."
 		},
 		{
-			"character": "character-1637142906.json",
+			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "surprised",
+			"portrait": "female_shocked",
 			"text": "Wow, that's great…"
+		},
+		{
+			"emit_signal": "close",
+			"event_id": "dialogic_040"
 		},
 		{
 			"action": "leaveall",
@@ -326,7 +358,7 @@
 		{
 			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "female_laugh",
+			"portrait": "female_delighted",
 			"text": "Yeay, we have arrived."
 		},
 		{
@@ -376,22 +408,26 @@
 		},
 		{
 			"action": "join",
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "",
+			"portrait": "normal",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			}
 		},
 		{
-			"character": "",
+			"emit_signal": "giraffe",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "smile",
 			"text": "It's a giraffe, the giraffe has a very long neck."
 		},
 		{
@@ -407,27 +443,43 @@
 			"text": "What is that animal Grandma? it has spots on it’s body."
 		},
 		{
-			"character": "",
+			"emit_signal": "close",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "cheetah",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "delighted2",
 			"text": "It's a cheetah, the cheetah is one of the fastest animals in the world. Cheetah can run at a speed of 103km/h"
 		},
 		{
 			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "female_shocked",
+			"portrait": "female_laugh",
 			"text": "Wow, that's so fast, grandma."
 		},
 		{
 			"character": "character-1636718646.json",
 			"event_id": "dialogic_001",
-			"portrait": "female_shocked",
+			"portrait": "female_smile",
 			"text": "What is that animal Grandma? it has a horns on the tip of it’s head."
 		},
 		{
-			"character": "",
+			"emit_signal": "close",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "rhino",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "smile",
 			"text": "It's a rhino. The one-horned rhino is an animal that is highly protected because it is threatened with extinction."
 		},
 		{
@@ -437,9 +489,9 @@
 			"text": "It is a pity, we have to protect rhino from the extinction."
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "delighted2",
 			"text": "That's right."
 		},
 		{
@@ -449,9 +501,17 @@
 			"text": "What is that animal grandma? The color is unique."
 		},
 		{
-			"character": "",
+			"emit_signal": "close",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "zebra",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "delighted",
 			"text": "It's a zebra. Zebras have black and white stripes."
 		},
 		{
@@ -461,9 +521,9 @@
 			"text": "They are very funny, like a zebra cross."
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "delighted2",
 			"text": "That's why the pedestrian crossing is called a Zebra Cross. Because the color is like a zebra."
 		},
 		{
@@ -471,6 +531,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "female_shocked",
 			"text": "Wow, I have just known it, Grandma."
+		},
+		{
+			"emit_signal": "close",
+			"event_id": "dialogic_040"
 		},
 		{
 			"action": "leaveall",

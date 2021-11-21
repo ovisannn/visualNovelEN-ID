@@ -1,24 +1,20 @@
 extends Node2D
 
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	var dir = Directory.new()
+	if dir.dir_exists('user://saveVisualNovel/'):
+		$VBoxContainer/loadGame.disabled = false
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
 
 
 func _on_startButton_pressed():
-	get_tree().change_scene("res://scene/episode select.tscn")
+	get_tree().change_scene("res://scene/createChar/createChare.tscn")
 
 
 func _on_exitButton_pressed():
 	get_tree().quit()
+
+
+func _on_loadGame_pressed():
+	get_tree().change_scene("res://scene/episode select.tscn")

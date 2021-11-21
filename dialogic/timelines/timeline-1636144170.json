@@ -127,6 +127,10 @@
 			"question": "ummm..."
 		},
 		{
+			"emit_signal": "choice",
+			"event_id": "dialogic_040"
+		},
+		{
 			"choice": "I want to take the clothe in the wardrobe.",
 			"condition": "",
 			"definition": "",

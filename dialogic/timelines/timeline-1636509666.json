@@ -436,6 +436,10 @@
 			"text": "This?"
 		},
 		{
+			"emit_signal": "tabletPhone",
+			"event_id": "dialogic_040"
+		},
+		{
 			"character": "character-1636975967.json",
 			"event_id": "dialogic_001",
 			"portrait": "smile2",
@@ -448,10 +452,18 @@
 			"text": "Wow, that's great."
 		},
 		{
+			"emit_signal": "close",
+			"event_id": "dialogic_040"
+		},
+		{
 			"character": "character-1636975967.json",
 			"event_id": "dialogic_001",
 			"portrait": "smile2",
 			"text": "How about you, what are you bringing?"
+		},
+		{
+			"emit_signal": "smartPhone",
+			"event_id": "dialogic_040"
 		},
 		{
 			"character": "character-1636170657.json",
@@ -464,6 +476,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "smile3",
 			"text": "Wow, that's great."
+		},
+		{
+			"emit_signal": "close",
+			"event_id": "dialogic_040"
 		},
 		{
 			"action": "leaveall",
@@ -572,6 +588,10 @@
 			"text": "Here we go"
 		},
 		{
+			"emit_signal": "ps5",
+			"event_id": "dialogic_040"
+		},
+		{
 			"character": "character-1636975904.json",
 			"event_id": "dialogic_001",
 			"portrait": "smile2",
@@ -582,6 +602,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "laugh",
 			"text": "Wow it is to play games? That's great!"
+		},
+		{
+			"emit_signal": "close",
+			"event_id": "dialogic_040"
 		},
 		{
 			"action": "leaveall",
@@ -609,6 +633,10 @@
 			"text": "Then, what is this, Steven?"
 		},
 		{
+			"emit_signal": "vrHeadset",
+			"event_id": "dialogic_040"
+		},
+		{
 			"character": "character-1636975904.json",
 			"event_id": "dialogic_001",
 			"portrait": "smile2",
@@ -619,6 +647,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "male_surprised",
 			"text": "Wow, that's great, playing games is even more real."
+		},
+		{
+			"emit_signal": "close",
+			"event_id": "dialogic_040"
 		},
 		{
 			"character": "character-1636975904.json",

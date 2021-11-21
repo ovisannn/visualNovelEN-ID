@@ -80,9 +80,28 @@
 			"text": "We finally arrived."
 		},
 		{
-			"character": "",
+			"action": "leaveall",
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "normal",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "normal",
 			"text": "When will you go home?"
 		},
 		{
@@ -106,9 +125,9 @@
 			"text": "After this we will go home mom."
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "sad",
 			"text": "Ohh don't stay overnight?"
 		},
 		{
@@ -118,15 +137,34 @@
 			"text": "No mom, because I have to go back to work tomorrow."
 		},
 		{
+			"action": "leaveall",
+			"character": "character-1637142906.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_sad",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
 			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
 			"portrait": "male_sad",
 			"text": "Huhh.. why we go home so early, dad..."
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "delighted2",
 			"text": "It's okay dear. We will meet again on the next semester holiday."
 		},
 		{
@@ -137,7 +175,7 @@
 		},
 		{
 			"action": "leaveall",
-			"character": "character-1637142906.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_003"
 		},
 		{
@@ -161,9 +199,9 @@
 			"text": "Mom, this is a gift that I have bought earlier, some of fruits and vegetables are also complete in the kitchen. you just cooks them, mom."
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "smile2",
 			"text": "Thank you dear."
 		},
 		{
@@ -192,10 +230,29 @@
 			"text": "Ok mom then we say goodbye to go home."
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "delighted2",
 			"text": "Yes, be careful."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1637142906.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1637142623.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "male_smile3",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
 		},
 		{
 			"character": "character-1637142623.json",
@@ -204,9 +261,9 @@
 			"text": "Goodbye grandma!"
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "delighted2",
 			"text": "Goodbye, be careful."
 		},
 		{

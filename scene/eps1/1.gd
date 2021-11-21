@@ -16,11 +16,11 @@ func _ready():
 	add_child(new_dialog)
 	
 func _process(_delta):
-	if Input.is_action_just_pressed("ui_down") and showTranslate == false:
+	if Input.is_action_just_released("ui_down") and showTranslate == false:
 		showTranslate = true
 		Input.warp_mouse_position(Vector2(350, 560))
 		
-	elif Input.is_action_just_pressed("ui_down") and showTranslate == true:
+	elif Input.is_action_just_released("ui_down") and showTranslate == true:
 		showTranslate = false
 		Input.warp_mouse_position(Vector2(0, 0))
 

@@ -1,12 +1,72 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://scene/eps4/1.gd" type="Script" id=1]
 [ext_resource path="res://scene/oftenUsedScn/loadGameStat.tscn" type="PackedScene" id=2]
 [ext_resource path="res://scene/oftenUsedScn/next button.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scene/oftenUsedScn/gameSave.gd" type="Script" id=4]
+[ext_resource path="res://asset/UI/board.png" type="Texture" id=5]
+[ext_resource path="res://asset/zoo/drone.png" type="Texture" id=6]
+[ext_resource path="res://asset/zoo/badak.png" type="Texture" id=7]
+[ext_resource path="res://asset/zoo/zebra.png" type="Texture" id=8]
+[ext_resource path="res://asset/zoo/jerapah.png" type="Texture" id=9]
+[ext_resource path="res://asset/zoo/chetah.png" type="Texture" id=10]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 1 )
+gameSaveClass = ExtResource( 4 )
 
 [node name="next button" parent="." instance=ExtResource( 3 )]
+
+[node name="imgPop" type="CanvasLayer" parent="."]
+layer = 11
+
+[node name="drone" type="Sprite" parent="imgPop"]
+visible = false
+position = Vector2( 656, 296 )
+texture = ExtResource( 5 )
+
+[node name="sprite" type="Sprite" parent="imgPop/drone"]
+position = Vector2( -1, 8 )
+scale = Vector2( 0.361111, 0.361111 )
+texture = ExtResource( 6 )
+
+[node name="giraffe" type="Sprite" parent="imgPop"]
+visible = false
+position = Vector2( 656, 296 )
+texture = ExtResource( 5 )
+
+[node name="sprite" type="Sprite" parent="imgPop/giraffe"]
+scale = Vector2( 0.249563, 0.249563 )
+texture = ExtResource( 9 )
+
+[node name="cheetah" type="Sprite" parent="imgPop"]
+visible = false
+position = Vector2( 656, 296 )
+texture = ExtResource( 5 )
+
+[node name="sprite" type="Sprite" parent="imgPop/cheetah"]
+position = Vector2( 0, 6.10352e-05 )
+scale = Vector2( 0.237911, 0.237911 )
+texture = ExtResource( 10 )
+
+[node name="rhino" type="Sprite" parent="imgPop"]
+visible = false
+position = Vector2( 656, 296 )
+texture = ExtResource( 5 )
+
+[node name="sprite" type="Sprite" parent="imgPop/rhino"]
+position = Vector2( 8, 24 )
+scale = Vector2( 0.157871, 0.157871 )
+texture = ExtResource( 7 )
+
+[node name="zebra" type="Sprite" parent="imgPop"]
+visible = false
+position = Vector2( 656, 296 )
+texture = ExtResource( 5 )
+
+[node name="sprite" type="Sprite" parent="imgPop/zebra"]
+position = Vector2( -1, 8 )
+scale = Vector2( 0.361111, 0.361111 )
+texture = ExtResource( 8 )
 
 [node name="loadGameStat" parent="." instance=ExtResource( 2 )]

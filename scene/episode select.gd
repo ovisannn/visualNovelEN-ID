@@ -1,20 +1,48 @@
 extends Node2D
 
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+onready var gameLoad = $loadGameStat
+onready var eps1	= $eps1
+onready var eps2	= $eps2
+onready var eps3	= $eps3
+onready var eps4	= $eps4
+var showTranslate = false
 
+func stopBGM():
+	var bgm = get_node("/root/MainMenuBgm")
+	bgm.free()
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	pass
+	var person = gameLoad.resLoadGame()
+	gameLoad.loadGameProperty(person)
+	var progressEps = person.latestEpisode
+	if progressEps >= 1:
+		eps1.disabled = false
+	if progressEps >= 2:
+		eps2.disabled = false
+	if progressEps >= 3:
+		eps3.disabled = false
+	if progressEps >= 4:
+		eps4.disabled = false
+	
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(_delta):
-	pass
 
 
 func _on_eps1_pressed():
-	get_tree().change_scene("res://scene/createChar/createChare.tscn")
+	stopBGM()	
+	get_tree().change_scene("res://scene/eps1/1.tscn")
+
+
+func _on_eps2_pressed():
+	stopBGM()	
+	get_tree().change_scene("res://scene/eps2/1.tscn")
+
+
+func _on_eps3_pressed():
+	stopBGM()	
+	get_tree().change_scene("res://scene/eps3/1.tscn")
+
+
+func _on_eps4_pressed():
+	stopBGM()	
+	get_tree().change_scene("res://scene/eps4/1.tscn")

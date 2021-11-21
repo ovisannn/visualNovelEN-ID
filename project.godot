@@ -54,6 +54,10 @@ config/name="Visual Novel-project-"
 run/main_scene="res://scene/mainMenu.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+MainMenuBgm="*res://prefabs/mainMenuBGM.tscn"
+
 [display]
 
 window/size/width=1280

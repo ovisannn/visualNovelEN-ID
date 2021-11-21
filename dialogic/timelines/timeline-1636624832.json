@@ -32,22 +32,22 @@
 		},
 		{
 			"action": "join",
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_002",
 			"mirror": false,
-			"portrait": "",
+			"portrait": "normal",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			}
 		},
 		{
-			"character": "",
+			"character": "character-1637441825.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "smile",
 			"text": "You're welcome."
 		},
 		{
@@ -55,6 +55,11 @@
 			"event_id": "dialogic_001",
 			"portrait": "male_smile2",
 			"text": "Let's go home."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1637441825.json",
+			"event_id": "dialogic_003"
 		},
 		{
 			"action": "join",
@@ -215,9 +220,9 @@
 			"text": "This is your bakpia."
 		},
 		{
-			"character": "character-1637142851.json",
+			"character": "character-1637142623.json",
 			"event_id": "dialogic_001",
-			"portrait": "smiel2",
+			"portrait": "male_smile2",
 			"text": "Yeayyy…"
 		},
 		{
@@ -257,7 +262,7 @@
 			"text": "Yes you are right."
 		},
 		{
-			"change_scene": "res://scene/eps4/3.tscn",
+			"change_scene": "res://scene/mini games/garbageGames.tscn",
 			"event_id": "dialogic_041"
 		}
 	],
