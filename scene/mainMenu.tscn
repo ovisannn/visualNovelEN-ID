@@ -1,7 +1,8 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://asset/background/main menu/Grassy Field Day.png" type="Texture" id=1]
 [ext_resource path="res://scene/mainMenu.gd" type="Script" id=2]
+[ext_resource path="res://asset/gameLogo.png" type="Texture" id=3]
 [ext_resource path="res://asset/background/main menu/leaves.png" type="Texture" id=4]
 [ext_resource path="res://prefabs/new_theme.tres" type="Theme" id=5]
 
@@ -80,6 +81,11 @@ margin_top = 81.0
 margin_right = 104.0
 margin_bottom = 104.0
 text = "exit"
+
+[node name="GameLogo" type="Sprite" parent="."]
+position = Vector2( 613.274, 221.253 )
+scale = Vector2( 1.2529, 1.2529 )
+texture = ExtResource( 3 )
 
 [node name="Particles2D" type="Particles2D" parent="."]
 position = Vector2( 1182.15, 90.8886 )

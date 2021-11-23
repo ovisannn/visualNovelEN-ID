@@ -218,3 +218,14 @@ garbageType = 2
 spriteType = ExtResource( 12 )
 
 [connection signal="timeout" from="mainGameTimer" to="." method="_on_mainGameTimer_timeout"]
+[connection signal="wrong" from="garbages/garbageObject" to="." method="_on_garbageObject_wrong"]
+[connection signal="wrong" from="garbages/garbageObject2" to="." method="_on_garbageObject2_wrong"]
+[connection signal="wrong" from="garbages/garbageObject3" to="." method="_on_garbageObject3_wrong"]
+[connection signal="wrong" from="garbages/garbageObject4" to="." method="_on_garbageObject4_wrong"]
+[connection signal="wrong" from="garbages/garbageObject5" to="." method="_on_garbageObject5_wrong"]
+[connection signal="wrong" from="garbages/garbageObject6" to="." method="_on_garbageObject6_wrong"]
+[connection signal="wrong" from="garbages/garbageObject7" to="." method="_on_garbageObject7_wrong"]
+[connection signal="wrong" from="garbages/garbageObject8" to="." method="_on_garbageObject8_wrong"]
+[connection signal="wrong" from="garbages/garbageObject10" to="." method="_on_garbageObject10_wrong"]
+[connection signal="wrong" from="garbages/garbageObject11" to="." method="_on_garbageObject11_wrong"]
+[connection signal="wrong" from="garbages/garbageObject12" to="." method="_on_garbageObject12_wrong"]

@@ -17,6 +17,7 @@ func pressed():
 
 func _ready():
 	mainAni.play("intro")
+	showHint.play("show")
 	
 	
 	

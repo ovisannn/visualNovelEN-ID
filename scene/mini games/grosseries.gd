@@ -15,6 +15,10 @@ var totalCarrot = 0
 
 var totalPrice = 0
 
+var score = 100
+
+var temporalInput
+
 
 func _on_TextureButton_pressed():
 	$priceList/pricelist.visible = false
@@ -80,16 +84,44 @@ func _on_LineEdit_text_changed(new_text):
 
 func _on_calculate_pressed():
 	if totalPrice == 0:
+		score -= 20
 		$priceList/wrongNotif.visible = true
 				
 	elif totalPrice == totalAvocado+totalCabbage+totalCarrot+totalLemon+totalbroccoli:
+		#procceed save func
+		#here()
 		#procced into next scene
 		get_tree().change_scene("res://scene/eps3/2.tscn")
 	else:
 		#show wrong popup
+		score -= 20
 		$priceList/wrongNotif.visible = true
 
 
 func _on_okey_pressed():
 	$totalBoard/LineEdit.text = ''
 	$priceList/wrongNotif.visible = false
+
+
+func _on_avocadoEntri_focus_entered():
+	pass
+
+
+func _on_cabbageEntri_focus_entered():
+	pass # Replace with function body.
+
+
+func _on_lemonEntri_focus_entered():
+	pass # Replace with function body.
+
+
+func _on_broccoliEntri_focus_entered():
+	pass # Replace with function body.
+
+
+func _on_carrotEntri_focus_entered():
+	pass # Replace with function body.
+
+
+func _on_Entri_focus_entered():
+	pass # Replace with function body.
