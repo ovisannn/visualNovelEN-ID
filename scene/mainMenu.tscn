@@ -51,7 +51,7 @@ anchor_bottom = 1.0
 margin_left = 551.0
 margin_top = 430.0
 margin_right = 655.0
-margin_bottom = 537.0
+margin_bottom = 509.0
 rect_scale = Vector2( 2, 2 )
 theme = ExtResource( 5 )
 __meta__ = {
@@ -70,16 +70,10 @@ margin_bottom = 50.0
 disabled = true
 text = "Load game"
 
-[node name="optionButton2" type="Button" parent="VBoxContainer"]
+[node name="exitButton" type="Button" parent="VBoxContainer"]
 margin_top = 54.0
 margin_right = 104.0
 margin_bottom = 77.0
-text = "Option"
-
-[node name="exitButton" type="Button" parent="VBoxContainer"]
-margin_top = 81.0
-margin_right = 104.0
-margin_bottom = 104.0
 text = "exit"
 
 [node name="GameLogo" type="Sprite" parent="."]

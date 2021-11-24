@@ -993,3 +993,4 @@ wait_time = 180.0
 [connection signal="animation_finished" from="buttonKecap/kecapAni" to="." method="_on_kecapAni_animation_finished"]
 [connection signal="pressed" from="buttonKnife" to="." method="_on_buttonKnife_pressed"]
 [connection signal="animation_finished" from="buttonKnife/pisauAni" to="." method="_on_pisauAni_animation_finished"]
+[connection signal="timeout" from="gameTimer" to="." method="_on_gameTimer_timeout"]

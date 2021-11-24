@@ -9,7 +9,9 @@ onready var kecap = $buttonKecap/kecapAni
 onready var garpu = $buttonGarpu/garpuAni
 onready var mainAni = $AnimationPlayer
 onready var knifeAni = $buttonKnife/pisauAni
+onready var timer = $gameTimer
 var itemFound = 0
+var score
 
 
 func pressed():
@@ -19,10 +21,16 @@ func _ready():
 	mainAni.play("intro")
 	showHint.play("show")
 	
-	
-	
 func _process(_delta):
 	if itemFound == 7 :
+		var i = timer.get_time_left()
+		if i > 60:
+			score = 7
+		elif i <= 60 and i > 30:
+			score = 6
+		elif i <= 30 and i > 0:
+			score = 3
+		#save method here ()
 		get_tree().change_scene("res://scene/eps2/2.tscn")
 
 
@@ -117,3 +125,7 @@ func _on_pisauAni_animation_finished(anim_name):
 		$buttonKnife.disabled = true
 		itemFound+=1
 		$'hint/BoardLong/knife'.visible = false
+
+
+func _on_gameTimer_timeout():
+	score = 0
