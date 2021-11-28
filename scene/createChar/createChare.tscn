@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://scene/createChar/createChare.gd" type="Script" id=1]
 [ext_resource path="res://asset/background/main menu/Modern-Dormroom3.png" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://scene/oftenUsedScn/gameSave.gd" type="Script" id=4]
 [ext_resource path="res://asset/fonts/Poppins-Medium.ttf" type="DynamicFontData" id=5]
 [ext_resource path="res://asset/UI/board.png" type="Texture" id=6]
+[ext_resource path="res://asset/bgm/Town - Forest Aside.ogg" type="AudioStream" id=7]
 
 [sub_resource type="Curve" id=1]
 _data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 1, 0.184091 ), 0.0, 0.0, 0, 0 ]
@@ -233,6 +234,10 @@ align = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+autoplay = true
 
 [connection signal="pressed" from="createButton" to="." method="_on_createButton_pressed"]
 [connection signal="toggled" from="femaleButton" to="." method="_on_femaleButton_toggled"]

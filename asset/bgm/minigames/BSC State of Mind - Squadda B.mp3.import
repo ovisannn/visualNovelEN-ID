@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/BSC State of Mind - Squadda B.mp3-33c5da854980f6d44184af8bb0369a33.mp3str"
+
+[deps]
+
+source_file="res://asset/bgm/minigames/BSC State of Mind - Squadda B.mp3"
+dest_files=[ "res://.import/BSC State of Mind - Squadda B.mp3-33c5da854980f6d44184af8bb0369a33.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
