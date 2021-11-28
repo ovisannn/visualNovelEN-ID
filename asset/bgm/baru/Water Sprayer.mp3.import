@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Water Sprayer.mp3-d4dedc0b1921e648b5584007fb742b7c.mp3str"
+
+[deps]
+
+source_file="res://asset/bgm/baru/Water Sprayer.mp3"
+dest_files=[ "res://.import/Water Sprayer.mp3-d4dedc0b1921e648b5584007fb742b7c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

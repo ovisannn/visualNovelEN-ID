@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Airship - Flowing till the end.ogg-2a8bbfe6331226777bdbda455f5bbcc7.oggstr"
+
+[deps]
+
+source_file="res://asset/bgm/Airship - Flowing till the end.ogg"
+dest_files=[ "res://.import/Airship - Flowing till the end.ogg-2a8bbfe6331226777bdbda455f5bbcc7.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

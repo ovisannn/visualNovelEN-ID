@@ -18,6 +18,9 @@ func resSaveData():
 	newSave.playerName = charStat['name']
 	newSave.gender = charStat['gender']
 	newSave.latestEpisode = charStat['episode']
+	newSave.scoreMinigames1 = 0
+	newSave.scoreMinigames2 = 0
+	newSave.scoreMinigames3 = 0
 	
 	var dir = Directory.new()
 	if not dir.dir_exists('user://saveVisualNovel/'):

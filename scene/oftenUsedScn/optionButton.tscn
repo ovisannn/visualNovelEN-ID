@@ -10,7 +10,7 @@
 [ext_resource path="res://asset/UI/x red pressed.png" type="Texture" id=8]
 [ext_resource path="res://asset/fonts/Poppins-Medium.ttf" type="DynamicFontData" id=9]
 
-[sub_resource type="DynamicFont" id=1]
+[sub_resource type="DynamicFont" id=4]
 size = 19
 font_data = ExtResource( 9 )
 
@@ -61,7 +61,7 @@ margin_left = 504.0
 margin_top = 296.0
 margin_right = 776.0
 margin_bottom = 353.0
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 4 )
 text = "DO YOU WANNA GO BACK 
 TO MAIN MENU?"
 align = 1

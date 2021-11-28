@@ -5,6 +5,15 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://asset/bgm/baru/Veracruz - Quincas Moreira.mp3",
+			"volume": 0
+		},
+		{
 			"action": "join",
 			"character": "character-1637142851.json",
 			"event_id": "dialogic_002",

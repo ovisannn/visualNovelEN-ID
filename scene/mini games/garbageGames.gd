@@ -2,10 +2,28 @@ extends Node2D
 
 onready var mainTimer = $mainGameTimer
 onready var score = 100
+export(Script) var gameSaveClass
 
 func scoreMinus():
 	score-=20
-	print(score)
+	#print(score)
+
+func resSaveData():
+	var savedData = load("user://saveVisualNovel/playerData.tres")
+	var newSave = gameSaveClass.new()
+	newSave.playerName = savedData.playerName
+	newSave.gender = savedData.gender
+	newSave.latestEpisode = savedData.latestEpisode
+	newSave.scoreMinigames1 = savedData.scoreMinigames1
+	newSave.scoreMinigames2 = savedData.scoreMinigames2
+	newSave.scoreMinigames3 = score
+	print(newSave.scoreMinigames1)
+	print(newSave.scoreMinigames2)
+	print(newSave.scoreMinigames3)
+	var dir = Directory.new()
+	if not dir.dir_exists('user://saveVisualNovel/'):
+		dir.make_dir_recursive('user://saveVisualNovel/')
+	ResourceSaver.save('user://saveVisualNovel/playerData.tres', newSave)
 
 func _ready():
 	mainTimer.start()
@@ -13,6 +31,7 @@ func _ready():
 func _process(_delta):
 	#print(mainTimer.get_time_left())
 	if $garbages.get_child_count() == 0:
+		resSaveData()
 		get_tree().change_scene("res://scene/eps4/3.tscn")
 
 

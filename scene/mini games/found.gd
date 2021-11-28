@@ -1,5 +1,8 @@
 extends Node2D
 
+
+export(Script) var gameSaveClass
+
 onready var showHint = $"hint/AnimationPlayer"
 onready var caos = $buttonCaos/caosAni
 onready var piring = $buttonPiring/piringAni
@@ -13,6 +16,20 @@ onready var timer = $gameTimer
 var itemFound = 0
 var score
 
+func resSaveData():
+	var savedData = load("user://saveVisualNovel/playerData.tres")
+	var newSave = gameSaveClass.new()
+	newSave.playerName = savedData.playerName
+	newSave.gender = savedData.gender
+	newSave.latestEpisode = savedData.latestEpisode
+	newSave.scoreMinigames1 = score
+	newSave.scoreMinigames2 = savedData.scoreMinigames2
+	newSave.scoreMinigames3 = savedData.scoreMinigames3
+	print(newSave.scoreMinigames1)
+	var dir = Directory.new()
+	if not dir.dir_exists('user://saveVisualNovel/'):
+		dir.make_dir_recursive('user://saveVisualNovel/')
+	ResourceSaver.save('user://saveVisualNovel/playerData.tres', newSave)
 
 func pressed():
 	print('button pressed')
@@ -31,6 +48,7 @@ func _process(_delta):
 		elif i <= 30 and i > 0:
 			score = 3
 		#save method here ()
+		resSaveData()
 		get_tree().change_scene("res://scene/eps2/2.tscn")
 
 

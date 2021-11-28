@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Leaning On the Everlasting Arms - Zachariah Hickman.mp3-2d257e267dbb34203af80cb46ae48688.mp3str"
+
+[deps]
+
+source_file="res://asset/bgm/baru/Leaning On the Everlasting Arms - Zachariah Hickman.mp3"
+dest_files=[ "res://.import/Leaning On the Everlasting Arms - Zachariah Hickman.mp3-2d257e267dbb34203af80cb46ae48688.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

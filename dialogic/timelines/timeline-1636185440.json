@@ -1,6 +1,15 @@
 {
 	"events": [
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://asset/bgm/Scene - Morning Glory.ogg",
+			"volume": 0
+		},
+		{
 			"background": "res://asset/background/episode 1/Modern-Dormroom1.png",
 			"event_id": "dialogic_021"
 		},
