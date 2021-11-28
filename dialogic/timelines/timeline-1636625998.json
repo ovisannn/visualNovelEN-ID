@@ -289,6 +289,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "You go home."
+		},
+		{
+			"change_scene": "res://scene/summary/summary.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

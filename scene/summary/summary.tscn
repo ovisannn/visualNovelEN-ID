@@ -91,6 +91,7 @@ scale = Vector2( 1.11608, 1.11608 )
 texture = ExtResource( 20 )
 
 [node name="male" type="Sprite" parent="chara"]
+visible = false
 position = Vector2( -72.7193, -79.3301 )
 scale = Vector2( 1.11465, 1.11465 )
 texture = ExtResource( 6 )
