@@ -8,7 +8,7 @@
 [ext_resource path="res://asset/minigames1/sendok.png" type="Texture" id=6]
 [ext_resource path="res://asset/minigames1/garpu.png" type="Texture" id=7]
 [ext_resource path="res://scene/mini games/found.gd" type="Script" id=8]
-[ext_resource path="res://asset/UI/hint.png" type="Texture" id=9]
+[ext_resource path="res://scene/oftenUsedScn/gameSave.gd" type="Script" id=9]
 [ext_resource path="res://asset/UI/board long.png" type="Texture" id=10]
 [ext_resource path="res://asset/fonts/Poppins-Medium.ttf" type="DynamicFontData" id=11]
 [ext_resource path="res://asset/UI/dialogue.png" type="Texture" id=12]
@@ -646,7 +646,7 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id=8]
 resource_name = "exit"
-length = 2.0
+length = 0.5
 tracks/0/type = "bezier"
 tracks/0/path = NodePath("BoardLong:position:y")
 tracks/0/interp = 1
@@ -654,8 +654,8 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"points": PoolRealArray( -240, -0.25, 0, 0.25, 0, 368, -0.25, 0, 0.25, 0, 368, -0.25, 0, 0.25, 0, -240, -0.25, 0, 0.25, 0 ),
-"times": PoolRealArray( 0, 0.5, 1.3, 2 )
+"points": PoolRealArray( -240, -0.25, 0, 0.25, 0, 368, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 0.5 )
 }
 
 [sub_resource type="Animation" id=17]
@@ -689,6 +689,7 @@ tracks/0/keys = {
 
 [node name="founding" type="Node2D"]
 script = ExtResource( 8 )
+gameSaveClass = ExtResource( 9 )
 
 [node name="wallpaper" type="Sprite" parent="."]
 position = Vector2( 640, 356.5 )
@@ -870,23 +871,15 @@ texture = ExtResource( 13 )
 anims/RESET = SubResource( 19 )
 anims/true = SubResource( 20 )
 
-[node name="hintButton" type="TextureButton" parent="."]
-margin_left = 1176.0
-margin_top = 24.0
-margin_right = 1252.0
-margin_bottom = 100.0
-texture_normal = ExtResource( 9 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="hint" type="Node" parent="."]
 
 [node name="BoardLong" type="Sprite" parent="hint"]
-visible = false
-position = Vector2( 680, 368 )
+position = Vector2( 150.803, 368 )
 scale = Vector2( 1.22131, 1.22131 )
 texture = ExtResource( 10 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="list" type="Label" parent="hint/BoardLong"]
 margin_left = -85.1543
@@ -985,6 +978,10 @@ anims/show = SubResource( 8 )
 anims/RESET = SubResource( 17 )
 anims/intro = SubResource( 18 )
 
+[node name="gameTimer" type="Timer" parent="."]
+wait_time = 180.0
+autostart = true
+
 [connection signal="pressed" from="buttonCaos" to="." method="_on_buttonCaos_pressed"]
 [connection signal="animation_finished" from="buttonCaos/caosAni" to="." method="_on_caosAni_animation_finished"]
 [connection signal="pressed" from="buttonPiring" to="." method="_on_buttonPiring_pressed"]
@@ -999,4 +996,4 @@ anims/intro = SubResource( 18 )
 [connection signal="animation_finished" from="buttonKecap/kecapAni" to="." method="_on_kecapAni_animation_finished"]
 [connection signal="pressed" from="buttonKnife" to="." method="_on_buttonKnife_pressed"]
 [connection signal="animation_finished" from="buttonKnife/pisauAni" to="." method="_on_pisauAni_animation_finished"]
-[connection signal="pressed" from="hintButton" to="." method="_on_TextureButton_pressed"]
+[connection signal="timeout" from="gameTimer" to="." method="_on_gameTimer_timeout"]

@@ -23,4 +23,5 @@ func _process(_delta):
 	elif Input.is_action_just_released("ui_down") and showTranslate == true:
 		showTranslate = false
 		Input.warp_mouse_position(Vector2(0, 0))
+		
 

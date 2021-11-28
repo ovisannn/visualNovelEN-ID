@@ -1,6 +1,15 @@
 {
 	"events": [
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://asset/bgm/Scene - Morning Glory.ogg",
+			"volume": 0
+		},
+		{
 			"background": "res://asset/background/episode 1/kitchen___visual_novel_bg_by_gin_1994_ddw44lc-fullview.jpg",
 			"event_id": "dialogic_021"
 		},
@@ -843,6 +852,15 @@
 				"3": false,
 				"4": false
 			}
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://asset/bgm/baru/Veracruz - Quincas Moreira.mp3",
+			"volume": 0
 		},
 		{
 			"character": "character-1636170657.json",

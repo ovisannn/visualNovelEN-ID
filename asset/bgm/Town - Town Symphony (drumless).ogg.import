@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Town - Town Symphony (drumless).ogg-1de99c9dc73817e323c5e364956de62b.oggstr"
+
+[deps]
+
+source_file="res://asset/bgm/Town - Town Symphony (drumless).ogg"
+dest_files=[ "res://.import/Town - Town Symphony (drumless).ogg-1de99c9dc73817e323c5e364956de62b.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -9,7 +9,10 @@ func resSaveData(person):
 	var newSave = gameSaveClass.new()
 	newSave.playerName = person.playerName
 	newSave.gender = person.gender
-	newSave.latestEpisode = 2
+	if person.latestEpisode >= 2 :
+		newSave.latestEpisode = person.latestEpisode
+	else:
+		newSave.latestEpisode = 2
 	
 	var dir = Directory.new()
 	if not dir.dir_exists('user://saveVisualNovel/'):

@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://scene/eps2/2.gd" type="Script" id=1]
 [ext_resource path="res://scene/oftenUsedScn/loadGameStat.tscn" type="PackedScene" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://asset/stevan/tablet.png" type="Texture" id=6]
 [ext_resource path="res://asset/UI/board.png" type="Texture" id=7]
 [ext_resource path="res://asset/stevan/smartphone.png" type="Texture" id=8]
+[ext_resource path="res://scene/oftenUsedScn/optionButton.tscn" type="PackedScene" id=9]
 
 [node name="eps2part2" type="Node2D"]
 script = ExtResource( 1 )
@@ -58,3 +59,5 @@ texture = ExtResource( 7 )
 position = Vector2( -18.3804, 4.91697 )
 scale = Vector2( 0.218249, 0.218249 )
 texture = ExtResource( 5 )
+
+[node name="optionButton" parent="." instance=ExtResource( 9 )]

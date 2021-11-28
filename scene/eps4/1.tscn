@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://scene/eps4/1.gd" type="Script" id=1]
 [ext_resource path="res://scene/oftenUsedScn/loadGameStat.tscn" type="PackedScene" id=2]
@@ -10,6 +10,7 @@
 [ext_resource path="res://asset/zoo/zebra.png" type="Texture" id=8]
 [ext_resource path="res://asset/zoo/jerapah.png" type="Texture" id=9]
 [ext_resource path="res://asset/zoo/chetah.png" type="Texture" id=10]
+[ext_resource path="res://scene/oftenUsedScn/optionButton.tscn" type="PackedScene" id=11]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 1 )
@@ -70,3 +71,5 @@ scale = Vector2( 0.361111, 0.361111 )
 texture = ExtResource( 8 )
 
 [node name="loadGameStat" parent="." instance=ExtResource( 2 )]
+
+[node name="optionButton" parent="." instance=ExtResource( 11 )]

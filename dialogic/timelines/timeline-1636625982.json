@@ -1,6 +1,15 @@
 {
 	"events": [
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://asset/bgm/Town - Town Symphony (drumless).ogg",
+			"volume": 0
+		},
+		{
 			"background": "res://asset/background/episode 4/parkiran.png",
 			"event_id": "dialogic_021"
 		},
@@ -247,11 +256,11 @@
 			"mirror": false,
 			"portrait": "female_normal",
 			"position": {
-				"0": true,
+				"0": false,
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			}
 		},
 		{

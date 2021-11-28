@@ -18,6 +18,9 @@ func resSaveData():
 	newSave.playerName = charStat['name']
 	newSave.gender = charStat['gender']
 	newSave.latestEpisode = charStat['episode']
+	newSave.scoreMinigames1 = 0
+	newSave.scoreMinigames2 = 0
+	newSave.scoreMinigames3 = 0
 	
 	var dir = Directory.new()
 	if not dir.dir_exists('user://saveVisualNovel/'):
@@ -50,6 +53,11 @@ func _process(_delta):
 		confirmator.visible = true
 		$confirm/yes.disabled = false
 		$confirm/no.disabled = false
+	if charStat['gender'] =='' or charStat['name'] == '':
+		$createButton.disabled = true
+	else:
+		$createButton.disabled = false
+				
 
 
 func _on_createButton_pressed():
@@ -64,6 +72,8 @@ func _on_charaNameText_text_changed(new_text):
 
 
 func _on_maleButton_toggled(button_pressed):
+	#$femaleButton.disabled = false
+	#$maleButton.disabled = true
 	if button_pressed == true:
 		$femaleButton.pressed = false
 		charStat["gender"] = "male"
@@ -72,6 +82,8 @@ func _on_maleButton_toggled(button_pressed):
 	
 
 func _on_femaleButton_toggled(button_pressed):
+	#$maleButton.disabled = false
+	#$femaleButton.disabled = true
 	if button_pressed == true:
 		$maleButton.pressed = false
 		charStat["gender"] = "female"

@@ -6,6 +6,9 @@ signal dragsignal
 export(int) var garbageType
 export(Resource) var spriteType
 var rightPlace = false
+var wrongPlace = false
+
+signal wrong
 
 #1.anor
 #2.or
@@ -26,6 +29,9 @@ func _process(delta):
 		self.position = Vector2(currentPos)
 	if not dragging and rightPlace == true:
 		queue_free()
+	if not dragging and wrongPlace == true:
+		wrongPlace = false
+		emit_signal("wrong")
 
 
 func _set_drag_pc():
@@ -62,6 +68,11 @@ func _on_detector_area_entered(area):
 	if garbageType == 1 and area.name == 'anorganicPlace':
 		rightPlace = true		
 		#queue_free()
+		
+	if garbageType == 2 and area.name == 'anorganicPlace':
+		wrongPlace = true
+	if garbageType == 1 and area.name == 'organicPlace':
+		wrongPlace = true	
 
 
 func _on_detector_area_exited(area):
@@ -71,3 +82,7 @@ func _on_detector_area_exited(area):
 	if garbageType == 1 and area.name == 'anorganicPlace':
 		rightPlace = false		
 		#queue_free()
+	if garbageType == 2 and area.name == 'anorganicPlace':
+		wrongPlace = false
+	if garbageType == 1 and area.name == 'organicPlace':
+		wrongPlace = false

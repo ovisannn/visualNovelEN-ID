@@ -179,6 +179,7 @@ __meta__ = {
 }
 
 [node name="confirm" type="Node2D" parent="."]
+visible = false
 
 [node name="ColorRect" type="ColorRect" parent="confirm"]
 margin_left = -24.0

@@ -1,5 +1,8 @@
 extends Node2D
 
+
+export(Script) var gameSaveClass
+
 onready var showHint = $"hint/AnimationPlayer"
 onready var caos = $buttonCaos/caosAni
 onready var piring = $buttonPiring/piringAni
@@ -9,19 +12,43 @@ onready var kecap = $buttonKecap/kecapAni
 onready var garpu = $buttonGarpu/garpuAni
 onready var mainAni = $AnimationPlayer
 onready var knifeAni = $buttonKnife/pisauAni
+onready var timer = $gameTimer
 var itemFound = 0
+var score
 
+func resSaveData():
+	var savedData = load("user://saveVisualNovel/playerData.tres")
+	var newSave = gameSaveClass.new()
+	newSave.playerName = savedData.playerName
+	newSave.gender = savedData.gender
+	newSave.latestEpisode = savedData.latestEpisode
+	newSave.scoreMinigames1 = score
+	newSave.scoreMinigames2 = savedData.scoreMinigames2
+	newSave.scoreMinigames3 = savedData.scoreMinigames3
+	print(newSave.scoreMinigames1)
+	var dir = Directory.new()
+	if not dir.dir_exists('user://saveVisualNovel/'):
+		dir.make_dir_recursive('user://saveVisualNovel/')
+	ResourceSaver.save('user://saveVisualNovel/playerData.tres', newSave)
 
 func pressed():
 	print('button pressed')
 
 func _ready():
 	mainAni.play("intro")
-	
-	
+	showHint.play("show")
 	
 func _process(_delta):
 	if itemFound == 7 :
+		var i = timer.get_time_left()
+		if i > 60:
+			score = 7
+		elif i <= 60 and i > 30:
+			score = 6
+		elif i <= 30 and i > 0:
+			score = 3
+		#save method here ()
+		resSaveData()
 		get_tree().change_scene("res://scene/eps2/2.tscn")
 
 
@@ -116,3 +143,7 @@ func _on_pisauAni_animation_finished(anim_name):
 		$buttonKnife.disabled = true
 		itemFound+=1
 		$'hint/BoardLong/knife'.visible = false
+
+
+func _on_gameTimer_timeout():
+	score = 0

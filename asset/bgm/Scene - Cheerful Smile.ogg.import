@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Scene - Cheerful Smile.ogg-c841a7a3ac5a1f70c79b85a115a86921.oggstr"
+
+[deps]
+
+source_file="res://asset/bgm/Scene - Cheerful Smile.ogg"
+dest_files=[ "res://.import/Scene - Cheerful Smile.ogg-c841a7a3ac5a1f70c79b85a115a86921.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,6 +1,6 @@
 extends Node2D
 
-
+export(Script) var gameSaveClass
 var avocado = 5000
 var cabbage = 3000
 var lemon = 1000
@@ -15,6 +15,26 @@ var totalCarrot = 0
 
 var totalPrice = 0
 
+var score = 100
+
+var temporalInput
+
+func resSaveData():
+	var savedData = load("user://saveVisualNovel/playerData.tres")
+	var newSave = gameSaveClass.new()
+	newSave.playerName = savedData.playerName
+	newSave.gender = savedData.gender
+	newSave.latestEpisode = savedData.latestEpisode
+	newSave.scoreMinigames1 = savedData.scoreMinigames1
+	newSave.scoreMinigames2 = score
+	newSave.scoreMinigames3 = savedData.scoreMinigames3
+	print(newSave.scoreMinigames1)
+	print(newSave.scoreMinigames2)
+	print(newSave.scoreMinigames3)
+	var dir = Directory.new()
+	if not dir.dir_exists('user://saveVisualNovel/'):
+		dir.make_dir_recursive('user://saveVisualNovel/')
+	ResourceSaver.save('user://saveVisualNovel/playerData.tres', newSave)
 
 func _on_TextureButton_pressed():
 	$priceList/pricelist.visible = false
@@ -80,16 +100,45 @@ func _on_LineEdit_text_changed(new_text):
 
 func _on_calculate_pressed():
 	if totalPrice == 0:
+		if score >20:
+			score -= 20
 		$priceList/wrongNotif.visible = true
 				
 	elif totalPrice == totalAvocado+totalCabbage+totalCarrot+totalLemon+totalbroccoli:
+		#procceed save func
+		resSaveData()
 		#procced into next scene
 		get_tree().change_scene("res://scene/eps3/2.tscn")
 	else:
-		#show wrong popup
+		if score > 20:		#show wrong popup
+			score -= 20
 		$priceList/wrongNotif.visible = true
 
 
 func _on_okey_pressed():
 	$totalBoard/LineEdit.text = ''
 	$priceList/wrongNotif.visible = false
+
+
+func _on_avocadoEntri_focus_entered():
+	pass
+
+
+func _on_cabbageEntri_focus_entered():
+	pass # Replace with function body.
+
+
+func _on_lemonEntri_focus_entered():
+	pass # Replace with function body.
+
+
+func _on_broccoliEntri_focus_entered():
+	pass # Replace with function body.
+
+
+func _on_carrotEntri_focus_entered():
+	pass # Replace with function body.
+
+
+func _on_Entri_focus_entered():
+	pass # Replace with function body.

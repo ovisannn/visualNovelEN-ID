@@ -1,6 +1,14 @@
 {
 	"events": [
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://asset/bgm/baru/Water Sprayer.mp3",
+			"volume": 0
+		},
+		{
 			"background": "res://asset/background/episode 1/black.png",
 			"event_id": "dialogic_021"
 		},
@@ -9,6 +17,23 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "you take a shower..."
+		},
+		{
+			"audio": "stop",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://asset/bgm/Scene - Cheerful Smile.ogg",
+			"volume": 0
 		},
 		{
 			"background": "res://asset/background/episode 1/Modern-Dormroom1.png",

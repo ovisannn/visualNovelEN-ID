@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://asset/background/episode 3/pasar nenek.png" type="Texture" id=1]
 [ext_resource path="res://asset/UI/dialogue.png" type="Texture" id=2]
@@ -13,10 +13,11 @@
 [ext_resource path="res://asset/minigames2/cabbace.png" type="Texture" id=11]
 [ext_resource path="res://asset/UI/board.png" type="Texture" id=12]
 [ext_resource path="res://prefabs/groceries.tres" type="Theme" id=13]
-[ext_resource path="res://prefabs/new_theme.tres" type="Theme" id=14]
-[ext_resource path="res://prefabs/poppins medium.tres" type="DynamicFont" id=15]
+[ext_resource path="res://scene/mini games/entry.gd" type="Script" id=14]
+[ext_resource path="res://scene/oftenUsedScn/gameSave.gd" type="Script" id=15]
 [ext_resource path="res://asset/minigames2/spinach.png" type="Texture" id=16]
 [ext_resource path="res://scene/mini games/grosseries.gd" type="Script" id=17]
+[ext_resource path="res://asset/UI/check ijo.png" type="Texture" id=18]
 
 [sub_resource type="DynamicFont" id=1]
 size = 24
@@ -36,6 +37,7 @@ font_data = ExtResource( 4 )
 
 [node name="minigames2" type="Node2D"]
 script = ExtResource( 17 )
+gameSaveClass = ExtResource( 15 )
 
 [node name="PasarNenek" type="Sprite" parent="."]
 position = Vector2( 635, 356 )
@@ -46,22 +48,21 @@ __meta__ = {
 }
 
 [node name="board2" type="Node2D" parent="."]
-position = Vector2( -27, 7 )
+position = Vector2( -51.6941, 11.4898 )
 __meta__ = {
-"_edit_group_": true,
-"_edit_lock_": true
+"_edit_group_": true
 }
 
 [node name="Dialogue" type="Sprite" parent="board2"]
-position = Vector2( 656, 57 )
-scale = Vector2( 0.670588, 0.535294 )
+position = Vector2( 687.99, 44.0917 )
+scale = Vector2( 0.579188, 0.383431 )
 texture = ExtResource( 2 )
 
 [node name="Label" type="Label" parent="board2"]
-margin_left = 443.0
-margin_top = 38.0
-margin_right = 870.0
-margin_bottom = 73.0
+margin_left = 480.376
+margin_top = 23.9842
+margin_right = 907.376
+margin_bottom = 58.9842
 custom_fonts/font = SubResource( 1 )
 text = "Help mom count the price!"
 align = 1
@@ -70,21 +71,18 @@ __meta__ = {
 }
 
 [node name="groceries list" type="Node2D" parent="."]
-position = Vector2( -176, -16 )
-__meta__ = {
-"_edit_lock_": true
-}
+position = Vector2( 395.287, -47.8178 )
 
 [node name="BoardLong" type="Sprite" parent="groceries list"]
-position = Vector2( 641, 403 )
-scale = Vector2( 1.34836, 1.34836 )
+position = Vector2( 669.672, 387.4 )
+scale = Vector2( 1.66153, 1.66523 )
 texture = ExtResource( 3 )
 
 [node name="equation" type="Label" parent="groceries list"]
-margin_left = 536.0
-margin_top = 249.0
-margin_right = 578.0
-margin_bottom = 275.0
+margin_left = 544.476
+margin_top = 193.74
+margin_right = 586.476
+margin_bottom = 219.74
 custom_fonts/font = SubResource( 2 )
 text = "= Rp"
 __meta__ = {
@@ -92,10 +90,10 @@ __meta__ = {
 }
 
 [node name="equation2" type="Label" parent="groceries list"]
-margin_left = 536.0
-margin_top = 585.0
-margin_right = 578.0
-margin_bottom = 611.0
+margin_left = 564.713
+margin_top = 592.818
+margin_right = 606.713
+margin_bottom = 618.818
 custom_fonts/font = SubResource( 2 )
 text = "= Rp"
 __meta__ = {
@@ -103,10 +101,10 @@ __meta__ = {
 }
 
 [node name="equation3" type="Label" parent="groceries list"]
-margin_left = 536.0
-margin_top = 505.0
-margin_right = 578.0
-margin_bottom = 531.0
+margin_left = 564.713
+margin_top = 496.818
+margin_right = 606.713
+margin_bottom = 522.818
 custom_fonts/font = SubResource( 2 )
 text = "= Rp"
 __meta__ = {
@@ -114,10 +112,10 @@ __meta__ = {
 }
 
 [node name="equation4" type="Label" parent="groceries list"]
-margin_left = 536.0
-margin_top = 425.0
-margin_right = 578.0
-margin_bottom = 451.0
+margin_left = 564.713
+margin_top = 402.961
+margin_right = 606.713
+margin_bottom = 428.961
 custom_fonts/font = SubResource( 2 )
 text = "= Rp"
 __meta__ = {
@@ -125,10 +123,10 @@ __meta__ = {
 }
 
 [node name="equation5" type="Label" parent="groceries list"]
-margin_left = 536.0
-margin_top = 337.0
-margin_right = 578.0
-margin_bottom = 363.0
+margin_left = 564.713
+margin_top = 296.818
+margin_right = 606.713
+margin_bottom = 322.818
 custom_fonts/font = SubResource( 2 )
 text = "= Rp"
 __meta__ = {
@@ -136,15 +134,15 @@ __meta__ = {
 }
 
 [node name="Avocado" type="Sprite" parent="groceries list"]
-position = Vector2( 549.125, 218 )
+position = Vector2( 551.244, 153.205 )
 scale = Vector2( 0.1875, 0.1875 )
 texture = ExtResource( 9 )
 
 [node name="avocado label" type="Label" parent="groceries list"]
-margin_left = 593.125
-margin_top = 208.0
-margin_right = 701.125
-margin_bottom = 234.0
+margin_left = 613.255
+margin_top = 142.146
+margin_right = 721.255
+margin_bottom = 168.146
 custom_fonts/font = SubResource( 2 )
 text = "5 avocados"
 __meta__ = {
@@ -152,15 +150,15 @@ __meta__ = {
 }
 
 [node name="cabbage" type="Sprite" parent="groceries list"]
-position = Vector2( 548.125, 306 )
+position = Vector2( 549.184, 257.097 )
 scale = Vector2( 0.1875, 0.1875 )
 texture = ExtResource( 11 )
 
 [node name="cabbage label" type="Label" parent="groceries list"]
-margin_left = 593.125
-margin_top = 289.0
-margin_right = 735.125
-margin_bottom = 315.0
+margin_left = 613.255
+margin_top = 248.818
+margin_right = 766.255
+margin_bottom = 274.818
 custom_fonts/font = SubResource( 2 )
 text = "3kg of cabbages"
 __meta__ = {
@@ -168,15 +166,15 @@ __meta__ = {
 }
 
 [node name="lemon" type="Sprite" parent="groceries list"]
-position = Vector2( 547.125, 393 )
+position = Vector2( 548.713, 368.818 )
 scale = Vector2( 0.1875, 0.1875 )
 texture = ExtResource( 7 )
 
 [node name="lemon label" type="Label" parent="groceries list"]
-margin_left = 593.125
-margin_top = 377.0
-margin_right = 701.125
-margin_bottom = 403.0
+margin_left = 613.255
+margin_top = 354.226
+margin_right = 721.255
+margin_bottom = 380.226
 custom_fonts/font = SubResource( 2 )
 text = "1 lemon"
 __meta__ = {
@@ -184,15 +182,15 @@ __meta__ = {
 }
 
 [node name="broccoli" type="Sprite" parent="groceries list"]
-position = Vector2( 547.125, 477 )
+position = Vector2( 548.713, 469.818 )
 scale = Vector2( 0.1875, 0.1875 )
 texture = ExtResource( 10 )
 
 [node name="broccoli label" type="Label" parent="groceries list"]
-margin_left = 593.125
-margin_top = 465.0
-margin_right = 728.125
-margin_bottom = 491.0
+margin_left = 613.255
+margin_top = 456.818
+margin_right = 758.255
+margin_bottom = 482.818
 custom_fonts/font = SubResource( 2 )
 text = "2kg of broccolis"
 __meta__ = {
@@ -200,15 +198,15 @@ __meta__ = {
 }
 
 [node name="carrot" type="Sprite" parent="groceries list"]
-position = Vector2( 547.125, 559 )
+position = Vector2( 556.713, 565.961 )
 scale = Vector2( 0.1875, 0.1875 )
 texture = ExtResource( 8 )
 
 [node name="carrot label" type="Label" parent="groceries list"]
-margin_left = 593.125
-margin_top = 545.0
-margin_right = 728.125
-margin_bottom = 571.0
+margin_left = 613.255
+margin_top = 552.818
+margin_right = 748.255
+margin_bottom = 578.818
 custom_fonts/font = SubResource( 2 )
 text = "9 carrots"
 __meta__ = {
@@ -216,134 +214,163 @@ __meta__ = {
 }
 
 [node name="avocadoEntri" type="LineEdit" parent="groceries list"]
-margin_left = 586.0
-margin_top = 249.0
-margin_right = 752.0
-margin_bottom = 273.0
+anchor_right = 1.0
+margin_left = 613.0
+margin_top = 177.0
+margin_right = 812.0
+margin_bottom = 231.0
 theme = ExtResource( 13 )
 align = 1
 placeholder_text = "total avocado's price"
+script = ExtResource( 14 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="TextureButton" type="TextureButton" parent="groceries list/avocadoEntri"]
+visible = false
+margin_left = 204.713
+margin_top = -15.1822
+margin_right = 280.713
+margin_bottom = 60.8178
+texture_normal = ExtResource( 18 )
+texture_pressed = ExtResource( 5 )
+
 [node name="cabbageEntri" type="LineEdit" parent="groceries list"]
-margin_left = 586.0
-margin_top = 337.0
-margin_right = 744.0
-margin_bottom = 361.0
+margin_left = 613.0
+margin_top = 289.0
+margin_right = 812.0
+margin_bottom = 337.0
 theme = ExtResource( 13 )
 align = 1
 placeholder_text = "total cabbage's price"
+script = ExtResource( 14 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="TextureButton" type="TextureButton" parent="groceries list/cabbageEntri"]
+visible = false
+margin_left = 204.713
+margin_top = -15.1822
+margin_right = 280.713
+margin_bottom = 60.8178
+texture_normal = ExtResource( 18 )
+texture_pressed = ExtResource( 5 )
+
 [node name="lemonEntri" type="LineEdit" parent="groceries list"]
-margin_left = 586.0
-margin_top = 425.0
-margin_right = 744.0
-margin_bottom = 449.0
+margin_left = 613.0
+margin_top = 394.0
+margin_right = 812.0
+margin_bottom = 443.0
 theme = ExtResource( 13 )
 align = 1
 placeholder_text = "total lemon's price"
+script = ExtResource( 14 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="TextureButton" type="TextureButton" parent="groceries list/lemonEntri"]
+visible = false
+margin_left = 204.713
+margin_top = -15.1822
+margin_right = 280.713
+margin_bottom = 60.8178
+texture_normal = ExtResource( 18 )
+texture_pressed = ExtResource( 5 )
+
 [node name="broccoliEntri" type="LineEdit" parent="groceries list"]
-margin_left = 586.0
-margin_top = 505.0
-margin_right = 744.0
-margin_bottom = 529.0
+margin_left = 613.255
+margin_top = 488.755
+margin_right = 812.255
+margin_bottom = 535.755
 theme = ExtResource( 13 )
 align = 1
 placeholder_text = "total brocolli's price"
+script = ExtResource( 14 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="TextureButton" type="TextureButton" parent="groceries list/broccoliEntri"]
+visible = false
+margin_left = 204.713
+margin_top = -15.1822
+margin_right = 280.713
+margin_bottom = 60.8178
+texture_normal = ExtResource( 18 )
+texture_pressed = ExtResource( 5 )
+
 [node name="carrotEntri" type="LineEdit" parent="groceries list"]
-margin_left = 586.0
-margin_top = 585.0
-margin_right = 744.0
-margin_bottom = 609.0
+margin_left = 612.713
+margin_top = 584.818
+margin_right = 811.713
+margin_bottom = 629.818
 theme = ExtResource( 13 )
 align = 1
 placeholder_text = "total carrot's price"
+script = ExtResource( 14 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="priceList" type="CanvasLayer" parent="."]
-
-[node name="pricelist" type="Node2D" parent="priceList"]
+[node name="TextureButton" type="TextureButton" parent="groceries list/carrotEntri"]
 visible = false
+margin_left = 204.713
+margin_top = -15.1822
+margin_right = 280.713
+margin_bottom = 60.8178
+texture_normal = ExtResource( 18 )
+texture_pressed = ExtResource( 5 )
 
-[node name="ColorRect" type="ColorRect" parent="priceList/pricelist"]
-margin_left = -8.0
-margin_top = -8.0
-margin_right = 1288.0
-margin_bottom = 728.0
-color = Color( 0, 0, 0, 0.6 )
+[node name="pricelist" type="Node2D" parent="."]
+position = Vector2( -411.944, -7.85723 )
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_group_": true
 }
 
-[node name="BoardLong" type="Sprite" parent="priceList/pricelist"]
+[node name="BoardLong" type="Sprite" parent="pricelist"]
 position = Vector2( 629, 345 )
 scale = Vector2( 1.68033, 1.68033 )
 texture = ExtResource( 3 )
 
-[node name="icon" type="Node2D" parent="priceList/pricelist"]
+[node name="icon" type="Node2D" parent="pricelist"]
 position = Vector2( -48, -112 )
 
-[node name="Avocado" type="Sprite" parent="priceList/pricelist/icon"]
+[node name="Avocado" type="Sprite" parent="pricelist/icon"]
 position = Vector2( 549.125, 218 )
 scale = Vector2( 0.1875, 0.1875 )
 texture = ExtResource( 9 )
 
-[node name="cabbage" type="Sprite" parent="priceList/pricelist/icon"]
+[node name="cabbage" type="Sprite" parent="pricelist/icon"]
 position = Vector2( 548.125, 306 )
 scale = Vector2( 0.1875, 0.1875 )
 texture = ExtResource( 11 )
 
-[node name="lemon" type="Sprite" parent="priceList/pricelist/icon"]
+[node name="lemon" type="Sprite" parent="pricelist/icon"]
 position = Vector2( 547.125, 393 )
 scale = Vector2( 0.1875, 0.1875 )
 texture = ExtResource( 7 )
 
-[node name="broccoli" type="Sprite" parent="priceList/pricelist/icon"]
+[node name="broccoli" type="Sprite" parent="pricelist/icon"]
 position = Vector2( 547.125, 477 )
 scale = Vector2( 0.1875, 0.1875 )
 texture = ExtResource( 10 )
 
-[node name="spinach" type="Sprite" parent="priceList/pricelist/icon"]
+[node name="spinach" type="Sprite" parent="pricelist/icon"]
 position = Vector2( 547.125, 559 )
 scale = Vector2( 0.1875, 0.1875 )
 texture = ExtResource( 16 )
 
-[node name="carrot2" type="Sprite" parent="priceList/pricelist/icon"]
+[node name="carrot2" type="Sprite" parent="pricelist/icon"]
 position = Vector2( 547, 638 )
 scale = Vector2( 0.1875, 0.1875 )
 texture = ExtResource( 8 )
 
-[node name="TextureButton" type="TextureButton" parent="priceList/pricelist"]
-margin_left = 600.0
-margin_top = 600.0
-margin_right = 662.0
-margin_bottom = 663.0
-action_mode = 0
-texture_normal = ExtResource( 6 )
-texture_pressed = ExtResource( 5 )
-stretch_mode = 2
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="label" type="Node2D" parent="pricelist"]
 
-[node name="label" type="Node2D" parent="priceList/pricelist"]
-
-[node name="avocado" type="Label" parent="priceList/pricelist/label"]
+[node name="avocado" type="Label" parent="pricelist/label"]
 margin_left = 536.0
 margin_top = 96.0
 margin_right = 694.0
@@ -354,7 +381,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="avocado2" type="Label" parent="priceList/pricelist/label"]
+[node name="avocado2" type="Label" parent="pricelist/label"]
 margin_left = 536.0
 margin_top = 184.0
 margin_right = 694.0
@@ -365,7 +392,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="avocado3" type="Label" parent="priceList/pricelist/label"]
+[node name="avocado3" type="Label" parent="pricelist/label"]
 margin_left = 536.0
 margin_top = 271.0
 margin_right = 694.0
@@ -376,7 +403,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="avocado4" type="Label" parent="priceList/pricelist/label"]
+[node name="avocado4" type="Label" parent="pricelist/label"]
 margin_left = 536.0
 margin_top = 352.0
 margin_right = 694.0
@@ -387,7 +414,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="avocado5" type="Label" parent="priceList/pricelist/label"]
+[node name="avocado5" type="Label" parent="pricelist/label"]
 margin_left = 536.0
 margin_top = 433.0
 margin_right = 694.0
@@ -398,7 +425,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="avocado6" type="Label" parent="priceList/pricelist/label"]
+[node name="avocado6" type="Label" parent="pricelist/label"]
 margin_left = 536.0
 margin_top = 515.0
 margin_right = 694.0
@@ -408,6 +435,8 @@ text = "Rp2000/carrot"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="priceList" type="CanvasLayer" parent="."]
 
 [node name="wrongNotif" type="Node2D" parent="priceList"]
 visible = false
@@ -451,20 +480,39 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="totalBoard" type="Node2D" parent="."]
-position = Vector2( 792, 376 )
+[node name="focus" type="Node2D" parent="priceList"]
+visible = false
+
+[node name="ColorRect2" type="ColorRect" parent="priceList/focus"]
+margin_left = -8.0
+margin_top = -8.0
+margin_right = 1288.0
+margin_bottom = 728.0
+color = Color( 0, 0, 0, 0.6 )
 __meta__ = {
-"_edit_lock_": true
+"_edit_use_anchors_": false
 }
+
+[node name="focusInput" type="LineEdit" parent="priceList/focus"]
+margin_left = 512.0
+margin_top = 112.0
+margin_right = 764.0
+margin_bottom = 172.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="totalBoard" type="Node2D" parent="."]
+position = Vector2( 635.978, 361.408 )
 
 [node name="Board" type="Sprite" parent="totalBoard"]
 texture = ExtResource( 12 )
 
 [node name="equation" type="Label" parent="totalBoard"]
-margin_left = -72.0
-margin_top = 26.0
-margin_right = -48.0
-margin_bottom = 52.0
+margin_left = -76.9778
+margin_top = 5.59198
+margin_right = -52.9778
+margin_bottom = 31.592
 custom_fonts/font = SubResource( 2 )
 text = "Rp"
 __meta__ = {
@@ -483,24 +531,11 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Button" type="Button" parent="totalBoard"]
-margin_left = -66.0
-margin_top = -88.0
-margin_right = 70.0
-margin_bottom = -48.0
-theme = ExtResource( 14 )
-custom_colors/font_color = Color( 1, 1, 1, 1 )
-custom_fonts/font = ExtResource( 15 )
-text = "Show price list"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="Label" type="Label" parent="totalBoard"]
-margin_left = -120.0
-margin_top = -40.0
-margin_right = 119.0
-margin_bottom = 26.0
+margin_left = -118.978
+margin_top = -67.2258
+margin_right = 120.022
+margin_bottom = -1.22583
 custom_fonts/font = SubResource( 3 )
 text = "Now calculate the total
 price of mom's shopping list"
@@ -510,29 +545,57 @@ __meta__ = {
 }
 
 [node name="LineEdit" type="LineEdit" parent="totalBoard"]
-margin_left = -48.0
-margin_top = 20.0
-margin_right = 66.0
-margin_bottom = 59.0
+margin_left = -51.9778
+margin_top = -1.40802
+margin_right = 62.0222
+margin_bottom = 37.592
 theme = ExtResource( 13 )
 align = 1
 placeholder_text = "Total price"
+script = ExtResource( 14 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="TextureButton" type="TextureButton" parent="totalBoard/LineEdit"]
+visible = false
+margin_left = 128.0
+margin_top = -18.0
+margin_right = 204.0
+margin_bottom = 58.0
+texture_normal = ExtResource( 18 )
+texture_pressed = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="focus_entered" from="groceries list/avocadoEntri" to="." method="_on_avocadoEntri_focus_entered"]
+[connection signal="focus_entered" from="groceries list/avocadoEntri" to="groceries list/avocadoEntri" method="_on_Entri_focus_entered"]
 [connection signal="focus_exited" from="groceries list/avocadoEntri" to="." method="_on_avocadoEntri_focus_exited"]
+[connection signal="focus_exited" from="groceries list/avocadoEntri" to="groceries list/avocadoEntri" method="_on_Entri_focus_exited"]
 [connection signal="text_changed" from="groceries list/avocadoEntri" to="." method="_on_avocadoEntri_text_changed"]
+[connection signal="focus_entered" from="groceries list/cabbageEntri" to="." method="_on_cabbageEntri_focus_entered"]
+[connection signal="focus_entered" from="groceries list/cabbageEntri" to="groceries list/cabbageEntri" method="_on_cabbageEntri_focus_entered"]
 [connection signal="focus_exited" from="groceries list/cabbageEntri" to="." method="_on_cabbageEntri_focus_exited"]
+[connection signal="focus_exited" from="groceries list/cabbageEntri" to="groceries list/cabbageEntri" method="_on_cabbageEntri_focus_exited"]
 [connection signal="text_changed" from="groceries list/cabbageEntri" to="." method="_on_cabbageEntri_text_changed"]
+[connection signal="focus_entered" from="groceries list/lemonEntri" to="." method="_on_lemonEntri_focus_entered"]
+[connection signal="focus_entered" from="groceries list/lemonEntri" to="groceries list/lemonEntri" method="_on_lemonEntri_focus_entered"]
 [connection signal="focus_exited" from="groceries list/lemonEntri" to="." method="_on_lemonEntri_focus_exited"]
+[connection signal="focus_exited" from="groceries list/lemonEntri" to="groceries list/lemonEntri" method="_on_lemonEntri_focus_exited"]
 [connection signal="text_changed" from="groceries list/lemonEntri" to="." method="_on_lemonEntri_text_changed"]
+[connection signal="focus_entered" from="groceries list/broccoliEntri" to="." method="_on_broccoliEntri_focus_entered"]
+[connection signal="focus_entered" from="groceries list/broccoliEntri" to="groceries list/broccoliEntri" method="_on_broccoliEntri_focus_entered"]
 [connection signal="focus_exited" from="groceries list/broccoliEntri" to="." method="_on_broccoliEntri_focus_exited"]
+[connection signal="focus_exited" from="groceries list/broccoliEntri" to="groceries list/broccoliEntri" method="_on_broccoliEntri_focus_exited"]
 [connection signal="text_changed" from="groceries list/broccoliEntri" to="." method="_on_broccoliEntri_text_changed"]
+[connection signal="focus_entered" from="groceries list/carrotEntri" to="." method="_on_carrotEntri_focus_entered"]
+[connection signal="focus_entered" from="groceries list/carrotEntri" to="groceries list/carrotEntri" method="_on_carrotEntri_focus_entered"]
 [connection signal="focus_exited" from="groceries list/carrotEntri" to="." method="_on_carrotEntri_focus_exited"]
+[connection signal="focus_exited" from="groceries list/carrotEntri" to="groceries list/carrotEntri" method="_on_carrotEntri_focus_exited"]
 [connection signal="text_changed" from="groceries list/carrotEntri" to="." method="_on_carrotEntri_text_changed"]
-[connection signal="pressed" from="priceList/pricelist/TextureButton" to="." method="_on_TextureButton_pressed"]
 [connection signal="pressed" from="priceList/wrongNotif/okey" to="." method="_on_okey_pressed"]
 [connection signal="pressed" from="totalBoard/calculate" to="." method="_on_calculate_pressed"]
-[connection signal="pressed" from="totalBoard/Button" to="." method="_on_Button_pressed"]
+[connection signal="focus_entered" from="totalBoard/LineEdit" to="totalBoard/LineEdit" method="_on_LineEdit_focus_entered"]
+[connection signal="focus_exited" from="totalBoard/LineEdit" to="totalBoard/LineEdit" method="_on_LineEdit_focus_exited"]
 [connection signal="text_changed" from="totalBoard/LineEdit" to="." method="_on_LineEdit_text_changed"]
