@@ -1,0 +1,55 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://asset/game tutorial/mini games groceries/7.png" type="Texture" id=1]
+[ext_resource path="res://asset/game tutorial/mini games groceries/3.png" type="Texture" id=2]
+[ext_resource path="res://asset/game tutorial/mini games groceries/6.png" type="Texture" id=3]
+[ext_resource path="res://asset/game tutorial/mini games groceries/2.png" type="Texture" id=4]
+[ext_resource path="res://asset/game tutorial/mini games groceries/1.png" type="Texture" id=5]
+[ext_resource path="res://asset/game tutorial/mini games groceries/5.png" type="Texture" id=6]
+[ext_resource path="res://asset/game tutorial/mini games groceries/4.png" type="Texture" id=7]
+[ext_resource path="res://scene/tutorial/mini2.gd" type="Script" id=8]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 8 )
+
+[node name="1" type="Sprite" parent="."]
+visible = false
+position = Vector2( 639.488, 359.055 )
+scale = Vector2( 1.04299, 1.04299 )
+texture = ExtResource( 5 )
+
+[node name="2" type="Sprite" parent="."]
+visible = false
+position = Vector2( 630.174, 347.818 )
+scale = Vector2( 1.07094, 1.07094 )
+texture = ExtResource( 4 )
+
+[node name="3" type="Sprite" parent="."]
+visible = false
+position = Vector2( 641.49, 364.299 )
+scale = Vector2( 1.03654, 1.03654 )
+texture = ExtResource( 2 )
+
+[node name="4" type="Sprite" parent="."]
+visible = false
+position = Vector2( 638.828, 362.801 )
+scale = Vector2( 1.03224, 1.03224 )
+texture = ExtResource( 7 )
+
+[node name="5" type="Sprite" parent="."]
+visible = false
+position = Vector2( 642.506, 360.553 )
+scale = Vector2( 1.04084, 1.04084 )
+texture = ExtResource( 6 )
+
+[node name="6" type="Sprite" parent="."]
+visible = false
+position = Vector2( 642.506, 359.055 )
+scale = Vector2( 1.04084, 1.04084 )
+texture = ExtResource( 3 )
+
+[node name="7" type="Sprite" parent="."]
+visible = false
+position = Vector2( 638.347, 359.055 )
+scale = Vector2( 1.03654, 1.03654 )
+texture = ExtResource( 1 )

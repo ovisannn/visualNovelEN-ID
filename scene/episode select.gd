@@ -10,7 +10,6 @@ var showTranslate = false
 
 func stopBGM():
 	var bgm = get_node("/root/MainMenuBgm")
-	bgm.free()
 
 func _ready():
 	var person = gameLoad.resLoadGame()
@@ -30,19 +29,19 @@ func _ready():
 
 func _on_eps1_pressed():
 	stopBGM()	
-	get_tree().change_scene("res://scene/eps1/1.tscn")
+	get_tree().change_scene("res://scene/tutorial/mainTutorial.tscn")
 
 
 func _on_eps2_pressed():
 	stopBGM()	
-	get_tree().change_scene("res://scene/eps2/1.tscn")
+	get_tree().change_scene("res://scene/openningDay/2.tscn")
 
 
 func _on_eps3_pressed():
 	stopBGM()	
-	get_tree().change_scene("res://scene/eps3/1.tscn")
+	get_tree().change_scene("res://scene/openningDay/3.tscn")
 
 
 func _on_eps4_pressed():
 	stopBGM()	
-	get_tree().change_scene("res://scene/eps4/1.tscn")
+	get_tree().change_scene("res://scene/openningDay/4.tscn")

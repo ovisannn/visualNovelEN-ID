@@ -147,7 +147,7 @@
 			"text": "Ok mom."
 		},
 		{
-			"change_scene": "res://scene/mini games/found.tscn",
+			"change_scene": "res://scene/tutorial/mini1.tscn",
 			"event_id": "dialogic_041"
 		}
 	],

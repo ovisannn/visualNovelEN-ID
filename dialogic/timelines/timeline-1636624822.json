@@ -271,7 +271,7 @@
 			"text": "Yes you are right."
 		},
 		{
-			"change_scene": "res://scene/mini games/garbageGames.tscn",
+			"change_scene": "res://scene/tutorial/mini3.tscn",
 			"event_id": "dialogic_041"
 		}
 	],

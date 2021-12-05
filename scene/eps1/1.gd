@@ -10,10 +10,10 @@ func _ready():
 	#loadGameProperty(person)
 	var person = gameLoad.resLoadGame()
 	gameLoad.loadGameProperty(person)
+	var new_dialog = Dialogic.start('day1-part1')		
+	add_child(new_dialog)	
 	
 	#dialog initiate
-	var new_dialog = Dialogic.start('day1-part1')
-	add_child(new_dialog)
 	
 func _process(_delta):
 	if Input.is_action_just_released("ui_down") and showTranslate == false:
@@ -24,4 +24,3 @@ func _process(_delta):
 		showTranslate = false
 		Input.warp_mouse_position(Vector2(0, 0))
 		
-

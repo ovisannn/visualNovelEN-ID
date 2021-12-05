@@ -11,7 +11,8 @@
 		},
 		{
 			"background": "res://asset/background/episode 1/Classroom B1.jpg",
-			"event_id": "dialogic_021"
+			"event_id": "dialogic_021",
+			"fade_duration": 1
 		},
 		{
 			"character": "character-1635558541.json",

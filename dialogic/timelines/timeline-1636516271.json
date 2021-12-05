@@ -717,7 +717,7 @@
 			"text": "Ok mom."
 		},
 		{
-			"change_scene": "res://scene/mini games/grosseries.tscn",
+			"change_scene": "res://scene/tutorial/mini2.tscn",
 			"event_id": "dialogic_041"
 		}
 	],
