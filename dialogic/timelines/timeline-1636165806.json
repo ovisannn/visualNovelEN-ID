@@ -245,7 +245,7 @@
 			"text": "Good night."
 		},
 		{
-			"change_scene": "res://scene/eps2/1.tscn",
+			"change_scene": "res://scene/openningDay/2.tscn",
 			"event_id": "dialogic_041"
 		}
 	],

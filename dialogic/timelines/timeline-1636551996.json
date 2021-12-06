@@ -176,7 +176,7 @@
 			"text": "You go to your room and sleep."
 		},
 		{
-			"change_scene": "res://scene/eps4/1.tscn",
+			"change_scene": "res://scene/openningDay/4.tscn",
 			"event_id": "dialogic_041"
 		}
 	],
