@@ -4,16 +4,18 @@ func _ready():
 	var savedData = load("user://saveVisualNovel/playerData.tres")
 	
 	if savedData.gender == 'male':
-		$chara/female.visible = false
-		if savedData.scoreMinigames1 < 60:
+		#$chara/female.visible = false
+		if savedData.scoreMinigames1 < 3 or savedData.scoreMinigames2 < 60 or savedData.scoreMinigames3 < 60:
 			$chara/MaleSad.visible = true
 		else:				
+			$chara/MaleSad.visible = false
 			$chara/male.visible = true		
 	elif savedData.gender =='female':
-		$chara/male.visible = false		
-		if savedData.scoreMinigames1 < 60:
+		#$chara/male.visible = false		
+		if savedData.scoreMinigames1 < 3 or savedData.scoreMinigames2 < 60 or savedData.scoreMinigames3 < 60:
 			$chara/FemaleSad.visible = true
 		else:				
+			$chara/FemaleSad.visible = false
 			$chara/female.visible = true
 		
 	$chara/Label.text = savedData.playerName

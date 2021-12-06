@@ -10,7 +10,9 @@ func resSaveData(person):
 	newSave.playerName = person.playerName
 	newSave.gender = person.gender
 	newSave.latestEpisode = 4
-	
+	newSave.scoreMinigames1 = person.scoreMinigames1
+	newSave.scoreMinigames2 = person.scoreMinigames2
+	newSave.scoreMinigames3 = person.scoreMinigames3	
 	var dir = Directory.new()
 	if not dir.dir_exists('user://saveVisualNovel/'):
 		dir.make_dir_recursive('user://saveVisualNovel/')

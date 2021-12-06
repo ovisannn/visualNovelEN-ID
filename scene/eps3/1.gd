@@ -8,6 +8,9 @@ func resSaveData(person):
 	var newSave = gameSaveClass.new()
 	newSave.playerName = person.playerName
 	newSave.gender = person.gender
+	newSave.scoreMinigames1 = person.scoreMinigames1
+	newSave.scoreMinigames2 = person.scoreMinigames2
+	newSave.scoreMinigames3 = person.scoreMinigames3
 	if person.latestEpisode >= 3 :
 		newSave.latestEpisode = person.latestEpisode
 	else:
