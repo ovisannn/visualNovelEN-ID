@@ -1,7 +1,7 @@
 extends Node2D
 
 
-var tutorial = 1 
+var tutorial = 0
 
 func selector():
 	if tutorial == 1:

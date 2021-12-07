@@ -1,7 +1,7 @@
 extends Node2D
 
 
-var slide = 1
+var slide = 0
 
 func changeImage():
 	if slide == 1:
