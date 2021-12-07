@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=27 format=2]
 
 [ext_resource path="res://asset/fonts/Poppins-Medium.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://asset/UI/choice.png" type="Texture" id=2]
@@ -27,8 +27,13 @@ size = 24
 font_data = ExtResource( 1 )
 
 [sub_resource type="DynamicFont" id=3]
-size = 90
+size = 103
 font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxTexture" id=5]
+texture = ExtResource( 7 )
+region_rect = Rect2( 0, 0, 241, 105 )
+margin_top = 9.0
 
 [sub_resource type="DynamicFont" id=2]
 size = 50
@@ -96,22 +101,24 @@ position = Vector2( -72.7193, -79.3301 )
 scale = Vector2( 1.11465, 1.11465 )
 texture = ExtResource( 6 )
 
-[node name="NameLabel" type="Sprite" parent="chara"]
-position = Vector2( -463.918, 445.13 )
-scale = Vector2( 2.49668, 2.10398 )
-texture = ExtResource( 10 )
-
 [node name="Label" type="Label" parent="chara"]
-margin_left = -718.0
-margin_top = 379.0
-margin_right = -198.0
-margin_bottom = 506.0
+margin_left = -997.297
+margin_top = 321.553
+margin_right = -447.297
+margin_bottom = 502.553
 custom_fonts/font = SubResource( 3 )
+custom_styles/normal = SubResource( 5 )
 text = "Name"
 align = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="NameLabel" type="Sprite" parent="chara/Label"]
+visible = false
+position = Vector2( 266.555, 92.5376 )
+scale = Vector2( 2.49668, 2.10398 )
+texture = ExtResource( 10 )
 
 [node name="score1" type="Node2D" parent="."]
 position = Vector2( -51, 28 )

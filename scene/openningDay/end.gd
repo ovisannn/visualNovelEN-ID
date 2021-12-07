@@ -20,4 +20,4 @@ func _on_AnimationPlayer_animation_finished(anim_name):
 	if anim_name == 'fade in':
 		$ColorRect/AnimationPlayer.play("fade out")
 	if anim_name == 'fade out':
-		get_tree().change_scene("res://scene/eps4/1.tscn")
+		get_tree().change_scene("res://scene/summary/summary.tscn")
